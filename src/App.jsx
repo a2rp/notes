@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { toast } from "react-toastify";
 
 import Footer from "./components/Footer";
+import GoToTop from "./components/GoToTop";
 import Header from "./components/Header";
 import NoteModal from "./components/NoteModal";
 import NotesTable from "./components/NotesTable";
@@ -299,7 +300,7 @@ function App() {
         <Styled.Wrapper id="top">
             <Header totalNotes={notes.length} />
 
-            <main>
+            <main id="notes">
                 <NotesToolbar
                     searchQuery={searchQuery}
                     selectedCategory={selectedCategory}
@@ -361,6 +362,7 @@ function App() {
             />
 
             <Notifications />
+            <GoToTop />
         </Styled.Wrapper>
     );
 }

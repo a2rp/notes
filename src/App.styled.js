@@ -20,7 +20,7 @@ export const Styled = {
         main {
             width: min(calc(100% - 48px), 1440px);
             margin: 0 auto;
-            padding: 42px 0 0;
+            padding: 112px 0 0;
         }
 
         .tableSection {
@@ -33,7 +33,7 @@ export const Styled = {
         @media (max-width: 700px) {
             main {
                 width: min(calc(100% - 28px), 1440px);
-                padding-top: 24px;
+                padding-top: 96px;
             }
         }
     `,
