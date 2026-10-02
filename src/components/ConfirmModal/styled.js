@@ -9,7 +9,7 @@ export const Styled = {
         display: flex;
         align-items: center;
         justify-content: center;
-        background: rgba(2, 6, 23, 0.78);
+        background: rgba(7, 7, 7, 0.78);
         backdrop-filter: blur(10px);
     `,
 
@@ -21,8 +21,8 @@ export const Styled = {
         border-radius: 24px;
         background: linear-gradient(
             145deg,
-            rgba(15, 23, 42, 0.98),
-            rgba(8, 12, 20, 0.98)
+            rgba(23, 23, 23, 0.98),
+            rgba(12, 12, 12, 0.98)
         );
         box-shadow:
             0 32px 90px rgba(0, 0, 0, 0.46),
@@ -37,9 +37,9 @@ export const Styled = {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            border: 1px solid rgba(148, 163, 184, 0.1);
+            border: 1px solid rgba(162, 162, 162, 0.1);
             border-radius: 11px;
-            color: #64748b;
+            color: #737373;
             background: rgba(255, 255, 255, 0.02);
             font-size: 15px;
             cursor: pointer;
@@ -62,17 +62,17 @@ export const Styled = {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            border: 1px solid rgba(248, 113, 113, 0.18);
+            border: 1px solid rgba(155, 155, 155, 0.18);
             border-radius: 17px;
-            color: #fca5a5;
-            background: rgba(220, 38, 38, 0.08);
+            color: #bcbcbc;
+            background: rgba(114, 114, 114, 0.08);
             font-size: 22px;
         }
 
         .label {
             display: block;
             margin-bottom: 8px;
-            color: #f87171;
+            color: #9b9b9b;
             font-size: 10px;
             font-weight: 800;
             letter-spacing: 0.15em;
@@ -81,7 +81,7 @@ export const Styled = {
 
         h2 {
             margin: 0;
-            color: #f8fafc;
+            color: #fafafa;
             font-size: 26px;
             font-weight: 800;
             line-height: 1.2;
@@ -90,7 +90,7 @@ export const Styled = {
 
         p {
             margin: 14px 0 0;
-            color: #94a3b8;
+            color: #a2a2a2;
             font-size: 13px;
             line-height: 1.75;
         }
@@ -122,8 +122,8 @@ export const Styled = {
         }
 
         .cancelButton {
-            border: 1px solid rgba(148, 163, 184, 0.12);
-            color: #94a3b8;
+            border: 1px solid rgba(162, 162, 162, 0.12);
+            color: #a2a2a2;
             background: rgba(255, 255, 255, 0.025);
         }
 
@@ -134,15 +134,15 @@ export const Styled = {
         }
 
         .confirmButton {
-            border: 1px solid rgba(248, 113, 113, 0.18);
+            border: 1px solid rgba(155, 155, 155, 0.18);
             color: #ffffff;
-            background: linear-gradient(135deg, #dc2626, #ea580c);
-            box-shadow: 0 12px 28px rgba(220, 38, 38, 0.16);
+            background: linear-gradient(135deg, #727272, #888888);
+            box-shadow: 0 12px 28px rgba(114, 114, 114, 0.16);
         }
 
         .confirmButton:hover {
             transform: translateY(-2px);
-            box-shadow: 0 16px 34px rgba(220, 38, 38, 0.24);
+            box-shadow: 0 16px 34px rgba(114, 114, 114, 0.24);
         }
 
         @media (max-width: 480px) {

@@ -7,8 +7,8 @@ export const Styled = {
         border-radius: 24px;
         background: linear-gradient(
             145deg,
-            rgba(15, 23, 42, 0.9),
-            rgba(8, 12, 20, 0.92)
+            rgba(23, 23, 23, 0.9),
+            rgba(12, 12, 12, 0.92)
         );
         box-shadow:
             0 22px 60px rgba(0, 0, 0, 0.24),
@@ -25,7 +25,7 @@ export const Styled = {
         .label {
             display: block;
             margin-bottom: 8px;
-            color: #60a5fa;
+            color: #a2a2a2;
             font-size: 10px;
             font-weight: 800;
             letter-spacing: 0.16em;
@@ -34,7 +34,7 @@ export const Styled = {
 
         h2 {
             margin: 0;
-            color: #f8fafc;
+            color: #fafafa;
             font-size: clamp(24px, 3vw, 34px);
             font-weight: 800;
             line-height: 1.08;
@@ -48,10 +48,10 @@ export const Styled = {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            border: 1px solid rgba(96, 165, 250, 0.18);
+            border: 1px solid rgba(162, 162, 162, 0.18);
             border-radius: 15px;
-            color: #93c5fd;
-            background: rgba(37, 99, 235, 0.1);
+            color: #c1c1c1;
+            background: rgba(109, 109, 109, 0.1);
             font-size: 19px;
         }
 
@@ -69,7 +69,7 @@ export const Styled = {
         }
 
         .field label {
-            color: #94a3b8;
+            color: #a2a2a2;
             font-size: 11px;
             font-weight: 800;
             letter-spacing: 0.1em;
@@ -80,11 +80,11 @@ export const Styled = {
         textarea,
         select {
             width: 100%;
-            border: 1px solid rgba(148, 163, 184, 0.13);
+            border: 1px solid rgba(162, 162, 162, 0.13);
             border-radius: 14px;
             outline: none;
-            color: #e2e8f0;
-            background: rgba(2, 6, 23, 0.42);
+            color: #e7e7e7;
+            background: rgba(7, 7, 7, 0.42);
             font-family: inherit;
             font-size: 14px;
             transition:
@@ -108,15 +108,15 @@ export const Styled = {
 
         input::placeholder,
         textarea::placeholder {
-            color: #475569;
+            color: #545454;
         }
 
         input:focus,
         textarea:focus,
         select:focus {
-            border-color: rgba(56, 189, 248, 0.48);
-            background: rgba(2, 6, 23, 0.64);
-            box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.08);
+            border-color: rgba(177, 177, 177, 0.48);
+            background: rgba(7, 7, 7, 0.64);
+            box-shadow: 0 0 0 3px rgba(177, 177, 177, 0.08);
         }
 
         select {
@@ -124,13 +124,13 @@ export const Styled = {
         }
 
         select option {
-            color: #e2e8f0;
-            background: #0f172a;
+            color: #e7e7e7;
+            background: #171717;
         }
 
         .characterCount {
             align-self: flex-end;
-            color: #475569;
+            color: #545454;
             font-size: 10px;
             font-weight: 700;
         }
@@ -149,7 +149,7 @@ export const Styled = {
             position: absolute;
             top: 50%;
             left: 14px;
-            color: #64748b;
+            color: #737373;
             font-size: 15px;
             transform: translateY(-50%);
             pointer-events: none;
@@ -186,28 +186,28 @@ export const Styled = {
         }
 
         .cancelButton {
-            border: 1px solid rgba(148, 163, 184, 0.12);
-            color: #94a3b8;
+            border: 1px solid rgba(162, 162, 162, 0.12);
+            color: #a2a2a2;
             background: rgba(255, 255, 255, 0.025);
         }
 
         .cancelButton:hover {
             color: #ffffff;
-            border-color: rgba(148, 163, 184, 0.24);
+            border-color: rgba(162, 162, 162, 0.24);
             background: rgba(255, 255, 255, 0.06);
             transform: translateY(-2px);
         }
 
         .saveButton {
-            border: 1px solid rgba(56, 189, 248, 0.16);
+            border: 1px solid rgba(177, 177, 177, 0.16);
             color: #ffffff;
-            background: linear-gradient(135deg, #2563eb, #0891b2);
-            box-shadow: 0 12px 28px rgba(37, 99, 235, 0.18);
+            background: linear-gradient(135deg, #6d6d6d, #858585);
+            box-shadow: 0 12px 28px rgba(109, 109, 109, 0.18);
         }
 
         .saveButton:hover {
             transform: translateY(-2px);
-            box-shadow: 0 16px 34px rgba(37, 99, 235, 0.25);
+            box-shadow: 0 16px 34px rgba(109, 109, 109, 0.25);
         }
 
         @media (max-width: 700px) {

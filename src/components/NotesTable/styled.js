@@ -288,9 +288,9 @@ export const Styled = {
         }
 
         .deleteAction:hover {
-            color: #fecaca;
-            border-color: rgba(239, 68, 68, 0.35);
-            background: rgba(127, 29, 29, 0.2);
+            color: #d6d6d6;
+            border-color: rgba(132, 132, 132, 0.35);
+            background: rgba(66, 66, 66, 0.2);
         }
 
         .emptyValue {

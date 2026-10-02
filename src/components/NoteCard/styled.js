@@ -12,8 +12,8 @@ export const Styled = {
         border-radius: 22px;
         background: linear-gradient(
             145deg,
-            rgba(15, 23, 42, 0.86),
-            rgba(8, 12, 20, 0.92)
+            rgba(23, 23, 23, 0.86),
+            rgba(12, 12, 12, 0.92)
         );
         box-shadow:
             0 18px 44px rgba(0, 0, 0, 0.18),
@@ -30,7 +30,7 @@ export const Styled = {
             pointer-events: none;
             background: radial-gradient(
                 circle at top right,
-                rgba(59, 130, 246, 0.08),
+                rgba(133, 133, 133, 0.08),
                 transparent 38%
             );
             opacity: 0;
@@ -39,7 +39,7 @@ export const Styled = {
 
         &:hover {
             transform: translateY(-4px);
-            border-color: rgba(96, 165, 250, 0.18);
+            border-color: rgba(162, 162, 162, 0.18);
             box-shadow:
                 0 24px 54px rgba(0, 0, 0, 0.24),
                 inset 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -50,11 +50,11 @@ export const Styled = {
         }
 
         &.pinned {
-            border-color: rgba(56, 189, 248, 0.22);
+            border-color: rgba(177, 177, 177, 0.22);
             background: linear-gradient(
                 145deg,
-                rgba(15, 23, 42, 0.94),
-                rgba(8, 20, 30, 0.94)
+                rgba(23, 23, 23, 0.94),
+                rgba(19, 19, 19, 0.94)
             );
         }
 
@@ -97,15 +97,15 @@ export const Styled = {
         }
 
         .category {
-            color: #93c5fd;
-            border: 1px solid rgba(96, 165, 250, 0.14);
-            background: rgba(37, 99, 235, 0.08);
+            color: #c1c1c1;
+            border: 1px solid rgba(162, 162, 162, 0.14);
+            background: rgba(109, 109, 109, 0.08);
         }
 
         .pinnedLabel {
-            color: #67e8f9;
-            border: 1px solid rgba(34, 211, 238, 0.14);
-            background: rgba(6, 182, 212, 0.08);
+            color: #d6d6d6;
+            border: 1px solid rgba(193, 193, 193, 0.14);
+            background: rgba(166, 166, 166, 0.08);
         }
 
         .actions {
@@ -121,9 +121,9 @@ export const Styled = {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            border: 1px solid rgba(148, 163, 184, 0.1);
+            border: 1px solid rgba(162, 162, 162, 0.1);
             border-radius: 10px;
-            color: #64748b;
+            color: #737373;
             background: rgba(255, 255, 255, 0.02);
             font-family: inherit;
             font-size: 14px;
@@ -137,15 +137,15 @@ export const Styled = {
 
         .iconButton:hover {
             color: #ffffff;
-            border-color: rgba(96, 165, 250, 0.2);
-            background: rgba(59, 130, 246, 0.1);
+            border-color: rgba(162, 162, 162, 0.2);
+            background: rgba(133, 133, 133, 0.1);
             transform: translateY(-2px);
         }
 
         .deleteButton:hover {
-            color: #fecaca;
-            border-color: rgba(248, 113, 113, 0.2);
-            background: rgba(220, 38, 38, 0.1);
+            color: #d6d6d6;
+            border-color: rgba(155, 155, 155, 0.2);
+            background: rgba(114, 114, 114, 0.1);
         }
 
         .content {
@@ -154,7 +154,7 @@ export const Styled = {
 
         .content h3 {
             margin: 0 0 12px;
-            color: #f8fafc;
+            color: #fafafa;
             font-size: 21px;
             font-weight: 800;
             line-height: 1.2;
@@ -165,7 +165,7 @@ export const Styled = {
         .content p {
             display: -webkit-box;
             overflow: hidden;
-            color: #94a3b8;
+            color: #a2a2a2;
             font-size: 13px;
             line-height: 1.75;
             white-space: pre-wrap;
@@ -187,9 +187,9 @@ export const Styled = {
             display: inline-flex;
             align-items: center;
             gap: 4px;
-            border: 1px solid rgba(148, 163, 184, 0.09);
+            border: 1px solid rgba(162, 162, 162, 0.09);
             border-radius: 999px;
-            color: #64748b;
+            color: #737373;
             background: rgba(255, 255, 255, 0.018);
             font-size: 9px;
             font-weight: 700;
@@ -206,7 +206,7 @@ export const Styled = {
         }
 
         .cardBottom span {
-            color: #475569;
+            color: #545454;
             font-size: 9px;
             font-weight: 700;
             letter-spacing: 0.06em;

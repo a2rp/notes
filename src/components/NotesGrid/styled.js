@@ -23,15 +23,15 @@ export const Styled = {
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        border: 1px dashed rgba(148, 163, 184, 0.14);
+        border: 1px dashed rgba(162, 162, 162, 0.14);
         border-radius: 24px;
         background:
             radial-gradient(
                 circle at center,
-                rgba(37, 99, 235, 0.06),
+                rgba(109, 109, 109, 0.06),
                 transparent 45%
             ),
-            rgba(15, 23, 42, 0.34);
+            rgba(23, 23, 23, 0.34);
 
         .emptyIcon {
             width: 58px;
@@ -40,16 +40,16 @@ export const Styled = {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            border: 1px solid rgba(96, 165, 250, 0.16);
+            border: 1px solid rgba(162, 162, 162, 0.16);
             border-radius: 18px;
-            color: #93c5fd;
-            background: rgba(37, 99, 235, 0.08);
+            color: #c1c1c1;
+            background: rgba(109, 109, 109, 0.08);
             font-size: 24px;
         }
 
         h3 {
             margin: 0 0 9px;
-            color: #f8fafc;
+            color: #fafafa;
             font-size: 22px;
             font-weight: 800;
             letter-spacing: -0.035em;
@@ -58,7 +58,7 @@ export const Styled = {
         p {
             max-width: 420px;
             margin: 0;
-            color: #64748b;
+            color: #737373;
             font-size: 13px;
             line-height: 1.7;
         }

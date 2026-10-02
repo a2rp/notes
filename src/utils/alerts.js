@@ -28,7 +28,7 @@ export const confirmDeleteNote = async (note) => {
     const result = await Swal.fire({
         ...baseConfig,
         icon: "warning",
-        iconColor: "#ef4444",
+        iconColor: "#848484",
         title: "Delete this note?",
         html: `
             <div style="

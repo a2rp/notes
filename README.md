@@ -2,7 +2,7 @@
 
 Notes is a focused React and Vite app for creating, organising and managing browser-local notes.
 
-![Notes preview](screenshot.png)
+![Notes screenshot](./screenshot.jpg)
 
 ## Features
 
