@@ -14,20 +14,51 @@ export const getStoredNotes = () => {
             return [];
         }
 
-        return parsedNotes.map((note) => ({
-            id: note.id,
-            title: note.title || "",
-            content: note.content || "",
-            category: note.category || "General",
-            tags: Array.isArray(note.tags) ? note.tags : [],
-            pinned: Boolean(note.pinned),
-            createdAt: note.createdAt || new Date().toISOString(),
-            updatedAt:
-                note.updatedAt || note.createdAt || new Date().toISOString(),
-        }));
+        const now = new Date().toISOString();
+
+        return parsedNotes
+            .filter((note) =>
+                note &&
+                typeof note === "object" &&
+                !Array.isArray(note) &&
+                typeof note.id === "string" &&
+                note.id.trim().length > 0,
+            )
+            .map((note) => {
+                const createdAt = normalizeTimestamp(note.createdAt, now);
+
+                return {
+                    id: note.id,
+                    title: typeof note.title === "string" ? note.title : "",
+                    content: typeof note.content === "string" ? note.content : "",
+                    category:
+                        typeof note.category === "string" && note.category.trim()
+                            ? note.category.trim()
+                            : "General",
+                    tags: Array.isArray(note.tags)
+                        ? note.tags
+                            .filter((tag) => typeof tag === "string")
+                            .map((tag) => tag.trim())
+                            .filter(Boolean)
+                        : [],
+                    pinned: note.pinned === true,
+                    createdAt,
+                    updatedAt: normalizeTimestamp(note.updatedAt, createdAt),
+                };
+            });
     } catch {
         return [];
     }
+};
+
+const normalizeTimestamp = (value, fallback) => {
+    if (typeof value !== "string") {
+        return fallback;
+    }
+
+    const timestamp = Date.parse(value);
+
+    return Number.isFinite(timestamp) ? new Date(timestamp).toISOString() : fallback;
 };
 
 export const saveStoredNotes = (notes) => {

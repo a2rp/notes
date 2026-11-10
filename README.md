@@ -18,10 +18,15 @@ Notes is a focused React and Vite app for creating, organising and managing brow
 
 React, Vite, styled-components, React Icons, React Toastify, SweetAlert2 and LocalStorage.
 
+## Requirements
+
+- Node.js 22.13 or newer in the 22.x line, or Node.js 24 or newer
+- npm
+
 ## Run locally
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 

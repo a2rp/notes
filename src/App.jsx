@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { toast } from "react-toastify";
 
@@ -41,6 +41,7 @@ const DEFAULT_FORM = {
 
 function App() {
     const [notes, setNotes] = useState(() => getStoredNotes());
+    const hasShownStorageError = useRef(false);
 
     const [form, setForm] = useState(DEFAULT_FORM);
 
@@ -65,7 +66,15 @@ function App() {
     const [pageSize, setPageSize] = useState(DEFAULT_PAGE_SIZE);
 
     useEffect(() => {
-        saveStoredNotes(notes);
+        if (saveStoredNotes(notes)) {
+            hasShownStorageError.current = false;
+            return;
+        }
+
+        if (!hasShownStorageError.current) {
+            toast.error("Your notes could not be saved in this browser.");
+            hasShownStorageError.current = true;
+        }
     }, [notes]);
 
     const categories = useMemo(() => {
@@ -210,7 +219,13 @@ function App() {
     };
 
     const handleTogglePin = (noteId) => {
-        let pinnedState = false;
+        const noteToToggle = notes.find((note) => note.id === noteId);
+
+        if (!noteToToggle) {
+            return;
+        }
+
+        const nextPinnedState = !noteToToggle.pinned;
 
         setNotes((currentNotes) =>
             currentNotes.map((note) => {
@@ -226,7 +241,7 @@ function App() {
             }),
         );
 
-        toast.success(pinnedState ? "Note pinned." : "Note unpinned.");
+        toast.success(nextPinnedState ? "Note pinned." : "Note unpinned.");
     };
 
     const handleDeleteNote = async (note) => {
