@@ -12,5 +12,11 @@
         "category":  "Mobile development",
         "description":  "Practical Android study notes with Java and XML, from app fundamentals and layouts to data, networking, testing, and release.",
         "repository":  "https://github.com/a2rp/android-notes"
+    },
+    {
+        "slug":  "angular-notes",
+        "title":  "Angular Notes",
+        "category":  "Frontend development",
+        "description":  "Original Angular study notes covering standalone apps, components, templates, signals, routing, forms, HTTP, testing, and deployment."
     }
 ]
