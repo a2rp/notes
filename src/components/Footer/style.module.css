@@ -5,27 +5,101 @@
 
     .footerInner {
         width: 100%;
-        min-height: 68px;
+        min-height: 76px;
         margin: 0 auto;
         padding-inline: 20px;
-        display: flex;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
         align-items: center;
-        justify-content: space-between;
-        gap: 16px;
+        gap: 1rem;
         font-size: 0.85rem;
 
-        a {
-            transition: color 160ms ease;
+        .copyright {
+            justify-self: start;
+        }
 
-            &:hover {
-                color: #fff;
+        .socialLinks {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.4rem;
+
+            a {
+                width: 2.15rem;
+                height: 2.15rem;
+                display: grid;
+                place-items: center;
+                border: 1px solid #28342f;
+                border-radius: 0.65rem;
+                color: #aab7af;
+                transition: color 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+
+                &:hover {
+                    border-color: #527365;
+                    color: #a3f0ca;
+                    box-shadow: 0 0.5rem 1.3rem rgba(0, 0, 0, 0.35);
+                }
+
+                &:focus-visible {
+                    outline: 2px solid #9be9c7;
+                    outline-offset: 2px;
+                }
+
+                svg {
+                    width: 1rem;
+                    height: 1rem;
+                }
             }
         }
 
-        @media (max-width: 520px) {
+        .developer {
+            justify-self: end;
+
+            a {
+                color: #d9e6df;
+                transition: color 160ms ease;
+
+                &:hover {
+                    color: #a3f0ca;
+                }
+            }
+        }
+
+        @media (max-width: 1000px) {
+            grid-template-columns: 1fr 1fr;
+            padding-block: 1rem;
+
+            .socialLinks {
+                grid-column: 1 / -1;
+                grid-row: 2;
+            }
+
+            .developer {
+                grid-column: 2;
+                grid-row: 1;
+            }
+        }
+
+        @media (max-width: 560px) {
             min-height: 60px;
-            padding-inline: 12px;
-            font-size: 0.74rem;
+            grid-template-columns: minmax(0, 1fr);
+            justify-items: center;
+            gap: 0.85rem;
+            padding: 1rem 12px;
+            font-size: 0.76rem;
+
+            .copyright,
+            .developer,
+            .socialLinks {
+                grid-column: 1;
+                grid-row: auto;
+                justify-self: center;
+                text-align: center;
+            }
+
+            .socialLinks {
+                max-width: 100%;
+            }
         }
     }
 }

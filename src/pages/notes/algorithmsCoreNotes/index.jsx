@@ -1,4 +1,4 @@
-import { FiArrowUpRight, FiBookOpen, FiChevronRight, FiCode, FiGrid, FiLayers, FiMaximize2, FiRotateCw, FiSearch, FiTarget, FiTrendingUp } from "react-icons/fi";
+import { FiBookOpen, FiChevronRight, FiCode, FiGrid, FiLayers, FiMaximize2, FiRotateCw, FiSearch, FiTarget, FiTrendingUp } from "react-icons/fi";
 import { NavLink, Outlet } from "react-router-dom";
 
 import styles from "./style.module.css";
@@ -27,9 +27,6 @@ function AlgorithmsCoreNotes() {
                     <h1>Algorithms Core Notes</h1>
                     <p>Practical algorithm revision notes and JavaScript patterns.</p>
                 </div>
-                <a className={styles.repositoryLink} href="https://github.com/a2rp/algorithms-core-notes" target="_blank" rel="noreferrer">
-                    <FiCode aria-hidden="true" /> Repository <FiArrowUpRight aria-hidden="true" />
-                </a>
             </header>
 
             <div className={styles.body}>
