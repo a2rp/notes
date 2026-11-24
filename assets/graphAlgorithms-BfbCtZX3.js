@@ -1,4 +1,4 @@
-import{A as e,I as t,P as n,S as r,g as i,h as a,j as o,r as s,v as c,w as l}from"./index-EueyKTeo.js";var u={page:`_page_15wqv_1`,pageHeader:`_pageHeader_15wqv_5`,titleSection:`_titleSection_15wqv_7`,iconBox:`_iconBox_15wqv_13`,title:`_title_15wqv_7`,subtitle:`_subtitle_15wqv_35`,intro:`_intro_15wqv_41`,grid:`_grid_15wqv_55`,card:`_card_15wqv_61`,cardHead:`_cardHead_15wqv_86`,mini:`_mini_15wqv_120`},d=t(),f=()=>(0,d.jsxs)(`section`,{className:u.page,children:[(0,d.jsx)(`div`,{className:u.pageHeader,children:(0,d.jsxs)(`div`,{className:u.titleSection,children:[(0,d.jsx)(`div`,{className:u.iconBox,children:(0,d.jsx)(c,{})}),(0,d.jsxs)(`div`,{children:[(0,d.jsx)(`h2`,{className:u.title,children:`Graph Algorithms`}),(0,d.jsx)(`p`,{className:u.subtitle,children:`BFS, DFS, shortest paths, ordering, MST`})]})]})}),(0,d.jsx)(`div`,{className:u.intro,children:`Graph algorithms handle relationships: roads, networks, dependencies, friends, routes, and flows. Most graph problems reduce to traversal (BFS/DFS), ordering (topological sort), shortest path (Dijkstra/Bellman-Ford/Floyd), or connectivity building (MST/Union-Find).`}),(0,d.jsxs)(`div`,{className:u.grid,children:[(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(r,{}),(0,d.jsx)(`h3`,{children:`BFS`})]}),(0,d.jsx)(`p`,{children:`Breadth First Search explores level by level. Use BFS for shortest path in unweighted graphs.`}),(0,d.jsx)(`pre`,{children:`// BFS (adjacency list)
+import{A as e,C as t,M as n,N as r,_ as i,h as a,k as o,m as s,r as c,x as l}from"./index-2_Mx4_Wb.js";var u={page:`_page_15wqv_1`,pageHeader:`_pageHeader_15wqv_5`,titleSection:`_titleSection_15wqv_7`,iconBox:`_iconBox_15wqv_13`,title:`_title_15wqv_7`,subtitle:`_subtitle_15wqv_35`,intro:`_intro_15wqv_41`,grid:`_grid_15wqv_55`,card:`_card_15wqv_61`,cardHead:`_cardHead_15wqv_86`,mini:`_mini_15wqv_120`},d=r(),f=()=>(0,d.jsxs)(`section`,{className:u.page,children:[(0,d.jsx)(`div`,{className:u.pageHeader,children:(0,d.jsxs)(`div`,{className:u.titleSection,children:[(0,d.jsx)(`div`,{className:u.iconBox,children:(0,d.jsx)(i,{})}),(0,d.jsxs)(`div`,{children:[(0,d.jsx)(`h2`,{className:u.title,children:`Graph Algorithms`}),(0,d.jsx)(`p`,{className:u.subtitle,children:`BFS, DFS, shortest paths, ordering, MST`})]})]})}),(0,d.jsx)(`div`,{className:u.intro,children:`Graph algorithms handle relationships: roads, networks, dependencies, friends, routes, and flows. Most graph problems reduce to traversal (BFS/DFS), ordering (topological sort), shortest path (Dijkstra/Bellman-Ford/Floyd), or connectivity building (MST/Union-Find).`}),(0,d.jsxs)(`div`,{className:u.grid,children:[(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(l,{}),(0,d.jsx)(`h3`,{children:`BFS`})]}),(0,d.jsx)(`p`,{children:`Breadth First Search explores level by level. Use BFS for shortest path in unweighted graphs.`}),(0,d.jsx)(`pre`,{children:`// BFS (adjacency list)
 function bfs(graph, start) {
   const q = [start];
   const visited = new Set([start]);
@@ -29,7 +29,7 @@ const g = {
 };
 
 console.log(bfs(g, "A"));
-// A B C D E`}),(0,d.jsx)(`p`,{className:u.mini,children:`Time: O(V+E), Space: O(V)`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(e,{}),(0,d.jsx)(`h3`,{children:`DFS`})]}),(0,d.jsx)(`p`,{children:`Depth First Search explores deeply before backtracking. Useful for components, cycle checks, paths, topological sort.`}),(0,d.jsx)(`pre`,{children:`// DFS (recursive)
+// A B C D E`}),(0,d.jsx)(`p`,{className:u.mini,children:`Time: O(V+E), Space: O(V)`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(o,{}),(0,d.jsx)(`h3`,{children:`DFS`})]}),(0,d.jsx)(`p`,{children:`Depth First Search explores deeply before backtracking. Useful for components, cycle checks, paths, topological sort.`}),(0,d.jsx)(`pre`,{children:`// DFS (recursive)
 function dfs(
   graph,
   start,
@@ -52,7 +52,7 @@ function dfs(
 
 console.log(dfs(g, "A"));
 // A B D C E
-// one possible order`}),(0,d.jsx)(`p`,{className:u.mini,children:`Time: O(V+E), Space: O(V) (stack/visited)`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(o,{}),(0,d.jsx)(`h3`,{children:`Topological Sort`})]}),(0,d.jsx)(`p`,{children:`Works only on DAG (Directed Acyclic Graph). Gives an order where every edge u → v means u comes before v.`}),(0,d.jsx)(`pre`,{children:`// Kahn's Algorithm
+// one possible order`}),(0,d.jsx)(`p`,{className:u.mini,children:`Time: O(V+E), Space: O(V) (stack/visited)`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(e,{}),(0,d.jsx)(`h3`,{children:`Topological Sort`})]}),(0,d.jsx)(`p`,{children:`Works only on DAG (Directed Acyclic Graph). Gives an order where every edge u → v means u comes before v.`}),(0,d.jsx)(`pre`,{children:`// Kahn's Algorithm
 // BFS using indegree
 function topoSort(graph) {
   const indeg = {};
@@ -105,7 +105,7 @@ const dag = {
   F: []
 };
 
-console.log(topoSort(dag));`}),(0,d.jsx)(`p`,{className:u.mini,children:`Time: O(V+E). Empty result can indicate a cycle.`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(a,{}),(0,d.jsx)(`h3`,{children:`Dijkstra`})]}),(0,d.jsx)(`p`,{children:`Shortest path for non-negative edge weights. Uses greedy: always expand current smallest distance.`}),(0,d.jsx)(`pre`,{children:`// Dijkstra
+console.log(topoSort(dag));`}),(0,d.jsx)(`p`,{className:u.mini,children:`Time: O(V+E). Empty result can indicate a cycle.`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(s,{}),(0,d.jsx)(`h3`,{children:`Dijkstra`})]}),(0,d.jsx)(`p`,{children:`Shortest path for non-negative edge weights. Uses greedy: always expand current smallest distance.`}),(0,d.jsx)(`pre`,{children:`// Dijkstra
 // simple version O(V^2)
 // without heap
 
@@ -174,7 +174,7 @@ const wg = {
 
 console.log(
   dijkstra(wg, "A")
-);`}),(0,d.jsx)(`p`,{className:u.mini,children:`Use a min-heap for O((V+E) log V) in production.`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(s,{}),(0,d.jsx)(`h3`,{children:`Bellman-Ford`})]}),(0,d.jsx)(`p`,{children:`Shortest path that supports negative weights. Can detect negative cycles.`}),(0,d.jsx)(`pre`,{children:`// Bellman-Ford
+);`}),(0,d.jsx)(`p`,{className:u.mini,children:`Use a min-heap for O((V+E) log V) in production.`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(c,{}),(0,d.jsx)(`h3`,{children:`Bellman-Ford`})]}),(0,d.jsx)(`p`,{children:`Shortest path that supports negative weights. Can detect negative cycles.`}),(0,d.jsx)(`pre`,{children:`// Bellman-Ford
 // edges: [[u, v, w], ...]
 
 function bellmanFord(
@@ -248,7 +248,7 @@ console.log(
     edges,
     "A"
   )
-);`}),(0,d.jsx)(`p`,{className:u.mini,children:`Time: O(VE). Slower than Dijkstra but more flexible.`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(l,{}),(0,d.jsx)(`h3`,{children:`Floyd-Warshall`})]}),(0,d.jsx)(`p`,{children:`All-pairs shortest paths. Works with negative edges (but not negative cycles). Best for dense graphs or small n.`}),(0,d.jsx)(`pre`,{children:`// Floyd-Warshall idea
+);`}),(0,d.jsx)(`p`,{className:u.mini,children:`Time: O(VE). Slower than Dijkstra but more flexible.`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(t,{}),(0,d.jsx)(`h3`,{children:`Floyd-Warshall`})]}),(0,d.jsx)(`p`,{children:`All-pairs shortest paths. Works with negative edges (but not negative cycles). Best for dense graphs or small n.`}),(0,d.jsx)(`pre`,{children:`// Floyd-Warshall idea
 // O(n^3)
 
 // dist[i][j] = shortest
@@ -275,7 +275,7 @@ for (let k = 0; k < n; k++) {
 //    cycles efficiently
 
 // Continue until all nodes
-// are connected.`}),(0,d.jsx)(`p`,{className:u.mini,children:`Used in network design, clustering, wiring, and road planning.`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(i,{}),(0,d.jsx)(`h3`,{children:`Union-Find`})]}),(0,d.jsx)(`p`,{children:`Union-Find (Disjoint Set) tracks connected components and supports find(x) and union(a, b). Very useful for Kruskal MST and cycle detection.`}),(0,d.jsx)(`pre`,{children:`class UnionFind {
+// are connected.`}),(0,d.jsx)(`p`,{className:u.mini,children:`Used in network design, clustering, wiring, and road planning.`})]}),(0,d.jsxs)(`article`,{className:u.card,children:[(0,d.jsxs)(`div`,{className:u.cardHead,children:[(0,d.jsx)(a,{}),(0,d.jsx)(`h3`,{children:`Union-Find`})]}),(0,d.jsx)(`p`,{children:`Union-Find (Disjoint Set) tracks connected components and supports find(x) and union(a, b). Very useful for Kruskal MST and cycle detection.`}),(0,d.jsx)(`pre`,{children:`class UnionFind {
   constructor(n) {
     this.parent =
       Array.from(

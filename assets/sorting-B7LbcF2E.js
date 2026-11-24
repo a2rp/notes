@@ -1,4 +1,4 @@
-import{I as e,P as t,S as n,c as r,g as i,j as a,u as o}from"./index-EueyKTeo.js";var s={page:`_page_15wqv_1`,pageHeader:`_pageHeader_15wqv_5`,titleSection:`_titleSection_15wqv_7`,iconBox:`_iconBox_15wqv_13`,title:`_title_15wqv_7`,subtitle:`_subtitle_15wqv_35`,intro:`_intro_15wqv_41`,grid:`_grid_15wqv_55`,card:`_card_15wqv_61`,cardHead:`_cardHead_15wqv_86`,mini:`_mini_15wqv_120`},c=e(),l=()=>(0,c.jsxs)(`section`,{className:s.page,children:[(0,c.jsx)(`div`,{className:s.pageHeader,children:(0,c.jsxs)(`div`,{className:s.titleSection,children:[(0,c.jsx)(`div`,{className:s.iconBox,children:(0,c.jsx)(r,{})}),(0,c.jsxs)(`div`,{children:[(0,c.jsx)(`h2`,{className:s.title,children:`Sorting`}),(0,c.jsx)(`p`,{className:s.subtitle,children:`Order data, reduce search cost, simplify logic`})]})]})}),(0,c.jsx)(`div`,{className:s.intro,children:`Sorting rearranges data into a predictable order. This unlocks faster searching, easier duplicate handling, and cleaner logic. The goal is not to memorize every sort, but to know when a sort is needed and which one fits the constraints.`}),(0,c.jsxs)(`div`,{className:s.grid,children:[(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(a,{}),(0,c.jsx)(`h3`,{children:`Bubble Sort`})]}),(0,c.jsx)(`p`,{children:`Repeatedly swap adjacent out-of-order elements. Easy to understand, slow in practice.`}),(0,c.jsx)(`pre`,{children:`function bubbleSort(arr) {
+import{A as e,M as t,N as n,c as r,h as i,u as a,x as o}from"./index-2_Mx4_Wb.js";var s={page:`_page_15wqv_1`,pageHeader:`_pageHeader_15wqv_5`,titleSection:`_titleSection_15wqv_7`,iconBox:`_iconBox_15wqv_13`,title:`_title_15wqv_7`,subtitle:`_subtitle_15wqv_35`,intro:`_intro_15wqv_41`,grid:`_grid_15wqv_55`,card:`_card_15wqv_61`,cardHead:`_cardHead_15wqv_86`,mini:`_mini_15wqv_120`},c=n(),l=()=>(0,c.jsxs)(`section`,{className:s.page,children:[(0,c.jsx)(`div`,{className:s.pageHeader,children:(0,c.jsxs)(`div`,{className:s.titleSection,children:[(0,c.jsx)(`div`,{className:s.iconBox,children:(0,c.jsx)(r,{})}),(0,c.jsxs)(`div`,{children:[(0,c.jsx)(`h2`,{className:s.title,children:`Sorting`}),(0,c.jsx)(`p`,{className:s.subtitle,children:`Order data, reduce search cost, simplify logic`})]})]})}),(0,c.jsx)(`div`,{className:s.intro,children:`Sorting rearranges data into a predictable order. This unlocks faster searching, easier duplicate handling, and cleaner logic. The goal is not to memorize every sort, but to know when a sort is needed and which one fits the constraints.`}),(0,c.jsxs)(`div`,{className:s.grid,children:[(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(e,{}),(0,c.jsx)(`h3`,{children:`Bubble Sort`})]}),(0,c.jsx)(`p`,{children:`Repeatedly swap adjacent out-of-order elements. Easy to understand, slow in practice.`}),(0,c.jsx)(`pre`,{children:`function bubbleSort(arr) {
   const a = arr.slice();
 
   for (let i = 0; i < a.length; i++) {
@@ -37,7 +37,7 @@ import{I as e,P as t,S as n,c as r,g as i,j as a,u as o}from"./index-EueyKTeo.js
 }
 
 // Time: O(n^2)
-// Space: O(1) extra if in-place`}),(0,c.jsx)(`p`,{className:s.mini,children:`Minimal swaps, still quadratic.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(n,{}),(0,c.jsx)(`h3`,{children:`Insertion Sort`})]}),(0,c.jsx)(`p`,{children:`Build a sorted prefix by inserting each new element into its correct position.`}),(0,c.jsx)(`pre`,{children:`function insertionSort(arr) {
+// Space: O(1) extra if in-place`}),(0,c.jsx)(`p`,{className:s.mini,children:`Minimal swaps, still quadratic.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(o,{}),(0,c.jsx)(`h3`,{children:`Insertion Sort`})]}),(0,c.jsx)(`p`,{children:`Build a sorted prefix by inserting each new element into its correct position.`}),(0,c.jsx)(`pre`,{children:`function insertionSort(arr) {
   const a = arr.slice();
 
   for (let i = 1; i < a.length; i++) {
@@ -56,7 +56,7 @@ import{I as e,P as t,S as n,c as r,g as i,j as a,u as o}from"./index-EueyKTeo.js
 }
 
 // Time: O(n^2) worst, O(n) best
-// Space: O(1) extra if in-place`}),(0,c.jsx)(`p`,{className:s.mini,children:`Great for small arrays and nearly-sorted data.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(n,{}),(0,c.jsx)(`h3`,{children:`Merge Sort`})]}),(0,c.jsx)(`p`,{children:`Divide the array into halves, sort each half, then merge the sorted halves.`}),(0,c.jsx)(`pre`,{children:`function mergeSort(arr) {
+// Space: O(1) extra if in-place`}),(0,c.jsx)(`p`,{className:s.mini,children:`Great for small arrays and nearly-sorted data.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(o,{}),(0,c.jsx)(`h3`,{children:`Merge Sort`})]}),(0,c.jsx)(`p`,{children:`Divide the array into halves, sort each half, then merge the sorted halves.`}),(0,c.jsx)(`pre`,{children:`function mergeSort(arr) {
   if (arr.length <= 1) return arr;
 
   const mid = Math.floor(arr.length / 2);
@@ -88,7 +88,7 @@ function merge(a, b) {
 
 // Time: O(n log n)
 // Space: O(n)
-// Stable: Yes`}),(0,c.jsx)(`p`,{className:s.mini,children:`Reliable and stable, but uses extra memory.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(a,{}),(0,c.jsx)(`h3`,{children:`Quick Sort`})]}),(0,c.jsx)(`p`,{children:`Pick a pivot, partition values around the pivot, then recursively sort both partitions.`}),(0,c.jsx)(`pre`,{children:`function quickSort(arr) {
+// Stable: Yes`}),(0,c.jsx)(`p`,{className:s.mini,children:`Reliable and stable, but uses extra memory.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(e,{}),(0,c.jsx)(`h3`,{children:`Quick Sort`})]}),(0,c.jsx)(`p`,{children:`Pick a pivot, partition values around the pivot, then recursively sort both partitions.`}),(0,c.jsx)(`pre`,{children:`function quickSort(arr) {
   const a = arr.slice();
 
   quickSortInPlace(a, 0, a.length - 1);
@@ -134,7 +134,7 @@ function partition(a, lo, hi) {
 // Stable: No
 
 // In JavaScript, a Heap class is usually
-// the clearest implementation.`}),(0,c.jsx)(`p`,{className:s.mini,children:`Strong worst-case guarantee and constant extra space.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(o,{}),(0,c.jsx)(`h3`,{children:`Counting Sort`})]}),(0,c.jsx)(`p`,{children:`Count occurrences of each value. Works well when the value range is reasonably small.`}),(0,c.jsx)(`pre`,{children:`function countingSort(arr, maxVal) {
+// the clearest implementation.`}),(0,c.jsx)(`p`,{className:s.mini,children:`Strong worst-case guarantee and constant extra space.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(a,{}),(0,c.jsx)(`h3`,{children:`Counting Sort`})]}),(0,c.jsx)(`p`,{children:`Count occurrences of each value. Works well when the value range is reasonably small.`}),(0,c.jsx)(`pre`,{children:`function countingSort(arr, maxVal) {
   const count =
     new Array(maxVal + 1).fill(0);
 
@@ -156,7 +156,7 @@ function partition(a, lo, hi) {
 
 // Time: O(n + k)
 // k = value range
-// Space: O(k)`}),(0,c.jsx)(`p`,{className:s.mini,children:`Great for small non-negative integer ranges.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(o,{}),(0,c.jsx)(`h3`,{children:`Radix Sort`})]}),(0,c.jsx)(`p`,{children:`Sort values digit by digit using a stable sorting method for each position.`}),(0,c.jsx)(`pre`,{children:`// Concept:
+// Space: O(k)`}),(0,c.jsx)(`p`,{className:s.mini,children:`Great for small non-negative integer ranges.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(a,{}),(0,c.jsx)(`h3`,{children:`Radix Sort`})]}),(0,c.jsx)(`p`,{children:`Sort values digit by digit using a stable sorting method for each position.`}),(0,c.jsx)(`pre`,{children:`// Concept:
 //
 // Sort by:
 // 1. ones
@@ -171,7 +171,7 @@ function partition(a, lo, hi) {
 // d = number of digits
 // k = numeric base
 //
-// Space depends on the sub-sort.`}),(0,c.jsx)(`p`,{className:s.mini,children:`Useful for integers or fixed-length values.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(n,{}),(0,c.jsx)(`h3`,{children:`Stable vs Unstable`})]}),(0,c.jsx)(`p`,{children:`A stable sort preserves the relative order of equal elements. An unstable sort may change that order.`}),(0,c.jsx)(`pre`,{children:`// Example:
+// Space depends on the sub-sort.`}),(0,c.jsx)(`p`,{className:s.mini,children:`Useful for integers or fixed-length values.`})]}),(0,c.jsxs)(`article`,{className:s.card,children:[(0,c.jsxs)(`div`,{className:s.cardHead,children:[(0,c.jsx)(o,{}),(0,c.jsx)(`h3`,{children:`Stable vs Unstable`})]}),(0,c.jsx)(`p`,{children:`A stable sort preserves the relative order of equal elements. An unstable sort may change that order.`}),(0,c.jsx)(`pre`,{children:`// Example:
 //
 // [
 //   { name: "A", score: 5 },
