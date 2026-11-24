@@ -8,6 +8,7 @@ const NotesPage = lazy(() => import("./pages/notes"));
 const AlgorithmsCoreNotes = lazy(() => import("./pages/notes/algorithmsCoreNotes"));
 const AndroidNotes = lazy(() => import("./pages/notes/androidNotes"));
 const AngularNotes = lazy(() => import("./pages/notes/angularNotes"));
+const JavaScriptNotes = lazy(() => import("./pages/notes/javaScriptNotes"));
 const AlgorithmsOverview = lazy(() => import("./pages/notes/algorithmsCoreNotes/overview"));
 const AlgorithmsFoundation = lazy(() => import("./pages/notes/algorithmsCoreNotes/foundationLayer"));
 const AlgorithmsSearching = lazy(() => import("./pages/notes/algorithmsCoreNotes/searching"));
@@ -46,6 +47,8 @@ function AppRoutes() {
                 <Route path="/notes/android-notes/:chapterSlug" element={<AndroidNotes />} />
                 <Route path="/notes/angular-notes" element={<AngularNotes />} />
                 <Route path="/notes/angular-notes/:chapterSlug" element={<AngularNotes />} />
+                <Route path="/notes/javascript-notes" element={<JavaScriptNotes />} />
+                <Route path="/notes/javascript-notes/:chapterSlug" element={<JavaScriptNotes />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="*" element={<NotFoundPage />} />

@@ -1,11 +1,12 @@
 # Developer Notes
 
-A route-based React library for practical developer references. It brings Algorithms Core Notes, Android Notes, and Angular Notes together, with each collection and its chapters kept locally in the app.
+A route-based React library for practical developer references. It brings Algorithms Core Notes, Android Notes, JavaScript Notes, and Angular Notes together, with each collection and its chapters kept locally in the app.
 
 ## Features
 
 - Algorithms Core Notes with ten focused sections
 - Android Notes with all 17 original Markdown chapters
+- JavaScript Notes with 16 original chapters, code recipes, and Q&A
 - Angular Notes with 16 original chapters, code samples, and Q&A
 - Local chapter content, linked navigation, and original repository links
 - Responsive layouts, route loading spinner, and smooth scroll-to-top
