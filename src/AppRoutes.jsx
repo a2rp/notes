@@ -5,7 +5,6 @@ import Spinner from "./components/spinner";
 
 const HomePage = lazy(() => import("./pages/home"));
 const NotesPage = lazy(() => import("./pages/notes"));
-const TopicPage = lazy(() => import("./pages/topic"));
 const AlgorithmsCoreNotes = lazy(() => import("./pages/notes/algorithmsCoreNotes"));
 const AlgorithmsOverview = lazy(() => import("./pages/notes/algorithmsCoreNotes/overview"));
 const AlgorithmsFoundation = lazy(() => import("./pages/notes/algorithmsCoreNotes/foundationLayer"));
@@ -41,7 +40,6 @@ function AppRoutes() {
                     <Route path="dynamic-programming" element={<AlgorithmsDynamicProgramming />} />
                     <Route path="graph-algorithms" element={<AlgorithmsGraph />} />
                 </Route>
-                <Route path="/notes/:slug" element={<TopicPage />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="*" element={<NotFoundPage />} />

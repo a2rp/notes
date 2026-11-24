@@ -1,18 +1,17 @@
 # Developer Notes
 
-A route-based library for browsing developer notes by subject. Each public collection has its own URL and an in-page README, with search and pagination across the catalog.
+A focused React reference for Algorithms Core Notes, with practical explanations, problem-solving patterns, complexity, and JavaScript examples.
 
 ## Features
 
-- 65 public note collections organized by subject
-- Searchable, filterable topic catalog with pagination
-- Individual routes with locally bundled Markdown content
-- Original GitHub repository link on each topic page
-- Responsive navigation, route loading spinner, and smooth scroll-to-top
+- One focused algorithm collection
+- Ten sections covering core algorithm topics
+- Responsive routes, navigation, and scroll-to-top behavior
+- Link to the original GitHub repository
 
 ## Tech stack
 
-React, Vite, React Router, React Markdown, and React Icons.
+React, Vite, React Router, React Icons, and CSS Modules.
 
 ## Run locally
 
@@ -29,7 +28,7 @@ npm run dev
 npm run deploy
 ```
 
-The site is configured for GitHub Pages at [a2rp.github.io/notes](https://a2rp.github.io/notes/). The build creates a `404.html` fallback so direct topic routes continue to work.
+The site is configured for GitHub Pages at [a2rp.github.io/notes](https://a2rp.github.io/notes/). The build creates a `404.html` fallback so direct routes continue to work.
 
 ## License
 

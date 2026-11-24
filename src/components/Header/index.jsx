@@ -15,17 +15,22 @@ function Header() {
     const closeButtonRef = useRef(null);
     const menuPanelRef = useRef(null);
     const topicMenuRef = useRef(null);
+    const dropdownRef = useRef(null);
+    const menuTopicsListRef = useRef(null);
     const normalizedSearch = searchTerm.trim().toLowerCase();
     const visibleTopics = topics
-        .filter((topic) => !normalizedSearch || `${topic.title} ${topic.category}`.toLowerCase().includes(normalizedSearch))
-        .slice(0, normalizedSearch ? 12 : 6);
+        .filter((topic) => !normalizedSearch || `${topic.title} ${topic.category}`.toLowerCase().includes(normalizedSearch));
+    const selectedTopicSlug = topics.find(({ slug }) => {
+        const topicPath = `/notes/${slug}`;
+        return pathname === topicPath || pathname.startsWith(`${topicPath}/`);
+    })?.slug;
     const matches = (label) => !normalizedSearch || label.toLowerCase().includes(normalizedSearch);
     const showHome = matches("Home");
     const showAbout = matches("About");
     const showContact = matches("Contact");
     const showNotes = matches("Notes") || visibleTopics.length > 0;
     const activeTopics = normalizedSearch ? true : topicsExpanded;
-    const linkClassName = ({ isActive }) => isActive ? `${styles.primaryLink} ${styles.active}` : styles.primaryLink;
+    const linkClassName = styles.primaryLink;
 
     useEffect(() => {
         if (!isTopicsOpen) return undefined;
@@ -45,6 +50,22 @@ function Header() {
             document.removeEventListener("keydown", handleKeyDown);
         };
     }, [isTopicsOpen]);
+
+    useEffect(() => {
+        if (!isTopicsOpen) return;
+
+        dropdownRef.current
+            ?.querySelector('[data-selected-topic="true"]')
+            ?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
+    }, [isTopicsOpen, pathname]);
+
+    useEffect(() => {
+        if (!isMenuOpen || !activeTopics) return;
+
+        menuTopicsListRef.current
+            ?.querySelector('[data-selected-topic="true"]')
+            ?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
+    }, [activeTopics, isMenuOpen, normalizedSearch, pathname]);
 
     useLayoutEffect(() => {
         if (!isMenuOpen) return undefined;
@@ -107,10 +128,9 @@ function Header() {
                             <button className={styles.topicMenuToggle} type="button" aria-label="Show note topics" aria-expanded={isTopicsOpen} onClick={() => setIsTopicsOpen((open) => !open)}>
                                 <FiChevronDown aria-hidden="true" />
                             </button>
-                            <div className={styles.primaryDropdown} hidden={!isTopicsOpen}>
-                                <NavLink to="/notes" className={styles.dropdownLink} onClick={() => setIsTopicsOpen(false)}>All topics</NavLink>
-                                {topics.slice(0, 5).map((topic) => (
-                                    <NavLink key={topic.slug} to={`/notes/${topic.slug}`} className={styles.dropdownLink} onClick={() => setIsTopicsOpen(false)}>{topic.title}</NavLink>
+                            <div ref={dropdownRef} className={styles.primaryDropdown} hidden={!isTopicsOpen}>
+                                {topics.map((topic) => (
+                                    <NavLink key={topic.slug} to={`/notes/${topic.slug}`} data-selected-topic={topic.slug === selectedTopicSlug ? "true" : undefined} className={styles.dropdownLink} onClick={() => setIsTopicsOpen(false)}>{topic.title}</NavLink>
                                 ))}
                             </div>
                         </div>
@@ -142,8 +162,8 @@ function Header() {
                                         <NavLink to="/notes" className={styles.navLink} onClick={closeMenu}>Notes library</NavLink>
                                         <button className={styles.submenuToggle} type="button" aria-label={activeTopics ? "Collapse topics" : "Expand topics"} aria-expanded={activeTopics} onClick={() => setTopicsExpanded((expanded) => !expanded)}><FiChevronDown aria-hidden="true" /></button>
                                     </div>
-                                    <div className={styles.menuSubList} hidden={!activeTopics}>
-                                        {visibleTopics.map((topic) => <NavLink key={topic.slug} to={`/notes/${topic.slug}`} className={styles.menuSubLink} onClick={closeMenu}>{topic.title}</NavLink>)}
+                                    <div ref={menuTopicsListRef} className={styles.menuSubList} hidden={!activeTopics}>
+                                        {visibleTopics.map((topic) => <NavLink key={topic.slug} to={`/notes/${topic.slug}`} data-selected-topic={topic.slug === selectedTopicSlug ? "true" : undefined} className={styles.menuSubLink} onClick={closeMenu}>{topic.title}</NavLink>)}
                                     </div>
                                 </div>
                             )}

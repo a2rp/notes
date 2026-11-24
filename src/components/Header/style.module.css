@@ -99,7 +99,7 @@
                     }
 
                     &:hover,
-                    &.active {
+                    &[aria-current="page"] {
                         color: #f5fff9;
                         background: #18231e;
                     }
@@ -152,23 +152,50 @@
                         width: min(310px, calc(100vw - 28px));
                         max-height: 60vh;
                         padding: 8px;
-                        overflow: auto;
+                        overflow-y: auto;
+                        overscroll-behavior: contain;
+                        scrollbar-gutter: stable;
+                        scrollbar-width: thin;
+                        scrollbar-color: rgba(132, 207, 157, 0.58) rgba(255, 255, 255, 0.035);
                         border: 1px solid #2b3932;
                         border-radius: 16px;
                         background: #0c1210;
                         box-shadow: 0 22px 70px rgba(0, 0, 0, 0.58);
 
+                        &::-webkit-scrollbar {
+                            width: 9px;
+                        }
+
+                        &::-webkit-scrollbar-track {
+                            margin-block: 10px;
+                            border-radius: 999px;
+                            background: rgba(255, 255, 255, 0.035);
+                        }
+
+                        &::-webkit-scrollbar-thumb {
+                            border: 2px solid transparent;
+                            border-radius: 999px;
+                            background: linear-gradient(180deg, #8bd6a4, #47785a) padding-box;
+                        }
+
+                        &::-webkit-scrollbar-thumb:hover {
+                            background: linear-gradient(180deg, #b1f0c3, #619a73) padding-box;
+                        }
+
                         .dropdownLink {
+                            flex: 0 0 auto;
                             min-height: 42px;
-                            padding: 0 12px;
+                            padding: 9px 12px;
                             display: flex;
                             align-items: center;
                             border-radius: 9px;
                             color: #c3cec7;
                             font-size: 0.84rem;
+                            line-height: 1.4;
+                            scroll-margin-block: 12px;
 
                             &:hover,
-                            &.active {
+                            &[aria-current="page"] {
                                 color: #fff;
                                 background: #18251e;
                             }
@@ -285,6 +312,34 @@
                 gap: 5px;
                 overflow-y: auto;
                 overscroll-behavior: contain;
+                scrollbar-gutter: stable;
+                scrollbar-width: thin;
+                scrollbar-color: rgba(132, 207, 157, 0.58) rgba(255, 255, 255, 0.035);
+
+                &::-webkit-scrollbar {
+                    width: 9px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    margin-block: 8px;
+                    border-radius: 999px;
+                    background: rgba(255, 255, 255, 0.035);
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    border: 2px solid transparent;
+                    border-radius: 999px;
+                    background: linear-gradient(180deg, #8bd6a4, #47785a) padding-box;
+                }
+
+                &::-webkit-scrollbar-thumb:hover {
+                    background: linear-gradient(180deg, #b1f0c3, #619a73) padding-box;
+                }
+
+                > .navLink,
+                .menuTopics {
+                    flex: 0 0 auto;
+                }
 
                 .navLink {
                     min-height: 48px;
@@ -297,7 +352,7 @@
                     font-size: 0.9rem;
 
                     &:hover,
-                    &.active {
+                    &[aria-current="page"] {
                         border-color: #2c3b32;
                         color: #f3fff7;
                         background: #141e18;
@@ -336,6 +391,7 @@
                     }
 
                     .menuSubList {
+                        flex: 0 0 auto;
                         margin: 5px 0 8px 12px;
                         padding-left: 12px;
                         display: flex;
@@ -344,16 +400,19 @@
                         border-left: 1px solid #304038;
 
                         .menuSubLink {
+                            flex: 0 0 auto;
                             min-height: 40px;
-                            padding: 0 11px;
+                            padding: 8px 11px;
                             display: flex;
                             align-items: center;
                             border-radius: 9px;
                             color: #9eada4;
                             font-size: 0.82rem;
+                            line-height: 1.4;
+                            scroll-margin-block: 12px;
 
                             &:hover,
-                            &.active {
+                            &[aria-current="page"] {
                                 color: #e8fff0;
                                 background: #121d16;
                             }
