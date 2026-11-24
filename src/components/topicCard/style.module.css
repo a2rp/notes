@@ -1,0 +1,110 @@
+.card {
+    min-height: 290px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(146, 174, 157, 0.18);
+    border-radius: 22px;
+    background: rgba(10, 17, 13, 0.78);
+    box-shadow: 0 18px 54px rgba(0, 0, 0, 0.19);
+    transition: border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+
+    &:hover {
+        border-color: rgba(110, 231, 160, 0.45);
+        background: rgba(14, 25, 19, 0.92);
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.31), 0 0 34px rgba(16, 185, 129, 0.08);
+    }
+
+    .cardTop {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        .cardIndex {
+            color: #759180;
+            font-size: 0.7rem;
+            font-weight: 800;
+            letter-spacing: 0.1em;
+        }
+
+        .cardIcon {
+            width: 42px;
+            height: 42px;
+            display: grid;
+            place-items: center;
+            border: 1px solid #34483b;
+            border-radius: 13px;
+            color: #a7f3d0;
+            background: #122019;
+            font-size: 1.1rem;
+        }
+
+        .category {
+            margin-left: auto;
+            padding: 7px 10px;
+            border: 1px solid #33443a;
+            border-radius: 999px;
+            color: #bfd6c7;
+            background: #111a14;
+            font-size: 0.65rem;
+            font-weight: 750;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+        }
+    }
+
+    h3 {
+        margin: 24px 0 10px;
+        color: #f3f7f4;
+        font-size: clamp(1.15rem, 2vw, 1.45rem);
+        font-weight: 760;
+        letter-spacing: -0.035em;
+        line-height: 1.2;
+    }
+
+    p {
+        margin: 0;
+        color: #a9b8ae;
+        font-size: 0.9rem;
+        line-height: 1.7;
+    }
+
+    .cardLink {
+        width: fit-content;
+        min-height: 42px;
+        margin-top: auto;
+        padding-top: 20px;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: #baf4d2;
+        font-size: 0.84rem;
+        font-weight: 750;
+
+        svg {
+            transition: transform 160ms ease;
+        }
+
+        &:hover svg {
+            transform: translate(2px, -2px);
+        }
+    }
+
+    &.featured {
+        min-height: 330px;
+        padding: 29px;
+        background:
+            radial-gradient(ellipse at 88% 10%, rgba(16, 185, 129, 0.1), transparent 45%),
+            rgba(10, 17, 13, 0.84);
+    }
+
+    @media (max-width: 640px) {
+        min-height: 260px;
+        padding: 20px;
+
+        &.featured {
+            min-height: 290px;
+            padding: 22px;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+.page {
+    padding: 70px clamp(20px, 8vw, 120px) 100px;
+
+    @media (max-width: 640px) {
+        padding: 42px 16px 70px;
+    }
+
+    .hero {
+        max-width: 800px;
+
+        .eyebrow {
+            color: #9ce6bb;
+            font-size: 0.7rem;
+            font-weight: 800;
+            letter-spacing: 0.15em;
+        }
+
+        h1 {
+            margin-top: 22px;
+            color: #f3f7f4;
+            font-size: clamp(3rem, 7vw, 6rem);
+            font-weight: 780;
+            letter-spacing: -0.08em;
+            line-height: 0.98;
+
+            span {
+                color: #a7f3d0;
+            }
+        }
+
+        p {
+            max-width: 570px;
+            margin-top: 22px;
+            color: #adbbb2;
+            font-size: 0.98rem;
+            line-height: 1.75;
+        }
+    }
+
+    .contactList {
+        max-width: 850px;
+        margin-top: 42px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+
+        @media (max-width: 640px) {
+            grid-template-columns: 1fr;
+        }
+
+        a {
+            min-height: 92px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            border: 1px solid #304137;
+            border-radius: 16px;
+            background: rgba(9, 16, 11, 0.78);
+            transition: border-color 160ms ease, background 160ms ease;
+
+            &:hover {
+                border-color: #6aa57a;
+                background: #111d15;
+            }
+
+            .icon {
+                width: 44px;
+                height: 44px;
+                flex: 0 0 auto;
+                display: grid;
+                place-items: center;
+                border: 1px solid #385141;
+                border-radius: 13px;
+                color: #a7f3d0;
+                background: #14231a;
+            }
+
+            .linkCopy {
+                min-width: 0;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                small {
+                    color: #8da091;
+                    font-size: 0.72rem;
+                }
+
+                strong {
+                    overflow: hidden;
+                    color: #ebf4ee;
+                    font-size: 0.85rem;
+                    font-weight: 700;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+
+            .arrow {
+                margin-left: auto;
+                flex: 0 0 auto;
+                color: #83c496;
+            }
+        }
+    }
+
+}
