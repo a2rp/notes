@@ -6,6 +6,7 @@ import Spinner from "./components/spinner";
 const HomePage = lazy(() => import("./pages/home"));
 const NotesPage = lazy(() => import("./pages/notes"));
 const AlgorithmsCoreNotes = lazy(() => import("./pages/notes/algorithmsCoreNotes"));
+const AndroidNotes = lazy(() => import("./pages/notes/androidNotes"));
 const AlgorithmsOverview = lazy(() => import("./pages/notes/algorithmsCoreNotes/overview"));
 const AlgorithmsFoundation = lazy(() => import("./pages/notes/algorithmsCoreNotes/foundationLayer"));
 const AlgorithmsSearching = lazy(() => import("./pages/notes/algorithmsCoreNotes/searching"));
@@ -40,6 +41,8 @@ function AppRoutes() {
                     <Route path="dynamic-programming" element={<AlgorithmsDynamicProgramming />} />
                     <Route path="graph-algorithms" element={<AlgorithmsGraph />} />
                 </Route>
+                <Route path="/notes/android-notes" element={<AndroidNotes />} />
+                <Route path="/notes/android-notes/:chapterSlug" element={<AndroidNotes />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="*" element={<NotFoundPage />} />

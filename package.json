@@ -20,7 +20,9 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.7.0",
-    "react-router-dom": "^7.18.6"
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.18.6",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -34,6 +36,6 @@
     "globals": "^17.12.0",
     "vite": "^8.3.7"
   },
-  "description": "A focused React reference for Algorithms Core Notes.",
+  "description": "A route-based library for practical developer notes.",
   "license": "MIT"
 }

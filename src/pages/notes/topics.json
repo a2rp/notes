@@ -5,5 +5,12 @@
         "category":  "Foundations",
         "description":  "Algorithms Core Notes is an interactive React revision guide for common algorithms, problem-solving patterns, complexity, and practical JavaScript implementations.",
         "repository":  "https://github.com/a2rp/algorithms-core-notes"
+    },
+    {
+        "slug":  "android-notes",
+        "title":  "Android Notes",
+        "category":  "Mobile development",
+        "description":  "Practical Android study notes with Java and XML, from app fundamentals and layouts to data, networking, testing, and release.",
+        "repository":  "https://github.com/a2rp/android-notes"
     }
 ]

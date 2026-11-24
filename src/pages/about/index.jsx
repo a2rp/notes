@@ -4,19 +4,19 @@ import topics from "../notes/topics.json";
 import styles from "./style.module.css";
 
 const principles = [
-    { icon: FiLayers, title: "One collection", description: "A single home for core algorithms and problem-solving patterns." },
-    { icon: FiSearch, title: "Easy to navigate", description: "Move between focused sections without losing your place." },
-    { icon: FiBookOpen, title: "Made for practice", description: "Review clear explanations alongside practical JavaScript examples." },
+    { icon: FiLayers, title: "One library", description: "Browse focused collections from one simple home." },
+    { icon: FiSearch, title: "Easy to navigate", description: "Find a subject and move between its chapters." },
+    { icon: FiBookOpen, title: "Made for practice", description: "Review practical explanations and examples at your pace." },
 ];
 
 function AboutPage() {
     return (
         <div className={styles.page}>
             <section className={styles.hero}>
-                <span className={styles.eyebrow}>ABOUT THE COLLECTION</span>
-                <h1>Understand algorithms.<br /><span>Build with confidence.</span></h1>
-                <p>Algorithms Core Notes brings essential techniques, complexity, and practical JavaScript patterns together in one focused reference.</p>
-                <div className={styles.stats}><strong>{topics.length}</strong><span>collection</span><i /><span>10 focused sections</span></div>
+                <span className={styles.eyebrow}>ABOUT THE LIBRARY</span>
+                <h1>Good notes make<br /><span>hard ideas easier.</span></h1>
+                <p>A home for practical developer notes, starting with algorithms and Android development using Java and XML.</p>
+                <div className={styles.stats}><strong>{topics.length}</strong><span>collections</span><i /><span>focused subjects</span></div>
             </section>
 
             <section className={styles.principles}>
@@ -31,8 +31,8 @@ function AboutPage() {
             </section>
 
             <section className={styles.note}>
-                <h2>A focused reference</h2>
-                <p>Browse the core ideas, then open a section for practical explanations and examples.</p>
+                <h2>A growing reference</h2>
+                <p>Each collection keeps its subject, examples, and review material together in a clear route.</p>
             </section>
         </div>
     );
