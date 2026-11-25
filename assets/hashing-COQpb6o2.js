@@ -1,0 +1,48 @@
+import{F as e,G as t,I as n,K as r,M as i,P as a,St as o,_ as s,d as c,et as l,i as u,m as d,p as f,pt as p,ut as m,yt as h,z as g}from"./index-CiOkSCYJ.js";var _=o(h(),1),v={wrapper:`_wrapper_16pk7_1`,rot:`_rot_16pk7_272`,warn:`_warn_16pk7_782`},y=p(),b=()=>{let[o,p]=(0,_.useState)(!1),[h,b]=(0,_.useState)(null),x=(0,_.useMemo)(()=>[{key:`whatIsHashing`,icon:(0,y.jsx)(i,{}),title:`What is hashing`,summary:`Hashing converts input into a fixed length output called a hash. Same input gives same hash.`,points:[`A hash function maps data of any size to a fixed size output.`,`It is one-way - you cannot reliably get the original input back from the hash.`,`Small input change causes a big hash change (avalanche effect).`,`Good hashes resist collisions - two different inputs producing the same hash.`],mentalModel:`Hashing is like a fingerprint for data. You can compare fingerprints, but you cannot reconstruct the person from the fingerprint.`,code:`// Node.js crypto hashing (fast hash)
+// Use fast hashes for integrity, not for passwords
+
+import crypto from "crypto";
+
+const input = "hello";
+const sha256 = crypto.createHash("sha256").update(input, "utf8").digest("hex");
+
+console.log(sha256);`,gotchas:[`Fast hashes like SHA-256 are not safe for storing passwords.`,`Hashing is not encryption. Encryption is reversible with a key, hashing is not.`]},{key:`passwordStorage`,icon:(0,y.jsx)(g,{}),title:`Password storage`,summary:`Store passwords with a slow, salted password hashing algorithm. Prefer Argon2id for new systems; scrypt, bcrypt, or PBKDF2 may fit specific constraints.`,points:[`Never store plain text passwords.`,`Never store password hashes with fast hashes like MD5, SHA-1, SHA-256.`,`Prefer Argon2id for new systems. Use scrypt or bcrypt when needed; bcrypt is a legacy-compatible option with a 72-byte input limit.`,`Store only the hash output and the salt (salt is usually included in bcrypt output).`],mentalModel:`A slow password hash is like making an attacker pay a heavy fee for every guess. That fee is what buys you safety.`,code:`// Example using bcrypt (concept)
+// Install: npm i bcrypt
+
+import bcrypt from "bcrypt";
+
+const password = "MySecretPass123";
+const rounds = 12;
+
+// Signup - hash and store
+const hash = await bcrypt.hash(password, rounds);
+// store hash in DB
+
+// Login - verify
+const ok = await bcrypt.compare(password, hash);
+console.log(ok);`,gotchas:[`Do not lower cost too much. Too low means easy brute force.`,`Do not re-hash a bcrypt hash again with SHA. It usually makes things worse and breaks upgrades.`]},{key:`saltPepper`,icon:(0,y.jsx)(n,{}),title:`Salt and pepper`,summary:`Salt makes identical passwords produce different hashes. Pepper is an extra secret stored separately from the DB.`,points:[`Salt is random per user and stored with the hash. It blocks rainbow tables and reuse across users.`,`Pepper is a server secret (like an env var). It adds extra protection if the DB leaks.`,`If you use a pepper, rotate it carefully because rotation can break verification if not designed.`],mentalModel:`Salt is unique to each password and stored with its hash. Pepper is a separate server secret, like a key kept outside the recipe book.`,code:`// Optional bcrypt peppering example
+// Keep PASSWORD_PEPPER in a secret manager, separate from the database.
+
+import { createHmac } from "node:crypto";
+import bcrypt from "bcrypt";
+
+const pepperedPassword = createHmac("sha384", process.env.PASSWORD_PEPPER)
+  .update(password, "utf8")
+  .digest("base64");
+
+const hash = await bcrypt.hash(pepperedPassword, 12);
+const valid = await bcrypt.compare(pepperedPassword, hash);`,gotchas:[`If pepper leaks, you lose the pepper benefit. Protect secrets well.`,`Salt must be random and unique per password.`,`If combining a pepper with bcrypt, use a keyed HMAC and a printable digest; do not simply concatenate the pepper and password.`]},{key:`integrityVsPasswords`,icon:(0,y.jsx)(l,{}),title:`Hashing for integrity vs passwords`,summary:`Fast hashing is great for integrity checks. Password hashing needs slow algorithms designed for passwords.`,points:[`Integrity use case - file download verification, cache keys, content fingerprints.`,`Password use case - bcrypt, scrypt, Argon2 only.`,`Fast hashes are optimized to be computed quickly, attackers love that.`],mentalModel:`Fast hashes are race cars - good for speed. Password hashes should be heavy trucks - slow and hard to accelerate.`,code:`// Integrity example - verify file checksum
+// You compute SHA-256 of a file and compare with known good hash
+
+import crypto from "crypto";
+import fs from "fs";
+
+const h = crypto.createHash("sha256");
+fs.createReadStream("./big.zip").on("data", (chunk) => h.update(chunk))
+  .on("end", () => console.log(h.digest("hex")));`,gotchas:[`Do not use SHA-256 for password storage.`,`Do not confuse hashing with signing. Signing needs keys and proves authenticity.`]},{key:`timingSafeCompare`,icon:(0,y.jsx)(e,{}),title:`Timing safe comparison`,summary:`Comparing secrets using normal string comparison can leak info via timing. Use constant time compare for secrets.`,points:[`Timing attacks can reveal partial matches if comparisons stop early.`,`Use crypto.timingSafeEqual when comparing tokens or hashes of equal length.`,`Always normalize data and ensure same length buffers before comparing.`],mentalModel:`If your comparison takes longer when more characters match, an attacker can learn your secret one character at a time.`,code:`import crypto from "crypto";
+
+const a = Buffer.from("aabbcc", "hex");
+const b = Buffer.from("aabbcc", "hex");
+
+const ok = crypto.timingSafeEqual(a, b);
+console.log(ok);`,gotchas:[`timingSafeEqual throws if lengths differ. Handle length checks first.`,`For passwords, use bcrypt.compare or argon2.verify instead of manual compares.`]}],[]),S=()=>{p(e=>!e),o&&b(null)},C=e=>{b(t=>t===e?null:e)};return(0,y.jsxs)(`section`,{className:v.wrapper,children:[(0,y.jsxs)(`button`,{type:`button`,className:`sectionHeader ${o?`open`:``}`,onClick:S,"aria-expanded":o,children:[(0,y.jsxs)(`span`,{className:`left`,children:[(0,y.jsx)(`span`,{className:`sIcon`,children:(0,y.jsx)(c,{})}),(0,y.jsxs)(`span`,{className:`text`,children:[(0,y.jsx)(`span`,{className:`title`,children:`Hashing`}),(0,y.jsx)(`span`,{className:`sub`,children:`Password storage, salts, integrity hashes, and common security pitfalls`})]})]}),(0,y.jsxs)(`span`,{className:`right`,children:[(0,y.jsx)(`span`,{className:`pill`,children:o?(0,y.jsxs)(y.Fragment,{children:[(0,y.jsx)(t,{}),` Collapse`]}):(0,y.jsxs)(y.Fragment,{children:[(0,y.jsx)(r,{}),` Expand`]})}),(0,y.jsx)(`span`,{className:`chev ${o?`rot`:``}`,children:(0,y.jsx)(d,{})})]})]}),(0,y.jsxs)(`div`,{className:`sectionBody ${o?`show`:``}`,children:[(0,y.jsxs)(`div`,{className:`intro`,children:[(0,y.jsx)(`div`,{className:`introIcon`,children:(0,y.jsx)(a,{})}),(0,y.jsxs)(`div`,{className:`introText`,children:[(0,y.jsx)(`div`,{className:`introTitle`,children:`Why hashing matters`}),(0,y.jsx)(`div`,{className:`introSub`,children:`Hashing shows up everywhere in backend work - auth, password storage, request integrity, caching keys, and secure token handling. Getting hashing wrong is a top reason for account takeovers after database leaks.`})]})]}),(0,y.jsx)(`div`,{className:`grid`,children:x.map(e=>{let t=h===e.key;return(0,y.jsxs)(`div`,{className:`card`,children:[(0,y.jsxs)(`button`,{type:`button`,className:`cardHeader`,onClick:()=>C(e.key),"aria-expanded":t,children:[(0,y.jsxs)(`span`,{className:`cLeft`,children:[(0,y.jsx)(`span`,{className:`cIcon`,children:e.icon}),(0,y.jsxs)(`span`,{className:`cText`,children:[(0,y.jsx)(`span`,{className:`cTitle`,children:e.title}),(0,y.jsx)(`span`,{className:`cSummary`,children:e.summary})]})]}),(0,y.jsx)(`span`,{className:`cRight`,children:(0,y.jsx)(`span`,{className:`cChev ${t?`rot`:``}`,children:(0,y.jsx)(d,{})})})]}),(0,y.jsxs)(`div`,{className:`cardBody ${t?`show`:``}`,children:[(0,y.jsxs)(`div`,{className:`block`,children:[(0,y.jsx)(`div`,{className:`blockTitle`,children:`Key points`}),(0,y.jsx)(`ul`,{className:`list`,children:e.points.map((t,n)=>(0,y.jsxs)(`li`,{children:[(0,y.jsx)(`span`,{className:`dot`}),(0,y.jsx)(`span`,{className:`liText`,children:t})]},`${e.key}-p-${n}`))})]}),(0,y.jsxs)(`div`,{className:`block`,children:[(0,y.jsx)(`div`,{className:`blockTitle`,children:`Mental model`}),(0,y.jsx)(`p`,{className:`para`,children:e.mentalModel})]}),(0,y.jsxs)(`div`,{className:`block`,children:[(0,y.jsxs)(`div`,{className:`blockTitle`,children:[(0,y.jsx)(`span`,{className:`tIcon`,children:(0,y.jsx)(s,{})}),(0,y.jsx)(`span`,{children:`Example`})]}),(0,y.jsx)(`pre`,{className:`code`,children:(0,y.jsx)(`code`,{children:e.code})})]}),(0,y.jsxs)(`div`,{className:`block warn`,children:[(0,y.jsxs)(`div`,{className:`blockTitle`,children:[(0,y.jsx)(`span`,{className:`tIcon`,children:(0,y.jsx)(u,{})}),(0,y.jsx)(`span`,{children:`Common pitfalls`})]}),(0,y.jsx)(`ul`,{className:`list`,children:e.gotchas.map((t,n)=>(0,y.jsxs)(`li`,{children:[(0,y.jsx)(`span`,{className:`dot`}),(0,y.jsx)(`span`,{className:`liText`,children:t})]},`${e.key}-g-${n}`))})]}),(0,y.jsxs)(`div`,{className:`footerHint`,children:[(0,y.jsx)(`span`,{className:`hintIcon`,children:(0,y.jsx)(f,{})}),(0,y.jsx)(`span`,{className:`hintText`,children:`Revision tip: In an interview, say why bcrypt is used for passwords and why SHA-256 is not.`})]})]})]},e.key)})}),(0,y.jsxs)(`div`,{className:`closing`,children:[(0,y.jsx)(`span`,{className:`closingIcon`,children:(0,y.jsx)(m,{})}),(0,y.jsx)(`span`,{className:`closingText`,children:`Rule to remember - fast hashes for integrity, slow hashes for passwords, and always salt.`})]})]})]})};export{b as default};
