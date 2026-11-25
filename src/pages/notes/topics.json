@@ -1,28 +1,34 @@
 [
-    {
-        "slug":  "algorithms-core-notes",
-        "title":  "Algorithms Core Notes",
-        "category":  "Foundations",
-        "description":  "Algorithms Core Notes is an interactive React revision guide for common algorithms, problem-solving patterns, complexity, and practical JavaScript implementations.",
-        "repository":  "https://github.com/a2rp/algorithms-core-notes"
-    },
-    {
-        "slug":  "android-notes",
-        "title":  "Android Notes",
-        "category":  "Mobile development",
-        "description":  "Practical Android study notes with Java and XML, from app fundamentals and layouts to data, networking, testing, and release.",
-        "repository":  "https://github.com/a2rp/android-notes"
-    },
-    {
-        "slug":  "angular-notes",
-        "title":  "Angular Notes",
-        "category":  "Frontend development",
-        "description":  "Original Angular study notes covering standalone apps, components, templates, signals, routing, forms, HTTP, testing, and deployment."
-    },
-    {
-        "slug":  "javascript-notes",
-        "title":  "JavaScript Notes",
-        "category":  "Languages & Platforms",
-        "description":  "A practical JavaScript guide covering language fundamentals, modern syntax, async code, modules, browser APIs, testing, and security."
-    }
+  {
+    "slug": "algorithms-core-notes",
+    "title": "Algorithms Core Notes",
+    "category": "Foundations",
+    "description": "Algorithms Core Notes is an interactive React revision guide for common algorithms, problem-solving patterns, complexity, and practical JavaScript implementations.",
+    "repository": "https://github.com/a2rp/algorithms-core-notes"
+  },
+  {
+    "slug": "apache-derby-notes",
+    "title": "Apache Derby Notes",
+    "category": "Databases",
+    "description": "SQL, JDBC, embedded mode, transactions, and operations notes for Derby. The project is retired; useful for learning and maintaining existing systems."
+  },
+  {
+    "slug": "android-notes",
+    "title": "Android Notes",
+    "category": "Mobile development",
+    "description": "Practical Android study notes with Java and XML, from app fundamentals and layouts to data, networking, testing, and release.",
+    "repository": "https://github.com/a2rp/android-notes"
+  },
+  {
+    "slug": "angular-notes",
+    "title": "Angular Notes",
+    "category": "Frontend development",
+    "description": "Original Angular study notes covering standalone apps, components, templates, signals, routing, forms, HTTP, testing, and deployment."
+  },
+  {
+    "slug": "javascript-notes",
+    "title": "JavaScript Notes",
+    "category": "Languages & Platforms",
+    "description": "A practical JavaScript guide covering language fundamentals, modern syntax, async code, modules, browser APIs, testing, and security."
+  }
 ]
