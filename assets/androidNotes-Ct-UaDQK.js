@@ -1,4 +1,4 @@
-import{F as e,H as t,L as n,N as r,P as i,R as a,a as o,l as s,o as c,p as l,t as u,z as d}from"./index-h3VUpvVn.js";import{n as f,t as p}from"./lib-CFilXetj.js";var m=t(d(),1),h=Object.entries(Object.assign({"./chapters/01-first-android-app.md":`# 1. Build your first Android app\r
+import{F as e,H as t,L as n,N as r,P as i,R as a,a as o,l as s,o as c,p as l,t as u,z as d}from"./index-BQ0h7Bio.js";import{n as f,t as p}from"./lib-CejL-PCT.js";var m=t(d(),1),h=Object.entries(Object.assign({"./chapters/01-first-android-app.md":`# 1. Build your first Android app\r
 \r
 [Back to notes index](../README.md)\r
 \r

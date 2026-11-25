@@ -1,4 +1,4 @@
-import{F as e,H as t,L as n,N as r,P as i,R as a,a as o,l as s,o as c,p as l,z as u}from"./index-h3VUpvVn.js";import{n as d,t as f}from"./lib-CFilXetj.js";var p=t(u(),1),m=Object.entries(Object.assign({"./chapters/01-angular-and-typescript-foundations.md":`# 1. Angular and TypeScript foundations
+import{F as e,H as t,L as n,N as r,P as i,R as a,a as o,l as s,o as c,p as l,z as u}from"./index-BQ0h7Bio.js";import{n as d,t as f}from"./lib-CejL-PCT.js";var p=t(u(),1),m=Object.entries(Object.assign({"./chapters/01-angular-and-typescript-foundations.md":`# 1. Angular and TypeScript foundations
 
 | [Notes index](../README.md) | [Next: CLI, workspaces, and your first app](02-cli-workspaces-and-first-app.md) |
 
