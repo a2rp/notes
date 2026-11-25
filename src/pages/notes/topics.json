@@ -32,6 +32,12 @@
     "description": "ASP.NET Core and C# notes covering HTTP, APIs, EF Core, Identity, security, testing, and deployment."
   },
   {
+    "slug": "backend-engineering-core-notes",
+    "title": "Backend Engineering Core Notes",
+    "category": "Backend development",
+    "description": "A practical guide to Node.js internals, API design, authentication, security, performance, and production observability."
+  },
+  {
     "slug": "javascript-notes",
     "title": "JavaScript Notes",
     "category": "Languages & Platforms",
