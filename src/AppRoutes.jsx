@@ -12,6 +12,7 @@ const JavaScriptNotes = lazy(() => import("./pages/notes/javaScriptNotes"));
 const ApacheDerbyNotes = lazy(() => import("./pages/notes/apacheDerbyNotes"));
 const AspNetNotes = lazy(() => import("./pages/notes/aspNetNotes"));
 const BackendEngineeringCoreNotes = lazy(() => import("./pages/notes/backendEngineeringCoreNotes"));
+const ArchitectureAndCleanCodeCoreNotes = lazy(() => import("./pages/notes/architectureAndCleanCodeCoreNotes"));
 const AlgorithmsOverview = lazy(() => import("./pages/notes/algorithmsCoreNotes/overview"));
 const AlgorithmsFoundation = lazy(() => import("./pages/notes/algorithmsCoreNotes/foundationLayer"));
 const AlgorithmsSearching = lazy(() => import("./pages/notes/algorithmsCoreNotes/searching"));
@@ -58,6 +59,7 @@ function AppRoutes() {
                 <Route path="/notes/asp-net-notes/:chapterSlug" element={<AspNetNotes />} />
                 <Route path="/notes/backend-engineering-core-notes" element={<BackendEngineeringCoreNotes />} />
                 <Route path="/notes/backend-engineering-core-notes/*" element={<BackendEngineeringCoreNotes />} />
+                <Route path="/notes/architecture-and-clean-code-core-notes/*" element={<ArchitectureAndCleanCodeCoreNotes />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="*" element={<NotFoundPage />} />

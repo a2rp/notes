@@ -7,6 +7,12 @@
     "repository": "https://github.com/a2rp/algorithms-core-notes"
   },
   {
+    "slug": "architecture-and-clean-code-core-notes",
+    "title": "Architecture & Clean Code Core Notes",
+    "category": "Software Engineering",
+    "description": "Original practical notes on software architecture, clean code, design principles, SOLID, testing, and long-term maintainability."
+  },
+  {
     "slug": "apache-derby-notes",
     "title": "Apache Derby Notes",
     "category": "Databases",
