@@ -10,6 +10,7 @@ const AndroidNotes = lazy(() => import("./pages/notes/androidNotes"));
 const AngularNotes = lazy(() => import("./pages/notes/angularNotes"));
 const JavaScriptNotes = lazy(() => import("./pages/notes/javaScriptNotes"));
 const ApacheDerbyNotes = lazy(() => import("./pages/notes/apacheDerbyNotes"));
+const AspNetNotes = lazy(() => import("./pages/notes/aspNetNotes"));
 const AlgorithmsOverview = lazy(() => import("./pages/notes/algorithmsCoreNotes/overview"));
 const AlgorithmsFoundation = lazy(() => import("./pages/notes/algorithmsCoreNotes/foundationLayer"));
 const AlgorithmsSearching = lazy(() => import("./pages/notes/algorithmsCoreNotes/searching"));
@@ -52,6 +53,8 @@ function AppRoutes() {
                 <Route path="/notes/javascript-notes/:chapterSlug" element={<JavaScriptNotes />} />
                 <Route path="/notes/apache-derby-notes" element={<ApacheDerbyNotes />} />
                 <Route path="/notes/apache-derby-notes/:chapterSlug" element={<ApacheDerbyNotes />} />
+                <Route path="/notes/asp-net-notes" element={<AspNetNotes />} />
+                <Route path="/notes/asp-net-notes/:chapterSlug" element={<AspNetNotes />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="*" element={<NotFoundPage />} />

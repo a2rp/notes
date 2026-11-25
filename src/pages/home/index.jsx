@@ -15,7 +15,7 @@ function HomePage() {
                 <div className={styles.heroCopy}>
                     <span className={styles.eyebrow}><FiBookOpen aria-hidden="true" /> A practical reference library</span>
                     <h1>Learn clearly.<br /><span>Build confidently.</span></h1>
-                    <p>Focused notes and examples for algorithms, databases, Android, JavaScript, and Angular development.</p>
+                    <p>Focused notes and examples for algorithms, databases, Android, Angular, ASP.NET Core, and JavaScript development.</p>
                     <div className={styles.heroActions}>
                         <Link className={styles.primaryAction} to="/notes">Explore the notes <FiArrowRight aria-hidden="true" /></Link>
                         <a className={styles.secondaryAction} href="#featured">See what is inside <FiArrowDown aria-hidden="true" /></a>

@@ -26,6 +26,12 @@
     "description": "Original Angular study notes covering standalone apps, components, templates, signals, routing, forms, HTTP, testing, and deployment."
   },
   {
+    "slug": "asp-net-notes",
+    "title": "ASP.NET Core Notes",
+    "category": ".NET & Backend",
+    "description": "ASP.NET Core and C# notes covering HTTP, APIs, EF Core, Identity, security, testing, and deployment."
+  },
+  {
     "slug": "javascript-notes",
     "title": "JavaScript Notes",
     "category": "Languages & Platforms",

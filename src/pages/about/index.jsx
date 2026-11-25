@@ -15,7 +15,7 @@ function AboutPage() {
             <section className={styles.hero}>
                 <span className={styles.eyebrow}>ABOUT THE LIBRARY</span>
                 <h1>Good notes make<br /><span>hard ideas easier.</span></h1>
-                <p>A home for practical developer notes across algorithms, databases, Android, JavaScript, and Angular development.</p>
+                <p>A home for practical developer notes across algorithms, databases, Android, Angular, ASP.NET Core, and JavaScript development.</p>
                 <div className={styles.stats}><strong>{topics.length}</strong><span>collections</span><i /><span>focused subjects</span></div>
             </section>
 
