@@ -10,7 +10,8 @@ function App() {
     const { pathname } = useLocation();
     const isStandaloneNotesPage = pathname.startsWith("/notes/devops-and-cloud-core-notes")
         || pathname.startsWith("/notes/data-structures-core-notes")
-        || pathname.startsWith("/notes/dbms-core-notes");
+        || pathname.startsWith("/notes/dbms-core-notes")
+        || pathname.startsWith("/notes/databases-deep-dive-core-notes");
 
     return (
         <div className={styles.app}>
