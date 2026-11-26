@@ -25,6 +25,7 @@ const DevOpsAndCloudCoreNotes = lazy(() => import("./pages/notes/devopsAndCloudC
 const DockerNotes = lazy(() => import("./pages/notes/dockerNotes"));
 const FastApiNotes = lazy(() => import("./pages/notes/fastApiNotes"));
 const FileZillaNotes = lazy(() => import("./pages/notes/fileZillaNotes"));
+const FirebaseNotes = lazy(() => import("./pages/notes/firebaseNotes"));
 const ExpressJsNotes = lazy(() => import("./pages/notes/expressJsNotes"));
 const ChakraUiNotes = lazy(() => import("./pages/notes/chakraUiNotes"));
 const AlgorithmsOverview = lazy(() => import("./pages/notes/algorithmsCoreNotes/overview"));
@@ -96,6 +97,8 @@ function AppRoutes() {
                 <Route path="/notes/fastapi-notes/:chapterSlug" element={<FastApiNotes />} />
                 <Route path="/notes/filezilla-notes" element={<FileZillaNotes />} />
                 <Route path="/notes/filezilla-notes/:chapterSlug" element={<FileZillaNotes />} />
+                <Route path="/notes/firebase-notes" element={<FirebaseNotes />} />
+                <Route path="/notes/firebase-notes/:chapterSlug" element={<FirebaseNotes />} />
                 <Route path="/notes/express-js-notes" element={<ExpressJsNotes />} />
                 <Route path="/notes/express-js-notes/:chapterSlug" element={<ExpressJsNotes />} />
                 <Route path="/notes/chakra-ui-notes" element={<ChakraUiNotes />} />

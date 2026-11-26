@@ -140,5 +140,12 @@
     "category": "Tools & Workflows",
     "description": "Practical FileZilla Client and Server notes covering FTP, FTPS, SFTP, transfer workflows, access control, network setup, security, and troubleshooting.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/fileZillaNotes"
+  },
+  {
+    "slug": "firebase-notes",
+    "title": "Firebase Study Notes",
+    "category": "Languages & Platforms",
+    "description": "Practical Firebase notes for JavaScript apps covering project setup, authentication, Firestore, Realtime Database, Storage, Functions, Hosting, security, and operations.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/firebaseNotes"
   }
 ]
