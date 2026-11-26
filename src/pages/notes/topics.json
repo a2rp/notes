@@ -87,5 +87,11 @@
     "title": "Computer Science Core Notes",
     "category": "Computer Science",
     "description": "A broad guide to operating systems, networks, databases, system design, software engineering, compilers, distributed systems, computation theory, cryptography, security, and cloud computing."
+  },
+  {
+    "slug": "computer-science-foundations",
+    "title": "Computer Science Foundations",
+    "category": "Computer Science",
+    "description": "Beginner-friendly foundations in operating systems, networking, databases, compilers, and web communication, explained with concrete examples."
   }
 ]
