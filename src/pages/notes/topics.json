@@ -110,6 +110,12 @@
     "description": "16 practical chapters on Motion for React covering animation basics, variants, gestures, layout, scroll, SVG, accessibility, performance, code samples, and Q&A."
   },
   {
+    "slug": "gsap-notes",
+    "title": "GSAP Notes",
+    "category": "Frontend development",
+    "description": "16 practical GSAP chapters on tweens, timelines, ScrollTrigger, responsive React motion, reduced-motion accessibility, code samples, and Q&A."
+  },
+  {
     "slug": "frontend-engineering-core-notes",
     "title": "Frontend Engineering Core Notes",
     "category": "Frontend development",
