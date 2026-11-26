@@ -126,5 +126,12 @@
     "category": "Backend development",
     "description": "Original Express.js study notes covering HTTP foundations, routing, middleware, APIs, security, testing, and production operations.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/expressJsNotes"
+  },
+  {
+    "slug": "fastapi-notes",
+    "title": "FastAPI Study Notes",
+    "category": "Backend development",
+    "description": "Original FastAPI study notes covering Python APIs, Pydantic validation, dependencies, databases, async work, security, tests, and deployment.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/fastApiNotes"
   }
 ]
