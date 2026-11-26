@@ -8,7 +8,8 @@ import { useLocation } from "react-router-dom";
 
 function App() {
     const { pathname } = useLocation();
-    const isStandaloneNotesPage = pathname.startsWith("/notes/devops-and-cloud-core-notes");
+    const isStandaloneNotesPage = pathname.startsWith("/notes/devops-and-cloud-core-notes")
+        || pathname.startsWith("/notes/data-structures-core-notes");
 
     return (
         <div className={styles.app}>

@@ -63,6 +63,13 @@
     "repository": "https://github.com/a2rp/c-cpp-notes"
   },
   {
+    "slug": "data-structures-core-notes",
+    "title": "Data Structures Core Notes",
+    "category": "Programming Foundations",
+    "description": "An interactive revision guide for complexity, linear and hash-based structures, trees, graphs, and algorithmic patterns.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/dataStructuresCoreNotes"
+  },
+  {
     "slug": "chakra-ui-notes",
     "title": "Chakra UI Study Notes",
     "category": "Frontend development",
