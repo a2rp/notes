@@ -1,0 +1,176 @@
+# 03. Dockerfile fundamentals
+
+[Back to notes index](../README.md)
+
+| Previous | Notes index | Next |
+| --- | --- | --- |
+| [Previous: Images, containers, and lifecycle](./02-images-containers-and-lifecycle.md) | [Notes index](../README.md) | [Next: Build context, layers, and cache](./04-build-context-layers-and-cache.md) |
+
+## What a Dockerfile describes
+
+A Dockerfile is a set of instructions for building an image. Each instruction contributes configuration or files to the image, or sets the command that runs when a container starts.
+
+The Dockerfile is read from top to bottom. Write instructions in uppercase by convention so they are easy to scan.
+
+## Build a small Node.js image
+
+Create a file named `server.js`:
+
+~~~js
+const http = require("node:http");
+
+const server = http.createServer((request, response) => {
+    response.writeHead(200, { "content-type": "text/plain" });
+    response.end("Hello from a container\n");
+});
+
+server.listen(3000, "0.0.0.0");
+~~~
+
+Create a file named `Dockerfile` beside it:
+
+~~~dockerfile
+FROM node:22-alpine
+
+WORKDIR /app
+COPY server.js ./
+
+USER node
+EXPOSE 3000
+CMD ["node", "server.js"]
+~~~
+
+Build the image from that directory:
+
+~~~sh
+docker build --tag node-notes-app:dev .
+~~~
+
+Run it and publish its port on the local machine:
+
+~~~sh
+docker run --rm --publish 127.0.0.1:3000:3000 node-notes-app:dev
+~~~
+
+Open `http://127.0.0.1:3000` or request it from another terminal:
+
+~~~sh
+curl http://127.0.0.1:3000
+~~~
+
+The server listens on `0.0.0.0` inside the container so traffic forwarded to the container port can reach it. The host port is bound to `127.0.0.1`, so this exercise is available from the same machine only.
+
+## Understand the main instructions
+
+| Instruction | Purpose |
+| --- | --- |
+| `FROM` | Selects the base image for the next build stage. |
+| `WORKDIR` | Sets the working directory for later instructions and the startup command. |
+| `COPY` | Copies files from the build context into the image. |
+| `RUN` | Runs a command while building the image. |
+| `ENV` | Sets default environment values available to later build steps and the running container. |
+| `USER` | Sets the user used by later build instructions and the container process. |
+| `EXPOSE` | Documents the container port the application expects to use. |
+| `CMD` | Sets the default command or arguments used when the container starts. |
+| `ENTRYPOINT` | Defines the executable that should run as the container's main process. |
+
+## `RUN` happens during a build
+
+A `RUN` instruction executes while Docker builds the image. Use it for actions such as installing an operating system package or preparing application files.
+
+~~~dockerfile
+FROM node:22-alpine
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci
+COPY . .
+~~~
+
+This order gives the dependency installation a chance to reuse its build cache when application source changes but the package files do not. Build context and cache details are covered in chapter 4.
+
+## `CMD` runs when the container starts
+
+A `CMD` instruction sets a default startup command. In the Node.js example, Docker starts `node server.js` when it creates the container.
+
+~~~dockerfile
+CMD ["node", "server.js"]
+~~~
+
+Use the exec form, written as a JSON array, for the normal application process. It starts the executable directly and allows it to receive container stop signals as expected.
+
+A Dockerfile can have more than one `CMD` line, but only the last one takes effect. Usually one clear startup command is easier to understand.
+
+## `ENTRYPOINT` and `CMD` together
+
+Use `ENTRYPOINT` when the image represents one executable. Use `CMD` to provide default arguments that a caller can replace.
+
+~~~dockerfile
+ENTRYPOINT ["node"]
+CMD ["server.js"]
+~~~
+
+With this combination, `docker run my-node-image other.js` starts Node with `other.js`. Use the combination only when replacing the arguments is useful for the image's intended use.
+
+## `EXPOSE` does not publish a port
+
+`EXPOSE` documents the port used by an application inside the container. It does not open that port on the host by itself.
+
+~~~dockerfile
+EXPOSE 3000
+~~~
+
+The `--publish` option creates the host-to-container mapping at run time:
+
+~~~sh
+docker run --rm --publish 127.0.0.1:3000:3000 node-notes-app:dev
+~~~
+
+This separation lets the same image run with different port mappings in different environments.
+
+## Set a working directory and a non-root user
+
+`WORKDIR` avoids repeating absolute paths in later instructions. `USER` runs the application process without root privileges when the base image provides a suitable account.
+
+~~~dockerfile
+WORKDIR /app
+COPY server.js ./
+USER node
+CMD ["node", "server.js"]
+~~~
+
+Confirm that the selected user can read the files and write only to the paths the application needs. A non-root user is one layer of protection, not a replacement for restricting capabilities, mounts, network access, and permissions.
+
+## Build arguments and environment values
+
+`ARG` supplies a build-time value, while `ENV` sets a default available in the built image and running container.
+
+~~~dockerfile
+ARG APP_VERSION=dev
+ENV NODE_ENV=production
+~~~
+
+Do not pass passwords, tokens, or private keys through `ARG` or `ENV`. Values can remain visible in image configuration or build records. Use the builder's secret support for values needed during a build, and runtime secret management for values needed by the application.
+
+## Keep one clear responsibility per instruction
+
+Use `COPY` for ordinary file copies. Prefer small, readable instruction groups that make it easy to see what enters the image and how it starts.
+
+Keep build-only tools out of the runtime image when possible. Multi-stage builds are covered in chapter 11.
+
+## Chapter summary
+
+- A Dockerfile describes how to create an image.
+- `FROM` selects a base image and `WORKDIR` sets a consistent path.
+- `COPY` adds files, while `RUN` executes during image creation.
+- `CMD` sets the default startup command; `ENTRYPOINT` can define a fixed executable.
+- `EXPOSE` documents a container port; `--publish` maps it to a host port.
+- Run applications as a non-root user when the image and file permissions support it.
+- Do not place secrets in image instructions or build arguments.
+
+## Further reading
+
+- [Dockerfile overview](https://docs.docker.com/build/concepts/dockerfile/)
+- [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
+- [Docker build command](https://docs.docker.com/reference/cli/docker/buildx/build/)
+- [Docker run command](https://docs.docker.com/reference/cli/docker/container/run/)
+- [Build secrets](https://docs.docker.com/build/building/secrets/)

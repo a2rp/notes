@@ -112,5 +112,12 @@
     "category": "DevOps & Cloud",
     "description": "Practical study notes for Git, containers, CI/CD, AWS, cloud infrastructure, and production workflows.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/devopsAndCloudCoreNotes"
+  },
+  {
+    "slug": "docker-notes",
+    "title": "Docker Study Notes",
+    "category": "DevOps & Cloud",
+    "description": "18 practical chapters on Docker containers, images, Dockerfiles, Compose, networking, security, troubleshooting, and production workflows.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/dockerNotes"
   }
 ]

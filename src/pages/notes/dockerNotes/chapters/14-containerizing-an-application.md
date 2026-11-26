@@ -1,0 +1,173 @@
+# 14. Containerizing an application
+
+[Back to notes index](../README.md)
+
+| Previous | Notes index | Next |
+| --- | --- | --- |
+| [Previous: Logs, debugging, and troubleshooting](./13-logs-debugging-and-troubleshooting.md) | [Notes index](../README.md) | [Next: Local development and test workflows](./15-local-development-and-test-workflows.md) |
+
+## Goal
+
+Build a small HTTP service into an image, run it in a container, send it a request, read its logs, and remove the container.
+
+Create this project structure:
+
+~~~text
+notes-api/
+|-- .dockerignore
+|-- Dockerfile
+`-- server.mjs
+~~~
+
+## Write the application
+
+Create `server.mjs`:
+
+~~~js
+import { createServer } from "node:http";
+
+const port = Number(process.env.PORT ?? 3000);
+
+const server = createServer((request, response) => {
+  if (request.url === "/health") {
+    response.writeHead(200, { "content-type": "application/json" });
+    response.end(JSON.stringify({ status: "ok" }));
+    return;
+  }
+
+  if (request.url === "/") {
+    response.writeHead(200, { "content-type": "application/json" });
+    response.end(JSON.stringify({ message: "Notes API is running" }));
+    return;
+  }
+
+  response.writeHead(404, { "content-type": "application/json" });
+  response.end(JSON.stringify({ error: "Not found" }));
+});
+
+server.listen(port, "0.0.0.0", () => {
+  console.log(`Notes API listening on port ${port}`);
+});
+~~~
+
+The service has no external package dependencies. It reads an optional `PORT` environment variable and listens on all container network interfaces. The `/health` endpoint provides a basic response that can be checked manually.
+
+## Add the Dockerfile
+
+Create `Dockerfile`:
+
+~~~dockerfile
+FROM node:22-alpine
+
+ENV NODE_ENV=production
+WORKDIR /app
+
+COPY --chown=node:node server.mjs ./server.mjs
+
+USER node
+EXPOSE 3000
+CMD ["node", "server.mjs"]
+~~~
+
+The image uses a maintained Node base image, copies only the application file, and runs the process as the image's unprivileged `node` user. `EXPOSE 3000` documents the port used by the process. It does not publish a host port by itself.
+
+## Exclude local files from the build context
+
+Create `.dockerignore`:
+
+~~~text
+.git
+.env
+node_modules
+coverage
+~~~
+
+The build context is the set of files available to Docker during the build. The ignore file keeps local Git data, environment secrets, installed packages, and test output out of that context.
+
+## Build the image
+
+Run these commands from the `notes-api` directory:
+
+~~~sh
+docker build --tag notes-api:1.0.0 .
+docker image ls notes-api
+~~~
+
+The final `.` selects the current directory as the build context. Docker reads the `Dockerfile` from that directory and makes `server.mjs` available to the `COPY` instruction.
+
+If the build reports that `server.mjs` cannot be found, check the current directory, filename spelling, and `.dockerignore` rules.
+
+## Start the container and publish a port
+
+~~~sh
+docker run --detach \
+  --name notes-api \
+  --publish 127.0.0.1:8080:3000 \
+  notes-api:1.0.0
+~~~
+
+The mapping has this order:
+
+~~~text
+host-address:host-port:container-port
+~~~
+
+Port `8080` on the local machine forwards to port `3000` in the container. The host address `127.0.0.1` keeps this example available only from the local machine. If the host port is already in use, change `8080` to another free port.
+
+Check the container and mapping:
+
+~~~sh
+docker ps
+docker port notes-api
+~~~
+
+## Send requests and read output
+
+From PowerShell, make a request to the service:
+
+~~~powershell
+Invoke-RestMethod -Uri http://localhost:8080
+Invoke-RestMethod -Uri http://localhost:8080/health
+~~~
+
+From a shell with `curl` installed:
+
+~~~sh
+curl http://localhost:8080/
+curl http://localhost:8080/health
+~~~
+
+Read the application output:
+
+~~~sh
+docker logs notes-api
+~~~
+
+The `EXPOSE` instruction and `--publish` flag serve different purposes. `EXPOSE` records the container port in image metadata. `--publish` creates the host-to-container port mapping when the container starts.
+
+## Stop and remove the container
+
+~~~sh
+docker stop notes-api
+docker rm notes-api
+~~~
+
+The image remains available after removing the container. Remove it only when you no longer need it:
+
+~~~sh
+docker image rm notes-api:1.0.0
+~~~
+
+## Troubleshoot this example
+
+- **The container exits immediately:** check `docker ps --all` and `docker logs notes-api`. The main process must stay running to keep the container alive.
+- **The build cannot find `server.mjs`:** run the build command from the project directory and check `.dockerignore`.
+- **The request cannot connect:** confirm the container is running, port `8080` is free, and the process listens on `0.0.0.0` inside the container.
+- **The service responds with 404:** use `/` or `/health`, including the leading slash.
+- **The host port is exposed publicly by mistake:** bind to `127.0.0.1` for local-only access. Publishing without a host address can listen on all host interfaces.
+
+## Sources
+
+- [Build context](https://docs.docker.com/build/concepts/context/)
+- [docker container run](https://docs.docker.com/reference/cli/docker/container/run/)
+- [Publishing and exposing ports](https://docs.docker.com/get-started/docker-concepts/running-containers/publishing-ports/)
