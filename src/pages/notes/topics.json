@@ -57,6 +57,13 @@
     "repository": "https://github.com/a2rp/c-cpp-notes"
   },
   {
+    "slug": "chakra-ui-notes",
+    "title": "Chakra UI Study Notes",
+    "category": "Frontend development",
+    "description": "Original study notes on Chakra UI v3 with React and JavaScript, covering setup, component composition, styling, responsive layout, themes, forms, overlays, accessibility, testing, code samples, and Q&A.",
+    "repository": "https://github.com/a2rp/chakra-ui-notes"
+  },
+  {
     "slug": "javascript-notes",
     "title": "JavaScript Notes",
     "category": "Languages & Platforms",
