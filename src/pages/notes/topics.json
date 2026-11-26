@@ -64,6 +64,13 @@
     "repository": "https://github.com/a2rp/chakra-ui-notes"
   },
   {
+    "slug": "codeigniter-notes",
+    "title": "CodeIgniter 4 Study Notes",
+    "category": "Backend development",
+    "description": "Original CodeIgniter 4 and PHP notes covering setup, routing, controllers, views, databases, models, validation, security, REST APIs, testing, deployment, code samples, and Q&A.",
+    "repository": "https://github.com/a2rp/codeigniter-notes"
+  },
+  {
     "slug": "javascript-notes",
     "title": "JavaScript Notes",
     "category": "Languages & Platforms",
