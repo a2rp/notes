@@ -70,6 +70,13 @@
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/dataStructuresCoreNotes"
   },
   {
+    "slug": "dbms-core-notes",
+    "title": "DBMS Core Notes",
+    "category": "Databases",
+    "description": "An interactive study guide for relational models, SQL, normalization, transactions, indexing, optimization, NoSQL, and recovery.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/dbmsCoreNotes"
+  },
+  {
     "slug": "chakra-ui-notes",
     "title": "Chakra UI Study Notes",
     "category": "Frontend development",

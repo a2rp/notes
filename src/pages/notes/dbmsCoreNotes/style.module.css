@@ -1,0 +1,110 @@
+.page {
+    --color-bg: #0f0f0f;
+    --color-surface: #181818;
+    --color-surface-2: #1f1f1f;
+    --color-primary: #a3a3a3;
+    --color-primary-hover: #bbb;
+    --color-accent: #b1b1b1;
+    --color-text-primary: #f4f4f4;
+    --color-text-secondary: #d4d4d4;
+    --color-text-muted: #a2a2a2;
+    --color-border: #282828;
+    --color-border-light: #393939;
+    --color-link: #a3a3a3;
+    --color-link-hover: #bbb;
+    --color-success: #acacac;
+    --color-error: #848484;
+    --color-warning: #b1b1b1;
+    --color-code-bg: #161616;
+    --color-code-border: #2f2f2f;
+    --color-shadow: rgb(0 0 0 / 75%);
+
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    color: var(--color-text-primary);
+    background: var(--color-bg);
+    color-scheme: dark;
+    font-family: Verdana, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.55;
+}
+
+.page *,
+.page *::before,
+.page *::after {
+    box-sizing: border-box;
+}
+
+.page img,
+.page svg,
+.page video,
+.page canvas {
+    display: block;
+    max-width: 100%;
+}
+
+.page h1,
+.page h2,
+.page h3,
+.page h4,
+.page h5,
+.page h6 {
+    color: var(--color-text-primary);
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.page p {
+    color: var(--color-text-secondary);
+}
+
+.page a {
+    color: var(--color-link);
+}
+
+.page ul,
+.page ol {
+    padding-left: 0;
+    list-style: none;
+}
+
+.page button,
+.page input,
+.page textarea,
+.page select {
+    color: inherit;
+    font: inherit;
+}
+
+.page button {
+    border: 0;
+    cursor: pointer;
+}
+
+.page :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
+}
+
+:global(html[data-theme="light"]) .page {
+    --color-bg: #fff;
+    --color-surface: #fafafa;
+    --color-surface-2: #f2f2f2;
+    --color-primary: #838383;
+    --color-primary-hover: #696969;
+    --color-accent: #909090;
+    --color-text-primary: #171717;
+    --color-text-secondary: #404040;
+    --color-text-muted: #737373;
+    --color-border: #e7e7e7;
+    --color-border-light: #d4d4d4;
+    --color-link: #838383;
+    --color-link-hover: #696969;
+    --color-success: #8e8e8e;
+    --color-error: #727272;
+    --color-warning: #909090;
+    --color-code-bg: #f4f4f4;
+    --color-code-border: #e7e7e7;
+    --color-shadow: rgb(23 23 23 / 8%);
+    color-scheme: light;
+}

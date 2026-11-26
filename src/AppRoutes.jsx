@@ -17,6 +17,7 @@ const ArchitectureAndCleanCodeCoreNotes = lazy(() => import("./pages/notes/archi
 const CCoreNotes = lazy(() => import("./pages/notes/cCoreNotes"));
 const CCppNotes = lazy(() => import("./pages/notes/cCppNotes"));
 const DataStructuresCoreNotes = lazy(() => import("./pages/notes/dataStructuresCoreNotes"));
+const DbmsCoreNotes = lazy(() => import("./pages/notes/dbmsCoreNotes"));
 const CodeIgniterNotes = lazy(() => import("./pages/notes/codeIgniterNotes"));
 const ComputerNetworksCoreNotes = lazy(() => import("./pages/notes/computerNetworksCoreNotes"));
 const ComputerScienceCoreNotes = lazy(() => import("./pages/notes/computerScienceCoreNotes"));
@@ -83,6 +84,7 @@ function AppRoutes() {
                 <Route path="/notes/c-cpp-notes" element={<CCppNotes />} />
                 <Route path="/notes/c-cpp-notes/:chapterSlug" element={<CCppNotes />} />
                 <Route path="/notes/data-structures-core-notes" element={<DataStructuresCoreNotes />} />
+                <Route path="/notes/dbms-core-notes/*" element={<DbmsCoreNotes />} />
                 <Route path="/notes/codeigniter-notes" element={<CodeIgniterNotes />} />
                 <Route path="/notes/codeigniter-notes/:chapterSlug" element={<CodeIgniterNotes />} />
                 <Route path="/notes/computer-networks-core-notes" element={<ComputerNetworksCoreNotes />} />
