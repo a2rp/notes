@@ -75,11 +75,17 @@
     "title": "JavaScript Notes",
     "category": "Languages & Platforms",
     "description": "A practical JavaScript guide covering language fundamentals, modern syntax, async code, modules, browser APIs, testing, and security."
-  }
-,
+  },
   {
     "slug": "computer-networks-core-notes",
     "title": "Computer Networks Core Notes",
     "category": "Networking",
     "description": "A practical guide to network models, Ethernet, IP addressing, routing, TCP and UDP, application protocols, wireless, security, troubleshooting, and interview review."
-  }]
+  },
+  {
+    "slug": "computer-science-core-notes",
+    "title": "Computer Science Core Notes",
+    "category": "Computer Science",
+    "description": "A broad guide to operating systems, networks, databases, system design, software engineering, compilers, distributed systems, computation theory, cryptography, security, and cloud computing."
+  }
+]
