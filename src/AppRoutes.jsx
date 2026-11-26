@@ -9,6 +9,7 @@ const AlgorithmsCoreNotes = lazy(() => import("./pages/notes/algorithmsCoreNotes
 const AndroidNotes = lazy(() => import("./pages/notes/androidNotes"));
 const AngularNotes = lazy(() => import("./pages/notes/angularNotes"));
 const JavaScriptNotes = lazy(() => import("./pages/notes/javaScriptNotes"));
+const JavaCoreNotes = lazy(() => import("./pages/notes/javaCoreNotes"));
 const HtmlNotes = lazy(() => import("./pages/notes/htmlNotes"));
 const FramerMotionNotes = lazy(() => import("./pages/notes/framerMotionNotes"));
 const GsapNotes = lazy(() => import("./pages/notes/gsapNotes"));
@@ -77,6 +78,7 @@ function AppRoutes() {
                 <Route path="/notes/angular-notes/:chapterSlug" element={<AngularNotes />} />
                 <Route path="/notes/javascript-notes" element={<JavaScriptNotes />} />
                 <Route path="/notes/javascript-notes/:chapterSlug" element={<JavaScriptNotes />} />
+                <Route path="/notes/java-core-notes" element={<JavaCoreNotes />} />
                 <Route path="/notes/html-notes" element={<HtmlNotes />} />
                 <Route path="/notes/html-notes/*" element={<HtmlNotes />} />
                 <Route path="/notes/framer-motion-notes" element={<FramerMotionNotes />} />

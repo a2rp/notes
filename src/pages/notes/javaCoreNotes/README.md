@@ -1,0 +1,51 @@
+# Java Core Notes
+
+**Collection source:** [Notes repository](https://github.com/a2rp/notes/tree/main/src/pages/notes/javaCoreNotes)
+
+![Java Core Notes screenshot](./screenshot.jpg)
+
+
+Java Core Notes is a focused single-page revision guide for Java fundamentals, JVM concepts, object-oriented programming, collections, modern Java features, file handling, and concurrency.
+
+## Features
+
+- Expandable topic sections for fast revision
+- Practical explanations and Java examples
+- Dark and light themes with local preference storage
+- Internal scroll layout with fixed header and go-to-top control
+- Responsive design for desktop and small screens
+
+## Tech stack
+
+React, Vite, styled-components, and React Icons.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Build and deploy with `npm run build` and `npm run deploy`.
+
+## Screenshot
+
+![Java Core Notes preview](screenshot.png)
+
+## Links
+
+- Live: [Java Core Notes](https://a2rp.github.io/notes/notes/java-core-notes)
+- Repository: [Java Core Notes in notes](https://github.com/a2rp/notes/tree/main/src/pages/notes/javaCoreNotes)
+- Portfolio: [https://www.ashishranjan.net/](https://www.ashishranjan.net/)
+- GitHub: [https://github.com/a2rp](https://github.com/a2rp)
+- CodePen: [https://codepen.io/ash1198](https://codepen.io/ash1198)
+- LinkedIn: [https://www.linkedin.com/in/aashishranjan](https://www.linkedin.com/in/aashishranjan)
+- Facebook: [https://www.facebook.com/theash.ashish/](https://www.facebook.com/theash.ashish/)
+- YouTube: [https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1](https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1)
+- Email: [ash.ranjan09@gmail.com](mailto:ash.ranjan09@gmail.com)
+
+## Support
+
+- Support: [https://a2rp-donation-page.netlify.app/](https://a2rp-donation-page.netlify.app/)
+- Buy Me a Coffee: [https://buymeacoffee.com/a2rp](https://buymeacoffee.com/a2rp)
+- Patreon: [https://www.patreon.com/a2rp](https://www.patreon.com/a2rp)

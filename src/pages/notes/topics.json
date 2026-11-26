@@ -98,6 +98,13 @@
     "repository": "https://github.com/a2rp/codeigniter-notes"
   },
   {
+    "slug": "java-core-notes",
+    "title": "Java Core Notes",
+    "category": "Programming Languages",
+    "description": "Original Java study notes on language foundations, OOP, the JVM, collections, modern Java, files, and concurrency.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/javaCoreNotes"
+  },
+  {
     "slug": "javascript-notes",
     "title": "JavaScript Notes",
     "category": "Languages & Platforms",
