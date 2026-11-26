@@ -99,5 +99,11 @@
     "title": "CSS Practical Notes",
     "category": "Frontend",
     "description": "A complete practical CSS curriculum with 69 lessons, matching Q&A guides and examples, plus concise summary and syntax reference guides."
+  },
+  {
+    "slug": "datatables-notes",
+    "title": "DataTables Study Notes",
+    "category": "Frontend development",
+    "description": "Original study notes covering DataTables setup, data sources, columns, search, sorting, paging, APIs, Ajax, server-side processing, accessibility, performance, code samples, and Q&A."
   }
 ]

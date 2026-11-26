@@ -20,6 +20,7 @@ const ComputerNetworksCoreNotes = lazy(() => import("./pages/notes/computerNetwo
 const ComputerScienceCoreNotes = lazy(() => import("./pages/notes/computerScienceCoreNotes"));
 const ComputerScienceFoundations = lazy(() => import("./pages/notes/computerScienceFoundations"));
 const CssPracticalNotes = lazy(() => import("./pages/notes/cssPracticalNotes"));
+const DataTablesNotes = lazy(() => import("./pages/notes/dataTablesNotes"));
 const ChakraUiNotes = lazy(() => import("./pages/notes/chakraUiNotes"));
 const AlgorithmsOverview = lazy(() => import("./pages/notes/algorithmsCoreNotes/overview"));
 const AlgorithmsFoundation = lazy(() => import("./pages/notes/algorithmsCoreNotes/foundationLayer"));
@@ -80,6 +81,8 @@ function AppRoutes() {
                 <Route path="/notes/computer-science-foundations/:chapterSlug" element={<ComputerScienceFoundations />} />
                 <Route path="/notes/css-practical-notes" element={<CssPracticalNotes />} />
                 <Route path="/notes/css-practical-notes/:chapterSlug" element={<CssPracticalNotes />} />
+                <Route path="/notes/datatables-notes" element={<DataTablesNotes />} />
+                <Route path="/notes/datatables-notes/:chapterSlug" element={<DataTablesNotes />} />
                 <Route path="/notes/chakra-ui-notes" element={<ChakraUiNotes />} />
                 <Route path="/notes/chakra-ui-notes/:chapterSlug" element={<ChakraUiNotes />} />
                 <Route path="/notes/architecture-and-clean-code-core-notes/*" element={<ArchitectureAndCleanCodeCoreNotes />} />
