@@ -1,0 +1,91 @@
+import React, { useEffect, useState } from "react";
+import { FiCloud, FiLayers, FiMoon, FiSun } from "react-icons/fi";
+import { Styled } from "./styled";
+import logo from "../../assets/logo.png";
+
+const THEME_LS_KEY = "devops-and-cloud-core-notes-theme";
+const Header = () => {
+    const [theme, setTheme] = useState(() => {
+        try {
+            return localStorage.getItem(THEME_LS_KEY) === "light"
+                ? "light"
+                : "dark";
+        } catch {
+            return "dark";
+        }
+    });
+
+    useEffect(() => {
+        const appRoot = document.querySelector(".devopsNotesApp");
+        if (theme === "light") appRoot?.setAttribute("data-theme", "light");
+        else appRoot?.removeAttribute("data-theme");
+
+        try {
+            localStorage.setItem(THEME_LS_KEY, theme);
+        } catch {
+            // Theme toggling still works for this session without storage.
+        }
+    }, [theme]);
+
+    const nextTheme = theme === "light" ? "dark" : "light";
+
+    return (
+        <Styled.Wrapper>
+            <Styled.Main>
+                <div className="leftSide">
+                    <div className="logoNameWrapper">
+                        <div className="logoWrapper">
+                            <img
+                                src={logo}
+                                alt="DevOps and Cloud Core Notes logo"
+                            />
+                        </div>
+
+                        <div className="nameWrapper">
+                            <div className="title">
+                                devops-and-cloud-core-notes
+                            </div>
+                            <div className="subTitle">
+                                Git, containers, CI/CD, cloud infrastructure
+                            </div>
+                        </div>
+
+                        <div className="pillRow">
+                            <div className="stat">
+                                <span className="sIcon">
+                                    <FiCloud aria-hidden="true" />
+                                </span>
+                                <span>Cloud</span>
+                            </div>
+                            <div className="stat">
+                                <span className="sIcon">
+                                    <FiLayers aria-hidden="true" />
+                                </span>
+                                <span>Core Notes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="rightSide">
+                    <button
+                        type="button"
+                        className="themeToggleBtn"
+                        onClick={() => setTheme(nextTheme)}
+                        aria-label={`Switch to ${nextTheme} theme`}
+                        title={`Switch to ${nextTheme}`}
+                    >
+                        <span className="icon" aria-hidden="true">
+                            {theme === "light" ? <FiMoon /> : <FiSun />}
+                        </span>
+                        <span className="label">
+                            {theme === "light" ? "Light" : "Dark"}
+                        </span>
+                    </button>
+                </div>
+            </Styled.Main>
+        </Styled.Wrapper>
+    );
+};
+
+export default Header;

@@ -23,4 +23,12 @@
         padding-top: var(--header-height);
     }
 
+    .standaloneRoutes {
+        width: 100%;
+        min-height: 100vh;
+        margin-inline: auto;
+        flex: 1;
+        padding-top: 0;
+    }
+
 }

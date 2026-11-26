@@ -1,0 +1,83 @@
+/* theme.css */
+/* DevOps and Cloud Core Notes Theme */
+
+.devopsNotesApp {
+    color: var(--color-text-primary);
+    background-color: var(--color-bg);
+    font-family: Verdana, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background-image:
+        radial-gradient(980px 420px at 10% 0%, color-mix(in srgb, var(--color-primary) 14%, transparent), transparent 62%),
+        radial-gradient(860px 380px at 92% 12%, color-mix(in srgb, var(--color-accent) 12%, transparent), transparent 66%),
+        linear-gradient(180deg, color-mix(in srgb, #000 44%, transparent), transparent 26%, transparent 72%, color-mix(in srgb, #000 30%, transparent)),
+        repeating-linear-gradient(90deg, color-mix(in srgb, var(--color-border) 16%, transparent) 0 1px, transparent 1px 30px),
+        repeating-linear-gradient(0deg, color-mix(in srgb, var(--color-border) 12%, transparent) 0 1px, transparent 1px 30px);
+    background-attachment: fixed;
+    /* Base - infrastructure dark */
+    --color-bg: #070707;
+    --color-surface: #121212;
+    --color-surface-2: #1a1a1a;
+
+    /* Primary - DevOps green */
+    --color-primary: #acacac;
+    --color-primary-hover: #8e8e8e;
+
+    /* Accent - cloud blue */
+    --color-accent: #b1b1b1;
+
+    /* Text */
+    --color-text-primary: #f4f4f4;
+    --color-text-secondary: #d5d5d5;
+    --color-text-muted: #a2a2a2;
+
+    /* Borders */
+    --color-border: #2a2a2a;
+    --color-border-light: #3c3c3c;
+
+    /* Links */
+    --color-link: #acacac;
+    --color-link-hover: #c4c4c4;
+
+    /* States */
+    --color-success: #acacac;
+    --color-error: #848484;
+    --color-warning: #b1b1b1;
+
+    /* Code blocks - terminal style */
+    --color-code-bg: #070707;
+    --color-code-border: #292929;
+
+    /* Shadow */
+    --color-shadow: rgba(0, 0, 0, 0.8);
+}
+
+/* Light Mode */
+
+.devopsNotesApp[data-theme="light"] {
+    --color-bg: #ffffff;
+    --color-surface: #f9f9f9;
+    --color-surface-2: #f2f2f2;
+
+    --color-primary: #8e8e8e;
+    --color-primary-hover: #6f6f6f;
+
+    --color-accent: #7d7d7d;
+
+    --color-text-primary: #171717;
+    --color-text-secondary: #404040;
+    --color-text-muted: #737373;
+
+    --color-border: #e3e3e3;
+    --color-border-light: #d4d4d4;
+
+    --color-link: #8e8e8e;
+    --color-link-hover: #6f6f6f;
+
+    --color-success: #838383;
+    --color-error: #727272;
+    --color-warning: #909090;
+
+    --color-code-bg: #f4f4f4;
+    --color-code-border: #e7e7e7;
+
+    --color-shadow: rgba(23, 23, 23, 0.08);
+}

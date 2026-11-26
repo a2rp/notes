@@ -4,17 +4,21 @@ import GoToTop from "./components/goToTop";
 import Header from "./components/header";
 import ScrollToTop from "./components/scrollToTop";
 import styles from "./App.module.css";
+import { useLocation } from "react-router-dom";
 
 function App() {
+    const { pathname } = useLocation();
+    const isStandaloneNotesPage = pathname.startsWith("/notes/devops-and-cloud-core-notes");
+
     return (
         <div className={styles.app}>
             <ScrollToTop />
-            <Header />
-            <main className={styles.routes}>
+            {!isStandaloneNotesPage && <Header />}
+            <main className={isStandaloneNotesPage ? styles.standaloneRoutes : styles.routes}>
                 <AppRoutes />
             </main>
-            <Footer />
-            <GoToTop />
+            {!isStandaloneNotesPage && <Footer />}
+            {!isStandaloneNotesPage && <GoToTop />}
         </div>
     );
 }

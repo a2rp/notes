@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 
 import Spinner from "./components/spinner";
 
@@ -21,6 +21,7 @@ const ComputerScienceCoreNotes = lazy(() => import("./pages/notes/computerScienc
 const ComputerScienceFoundations = lazy(() => import("./pages/notes/computerScienceFoundations"));
 const CssPracticalNotes = lazy(() => import("./pages/notes/cssPracticalNotes"));
 const DataTablesNotes = lazy(() => import("./pages/notes/dataTablesNotes"));
+const DevOpsAndCloudCoreNotes = lazy(() => import("./pages/notes/devopsAndCloudCoreNotes"));
 const ChakraUiNotes = lazy(() => import("./pages/notes/chakraUiNotes"));
 const AlgorithmsOverview = lazy(() => import("./pages/notes/algorithmsCoreNotes/overview"));
 const AlgorithmsFoundation = lazy(() => import("./pages/notes/algorithmsCoreNotes/foundationLayer"));
@@ -83,6 +84,8 @@ function AppRoutes() {
                 <Route path="/notes/css-practical-notes/:chapterSlug" element={<CssPracticalNotes />} />
                 <Route path="/notes/datatables-notes" element={<DataTablesNotes />} />
                 <Route path="/notes/datatables-notes/:chapterSlug" element={<DataTablesNotes />} />
+                <Route path="/notes/devops-and-cloud-core-notes/*" element={<DevOpsAndCloudCoreNotes />} />
+                <Route path="/notes/devops-and-cloud-core-notes" element={<Navigate to="/notes/devops-and-cloud-core-notes/overview" replace />} />
                 <Route path="/notes/chakra-ui-notes" element={<ChakraUiNotes />} />
                 <Route path="/notes/chakra-ui-notes/:chapterSlug" element={<ChakraUiNotes />} />
                 <Route path="/notes/architecture-and-clean-code-core-notes/*" element={<ArchitectureAndCleanCodeCoreNotes />} />
