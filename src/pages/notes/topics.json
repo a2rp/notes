@@ -147,5 +147,12 @@
     "category": "Languages & Platforms",
     "description": "Practical Firebase notes for JavaScript apps covering project setup, authentication, Firestore, Realtime Database, Storage, Functions, Hosting, security, and operations.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/firebaseNotes"
+  },
+  {
+    "slug": "firestore-notes",
+    "title": "Cloud Firestore Study Notes",
+    "category": "Databases",
+    "description": "A focused Firestore guide covering documents, queries, data modeling, Security Rules, offline behavior, testing, and production operations.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/firestoreNotes"
   }
 ]

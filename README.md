@@ -1,6 +1,6 @@
 # Developer Notes
 
-A route-based React library for practical developer references. It brings Algorithms Core Notes, Architecture & Clean Code Core Notes, Apache Derby Notes, Android Notes, Angular Notes, ASP.NET Core Notes, Backend Engineering Core Notes, C Core Notes, C and C++ Study Notes, Chakra UI Study Notes, CodeIgniter 4 Study Notes, DataTables Study Notes, DevOps and Cloud Core Notes, Docker Study Notes, Express.js Study Notes, FastAPI Study Notes, FileZilla Study Notes, Firebase Study Notes, and JavaScript Notes together, with each collection and its chapters kept locally in the app.
+A route-based React library for practical developer references. It brings Algorithms Core Notes, Architecture & Clean Code Core Notes, Apache Derby Notes, Android Notes, Angular Notes, ASP.NET Core Notes, Backend Engineering Core Notes, C Core Notes, C and C++ Study Notes, Chakra UI Study Notes, CodeIgniter 4 Study Notes, DataTables Study Notes, DevOps and Cloud Core Notes, Docker Study Notes, Express.js Study Notes, FastAPI Study Notes, FileZilla Study Notes, Firebase Study Notes, Firestore Study Notes, and JavaScript Notes together, with each collection and its chapters kept locally in the app.
 
 ## Features
 
@@ -22,6 +22,7 @@ A route-based React library for practical developer references. It brings Algori
 - FastAPI Study Notes with the complete original Markdown chapters
 - FileZilla Study Notes with all 18 original Markdown chapters
 - Firebase Study Notes with all 18 original Markdown chapters
+- Firestore Study Notes with all 18 original Markdown chapters
 - Local chapter content, linked navigation, and original repository links
 - Responsive layouts, route loading spinner, and smooth scroll-to-top
 
