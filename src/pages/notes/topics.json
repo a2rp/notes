@@ -119,5 +119,12 @@
     "category": "DevOps & Cloud",
     "description": "18 practical chapters on Docker containers, images, Dockerfiles, Compose, networking, security, troubleshooting, and production workflows.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/dockerNotes"
+  },
+  {
+    "slug": "express-js-notes",
+    "title": "Express.js Study Notes",
+    "category": "Backend development",
+    "description": "Original Express.js study notes covering HTTP foundations, routing, middleware, APIs, security, testing, and production operations.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/expressJsNotes"
   }
 ]
