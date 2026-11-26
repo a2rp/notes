@@ -50,6 +50,13 @@
     "description": "A focused C programming revision guide covering syntax, control flow, pointers, memory, files, data structures, and best practices."
   },
   {
+    "slug": "c-cpp-notes",
+    "title": "C and C++ Study Notes",
+    "category": "Programming Languages",
+    "description": "Original C17 and C++20 study notes on compilation, language fundamentals, pointers, memory, RAII, templates, containers, concurrency, testing, code samples, and review questions.",
+    "repository": "https://github.com/a2rp/c-cpp-notes"
+  },
+  {
     "slug": "javascript-notes",
     "title": "JavaScript Notes",
     "category": "Languages & Platforms",

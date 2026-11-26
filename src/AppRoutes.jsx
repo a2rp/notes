@@ -14,6 +14,7 @@ const AspNetNotes = lazy(() => import("./pages/notes/aspNetNotes"));
 const BackendEngineeringCoreNotes = lazy(() => import("./pages/notes/backendEngineeringCoreNotes"));
 const ArchitectureAndCleanCodeCoreNotes = lazy(() => import("./pages/notes/architectureAndCleanCodeCoreNotes"));
 const CCoreNotes = lazy(() => import("./pages/notes/cCoreNotes"));
+const CCppNotes = lazy(() => import("./pages/notes/cCppNotes"));
 const AlgorithmsOverview = lazy(() => import("./pages/notes/algorithmsCoreNotes/overview"));
 const AlgorithmsFoundation = lazy(() => import("./pages/notes/algorithmsCoreNotes/foundationLayer"));
 const AlgorithmsSearching = lazy(() => import("./pages/notes/algorithmsCoreNotes/searching"));
@@ -61,6 +62,8 @@ function AppRoutes() {
                 <Route path="/notes/backend-engineering-core-notes" element={<BackendEngineeringCoreNotes />} />
                 <Route path="/notes/backend-engineering-core-notes/*" element={<BackendEngineeringCoreNotes />} />
                 <Route path="/notes/c-core-notes" element={<CCoreNotes />} />
+                <Route path="/notes/c-cpp-notes" element={<CCppNotes />} />
+                <Route path="/notes/c-cpp-notes/:chapterSlug" element={<CCppNotes />} />
                 <Route path="/notes/architecture-and-clean-code-core-notes/*" element={<ArchitectureAndCleanCodeCoreNotes />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/contact" element={<ContactPage />} />
