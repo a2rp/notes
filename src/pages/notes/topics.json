@@ -93,5 +93,11 @@
     "title": "Computer Science Foundations",
     "category": "Computer Science",
     "description": "Beginner-friendly foundations in operating systems, networking, databases, compilers, and web communication, explained with concrete examples."
+  },
+  {
+    "slug": "css-practical-notes",
+    "title": "CSS Practical Notes",
+    "category": "Frontend",
+    "description": "A complete practical CSS curriculum with 69 lessons, matching Q&A guides and examples, plus concise summary and syntax reference guides."
   }
 ]

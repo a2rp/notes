@@ -1,0 +1,1883 @@
+[
+  {
+    "badge": "L01",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "01",
+    "slug": "lessons--01-introduction-to-css",
+    "sourcePath": "lessons/01-introduction-to-css.md",
+    "title": "Lesson: Introduction to CSS"
+  },
+  {
+    "badge": "L02",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "02",
+    "slug": "lessons--02-css-syntax-and-rulesets",
+    "sourcePath": "lessons/02-css-syntax-and-rulesets.md",
+    "title": "Lesson: CSS Syntax and Rulesets"
+  },
+  {
+    "badge": "L03",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "03",
+    "slug": "lessons--03-connecting-css-to-html",
+    "sourcePath": "lessons/03-connecting-css-to-html.md",
+    "title": "Lesson: Connecting CSS to HTML"
+  },
+  {
+    "badge": "L04",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "04",
+    "slug": "lessons--04-stylesheets-comments-and-organization",
+    "sourcePath": "lessons/04-stylesheets-comments-and-organization.md",
+    "title": "Lesson: Stylesheets, Comments, and Organization"
+  },
+  {
+    "badge": "L05",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "05",
+    "slug": "lessons--05-selector-basics",
+    "sourcePath": "lessons/05-selector-basics.md",
+    "title": "Lesson: CSS Selector Basics"
+  },
+  {
+    "badge": "L06",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "06",
+    "slug": "lessons--06-combinators-and-selector-relationships",
+    "sourcePath": "lessons/06-combinators-and-selector-relationships.md",
+    "title": "Lesson: Combinators and Selector Relationships"
+  },
+  {
+    "badge": "L07",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "07",
+    "slug": "lessons--07-attribute-selectors",
+    "sourcePath": "lessons/07-attribute-selectors.md",
+    "title": "Lesson: Attribute Selectors"
+  },
+  {
+    "badge": "L08",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "08",
+    "slug": "lessons--08-pseudo-classes",
+    "sourcePath": "lessons/08-pseudo-classes.md",
+    "title": "Lesson: Pseudo-classes"
+  },
+  {
+    "badge": "L09",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "09",
+    "slug": "lessons--09-pseudo-elements",
+    "sourcePath": "lessons/09-pseudo-elements.md",
+    "title": "Lesson: Pseudo-elements"
+  },
+  {
+    "badge": "L10",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "10",
+    "slug": "lessons--10-cascade-and-inheritance",
+    "sourcePath": "lessons/10-cascade-and-inheritance.md",
+    "title": "Lesson: The Cascade and Inheritance"
+  },
+  {
+    "badge": "L11",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "11",
+    "slug": "lessons--11-specificity-and-conflicts",
+    "sourcePath": "lessons/11-specificity-and-conflicts.md",
+    "title": "Lesson: Specificity and Resolving Conflicts"
+  },
+  {
+    "badge": "L12",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "12",
+    "slug": "lessons--12-cascade-layers",
+    "sourcePath": "lessons/12-cascade-layers.md",
+    "title": "Lesson: Cascade Layers"
+  },
+  {
+    "badge": "L13",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "13",
+    "slug": "lessons--13-values-units-and-percentages",
+    "sourcePath": "lessons/13-values-units-and-percentages.md",
+    "title": "Lesson: Values, Units, and Percentages"
+  },
+  {
+    "badge": "L14",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "14",
+    "slug": "lessons--14-colors-and-color-functions",
+    "sourcePath": "lessons/14-colors-and-color-functions.md",
+    "title": "Lesson: Colors and Color Functions"
+  },
+  {
+    "badge": "L15",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "15",
+    "slug": "lessons--15-css-math-functions",
+    "sourcePath": "lessons/15-css-math-functions.md",
+    "title": "Lesson: CSS Math Functions: calc, min, max, and clamp"
+  },
+  {
+    "badge": "L16",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "16",
+    "slug": "lessons--16-box-model",
+    "sourcePath": "lessons/16-box-model.md",
+    "title": "Lesson: The CSS Box Model"
+  },
+  {
+    "badge": "L17",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "17",
+    "slug": "lessons--17-width-height-and-sizing",
+    "sourcePath": "lessons/17-width-height-and-sizing.md",
+    "title": "Lesson: Width, Height, and Sizing"
+  },
+  {
+    "badge": "L18",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "18",
+    "slug": "lessons--18-margin-and-padding",
+    "sourcePath": "lessons/18-margin-and-padding.md",
+    "title": "Lesson: Margin and Padding"
+  },
+  {
+    "badge": "L19",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "19",
+    "slug": "lessons--19-borders-outlines-and-shadows",
+    "sourcePath": "lessons/19-borders-outlines-and-shadows.md",
+    "title": "Lesson: Borders, Outlines, and Shadows"
+  },
+  {
+    "badge": "L20",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "20",
+    "slug": "lessons--20-display-and-box-types",
+    "sourcePath": "lessons/20-display-and-box-types.md",
+    "title": "Lesson: Display and Box Types"
+  },
+  {
+    "badge": "L21",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "21",
+    "slug": "lessons--21-normal-flow-and-formatting-contexts",
+    "sourcePath": "lessons/21-normal-flow-and-formatting-contexts.md",
+    "title": "Lesson: Normal Flow and Formatting Contexts"
+  },
+  {
+    "badge": "L22",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "22",
+    "slug": "lessons--22-positioning",
+    "sourcePath": "lessons/22-positioning.md",
+    "title": "Lesson: Positioning Elements"
+  },
+  {
+    "badge": "L23",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "23",
+    "slug": "lessons--23-z-index-and-stacking-contexts",
+    "sourcePath": "lessons/23-z-index-and-stacking-contexts.md",
+    "title": "Lesson: Z-index and Stacking Contexts"
+  },
+  {
+    "badge": "L24",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "24",
+    "slug": "lessons--24-overflow-and-scrolling",
+    "sourcePath": "lessons/24-overflow-and-scrolling.md",
+    "title": "Lesson: Overflow and Scrolling"
+  },
+  {
+    "badge": "L25",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "25",
+    "slug": "lessons--25-floats-and-clear",
+    "sourcePath": "lessons/25-floats-and-clear.md",
+    "title": "Lesson: Floats and Clearing"
+  },
+  {
+    "badge": "L26",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "26",
+    "slug": "lessons--26-flexbox",
+    "sourcePath": "lessons/26-flexbox.md",
+    "title": "Lesson: Flexbox Layout"
+  },
+  {
+    "badge": "L27",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "27",
+    "slug": "lessons--27-css-grid",
+    "sourcePath": "lessons/27-css-grid.md",
+    "title": "Lesson: CSS Grid Layout"
+  },
+  {
+    "badge": "L28",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "28",
+    "slug": "lessons--28-alignment-and-gaps",
+    "sourcePath": "lessons/28-alignment-and-gaps.md",
+    "title": "Lesson: Alignment and Gaps"
+  },
+  {
+    "badge": "L29",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "29",
+    "slug": "lessons--29-multi-column-layout",
+    "sourcePath": "lessons/29-multi-column-layout.md",
+    "title": "Lesson: Multi-column Layout"
+  },
+  {
+    "badge": "L30",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "30",
+    "slug": "lessons--30-responsive-design-and-media-queries",
+    "sourcePath": "lessons/30-responsive-design-and-media-queries.md",
+    "title": "Lesson: Responsive Design and Media Queries"
+  },
+  {
+    "badge": "L31",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "31",
+    "slug": "lessons--31-container-queries",
+    "sourcePath": "lessons/31-container-queries.md",
+    "title": "Lesson: Container Queries"
+  },
+  {
+    "badge": "L32",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "32",
+    "slug": "lessons--32-logical-properties-and-writing-modes",
+    "sourcePath": "lessons/32-logical-properties-and-writing-modes.md",
+    "title": "Lesson: Logical Properties and Writing Modes"
+  },
+  {
+    "badge": "L33",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "33",
+    "slug": "lessons--33-backgrounds-and-gradients",
+    "sourcePath": "lessons/33-backgrounds-and-gradients.md",
+    "title": "Lesson: Backgrounds and Gradients"
+  },
+  {
+    "badge": "L34",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "34",
+    "slug": "lessons--34-fonts-and-typography",
+    "sourcePath": "lessons/34-fonts-and-typography.md",
+    "title": "Lesson: Fonts and Typography"
+  },
+  {
+    "badge": "L35",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "35",
+    "slug": "lessons--35-text-layout-and-wrapping",
+    "sourcePath": "lessons/35-text-layout-and-wrapping.md",
+    "title": "Lesson: Text layout, spacing, and wrapping"
+  },
+  {
+    "badge": "L36",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "36",
+    "slug": "lessons--36-lists-and-markers",
+    "sourcePath": "lessons/36-lists-and-markers.md",
+    "title": "Lesson: Lists and markers"
+  },
+  {
+    "badge": "L37",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "37",
+    "slug": "lessons--37-styling-tables",
+    "sourcePath": "lessons/37-styling-tables.md",
+    "title": "Lesson: Styling tables"
+  },
+  {
+    "badge": "L38",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "38",
+    "slug": "lessons--38-styling-links",
+    "sourcePath": "lessons/38-styling-links.md",
+    "title": "Lesson: Styling links and link states"
+  },
+  {
+    "badge": "L39",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "39",
+    "slug": "lessons--39-styling-forms-and-controls",
+    "sourcePath": "lessons/39-styling-forms-and-controls.md",
+    "title": "Lesson: Styling forms and controls"
+  },
+  {
+    "badge": "L40",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "40",
+    "slug": "lessons--40-replaced-elements-and-object-fitting",
+    "sourcePath": "lessons/40-replaced-elements-and-object-fitting.md",
+    "title": "Lesson: Replaced elements, aspect ratios, and object fitting"
+  },
+  {
+    "badge": "L41",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "41",
+    "slug": "lessons--41-custom-properties-and-design-tokens",
+    "sourcePath": "lessons/41-custom-properties-and-design-tokens.md",
+    "title": "Lesson: Custom properties and design tokens"
+  },
+  {
+    "badge": "L42",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "42",
+    "slug": "lessons--42-generated-content-and-counters",
+    "sourcePath": "lessons/42-generated-content-and-counters.md",
+    "title": "Lesson: Generated content and counters"
+  },
+  {
+    "badge": "L43",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "43",
+    "slug": "lessons--43-transforms",
+    "sourcePath": "lessons/43-transforms.md",
+    "title": "Lesson: Transforms"
+  },
+  {
+    "badge": "L44",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "44",
+    "slug": "lessons--44-transitions",
+    "sourcePath": "lessons/44-transitions.md",
+    "title": "Lesson: Transitions"
+  },
+  {
+    "badge": "L45",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "45",
+    "slug": "lessons--45-animations-and-keyframes",
+    "sourcePath": "lessons/45-animations-and-keyframes.md",
+    "title": "Lesson: Animations and keyframes"
+  },
+  {
+    "badge": "L46",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "46",
+    "slug": "lessons--46-scroll-driven-animations",
+    "sourcePath": "lessons/46-scroll-driven-animations.md",
+    "title": "Lesson: Scroll-driven animations"
+  },
+  {
+    "badge": "L47",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "47",
+    "slug": "lessons--47-filters-blending-and-opacity",
+    "sourcePath": "lessons/47-filters-blending-and-opacity.md",
+    "title": "Lesson: Filters, blending, and opacity"
+  },
+  {
+    "badge": "L48",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "48",
+    "slug": "lessons--48-clipping-masking-and-shapes",
+    "sourcePath": "lessons/48-clipping-masking-and-shapes.md",
+    "title": "Lesson: Clipping, masks, and shapes"
+  },
+  {
+    "badge": "L49",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "49",
+    "slug": "lessons--49-css-nesting",
+    "sourcePath": "lessons/49-css-nesting.md",
+    "title": "Lesson: CSS nesting"
+  },
+  {
+    "badge": "L50",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "50",
+    "slug": "lessons--50-at-rules-and-imports",
+    "sourcePath": "lessons/50-at-rules-and-imports.md",
+    "title": "Lesson: At-rules, imports, and font-face"
+  },
+  {
+    "badge": "L51",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "51",
+    "slug": "lessons--51-feature-queries-and-progressive-enhancement",
+    "sourcePath": "lessons/51-feature-queries-and-progressive-enhancement.md",
+    "title": "Lesson: Feature queries and progressive enhancement"
+  },
+  {
+    "badge": "L52",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "52",
+    "slug": "lessons--52-scoping-and-component-styles",
+    "sourcePath": "lessons/52-scoping-and-component-styles.md",
+    "title": "Lesson: Scoped styles and component styling"
+  },
+  {
+    "badge": "L53",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "53",
+    "slug": "lessons--53-accessible-css-and-user-preferences",
+    "sourcePath": "lessons/53-accessible-css-and-user-preferences.md",
+    "title": "Lesson: Accessible CSS and user preferences"
+  },
+  {
+    "badge": "L54",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "54",
+    "slug": "lessons--54-focus-and-keyboard-interaction",
+    "sourcePath": "lessons/54-focus-and-keyboard-interaction.md",
+    "title": "Lesson: Focus styles and keyboard interaction"
+  },
+  {
+    "badge": "L55",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "55",
+    "slug": "lessons--55-color-schemes-and-theming",
+    "sourcePath": "lessons/55-color-schemes-and-theming.md",
+    "title": "Lesson: Color schemes and theming"
+  },
+  {
+    "badge": "L56",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "56",
+    "slug": "lessons--56-print-styles",
+    "sourcePath": "lessons/56-print-styles.md",
+    "title": "Lesson: Print styles"
+  },
+  {
+    "badge": "L57",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "57",
+    "slug": "lessons--57-anchor-positioning",
+    "sourcePath": "lessons/57-anchor-positioning.md",
+    "title": "Lesson: Anchor positioning"
+  },
+  {
+    "badge": "L58",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "58",
+    "slug": "lessons--58-view-transitions",
+    "sourcePath": "lessons/58-view-transitions.md",
+    "title": "Lesson: Styling view transitions"
+  },
+  {
+    "badge": "L59",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "59",
+    "slug": "lessons--59-responsive-typography-and-fluid-sizing",
+    "sourcePath": "lessons/59-responsive-typography-and-fluid-sizing.md",
+    "title": "Lesson: Responsive typography and fluid sizing"
+  },
+  {
+    "badge": "L60",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "60",
+    "slug": "lessons--60-css-architecture-and-naming",
+    "sourcePath": "lessons/60-css-architecture-and-naming.md",
+    "title": "Lesson: CSS architecture and naming conventions"
+  },
+  {
+    "badge": "L61",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "61",
+    "slug": "lessons--61-resets-and-base-styles",
+    "sourcePath": "lessons/61-resets-and-base-styles.md",
+    "title": "Lesson: Resets and base styles"
+  },
+  {
+    "badge": "L62",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "62",
+    "slug": "lessons--62-organizing-large-stylesheets",
+    "sourcePath": "lessons/62-organizing-large-stylesheets.md",
+    "title": "Lesson: Organizing large stylesheets"
+  },
+  {
+    "badge": "L63",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "63",
+    "slug": "lessons--63-shadow-dom-and-web-components",
+    "sourcePath": "lessons/63-shadow-dom-and-web-components.md",
+    "title": "Lesson: Styling Shadow DOM and web components"
+  },
+  {
+    "badge": "L64",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "64",
+    "slug": "lessons--64-debugging-with-browser-devtools",
+    "sourcePath": "lessons/64-debugging-with-browser-devtools.md",
+    "title": "Lesson: Debugging with browser developer tools"
+  },
+  {
+    "badge": "L65",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "65",
+    "slug": "lessons--65-validation-and-browser-compatibility",
+    "sourcePath": "lessons/65-validation-and-browser-compatibility.md",
+    "title": "Lesson: Validation and browser compatibility"
+  },
+  {
+    "badge": "L66",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "66",
+    "slug": "lessons--66-prefixes-fallbacks-and-feature-detection",
+    "sourcePath": "lessons/66-prefixes-fallbacks-and-feature-detection.md",
+    "title": "Lesson: Prefixes, fallbacks, and feature detection"
+  },
+  {
+    "badge": "L67",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "67",
+    "slug": "lessons--67-css-performance",
+    "sourcePath": "lessons/67-css-performance.md",
+    "title": "Lesson: CSS performance"
+  },
+  {
+    "badge": "L68",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "68",
+    "slug": "lessons--68-practical-page-projects",
+    "sourcePath": "lessons/68-practical-page-projects.md",
+    "title": "Lesson: Practical page projects"
+  },
+  {
+    "badge": "L69",
+    "kindLabel": "Lesson",
+    "kindOrder": 0,
+    "number": "69",
+    "slug": "lessons--69-css-reference-and-glossary",
+    "sourcePath": "lessons/69-css-reference-and-glossary.md",
+    "title": "Lesson: CSS reference and glossary"
+  },
+  {
+    "badge": "Q01",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "01",
+    "slug": "qnas--01-introduction-to-css",
+    "sourcePath": "qnas/01-introduction-to-css.md",
+    "title": "Q&A: Introduction to CSS: Questions and Answers"
+  },
+  {
+    "badge": "Q02",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "02",
+    "slug": "qnas--02-css-syntax-and-rulesets",
+    "sourcePath": "qnas/02-css-syntax-and-rulesets.md",
+    "title": "Q&A: CSS Syntax and Rulesets: Questions and Answers"
+  },
+  {
+    "badge": "Q03",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "03",
+    "slug": "qnas--03-connecting-css-to-html",
+    "sourcePath": "qnas/03-connecting-css-to-html.md",
+    "title": "Q&A: Connecting CSS to HTML: Questions and Answers"
+  },
+  {
+    "badge": "Q04",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "04",
+    "slug": "qnas--04-stylesheets-comments-and-organization",
+    "sourcePath": "qnas/04-stylesheets-comments-and-organization.md",
+    "title": "Q&A: Stylesheets, Comments, and Organization: Questions and Answers"
+  },
+  {
+    "badge": "Q05",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "05",
+    "slug": "qnas--05-selector-basics",
+    "sourcePath": "qnas/05-selector-basics.md",
+    "title": "Q&A: CSS Selector Basics: Questions and Answers"
+  },
+  {
+    "badge": "Q06",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "06",
+    "slug": "qnas--06-combinators-and-selector-relationships",
+    "sourcePath": "qnas/06-combinators-and-selector-relationships.md",
+    "title": "Q&A: Combinators and Selector Relationships: Questions and Answers"
+  },
+  {
+    "badge": "Q07",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "07",
+    "slug": "qnas--07-attribute-selectors",
+    "sourcePath": "qnas/07-attribute-selectors.md",
+    "title": "Q&A: Attribute Selectors: Questions and Answers"
+  },
+  {
+    "badge": "Q08",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "08",
+    "slug": "qnas--08-pseudo-classes",
+    "sourcePath": "qnas/08-pseudo-classes.md",
+    "title": "Q&A: Pseudo-classes: Questions and Answers"
+  },
+  {
+    "badge": "Q09",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "09",
+    "slug": "qnas--09-pseudo-elements",
+    "sourcePath": "qnas/09-pseudo-elements.md",
+    "title": "Q&A: Pseudo-elements: Questions and Answers"
+  },
+  {
+    "badge": "Q10",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "10",
+    "slug": "qnas--10-cascade-and-inheritance",
+    "sourcePath": "qnas/10-cascade-and-inheritance.md",
+    "title": "Q&A: The Cascade and Inheritance: Questions and Answers"
+  },
+  {
+    "badge": "Q11",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "11",
+    "slug": "qnas--11-specificity-and-conflicts",
+    "sourcePath": "qnas/11-specificity-and-conflicts.md",
+    "title": "Q&A: Specificity and Resolving Conflicts: Questions and Answers"
+  },
+  {
+    "badge": "Q12",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "12",
+    "slug": "qnas--12-cascade-layers",
+    "sourcePath": "qnas/12-cascade-layers.md",
+    "title": "Q&A: Cascade Layers: Questions and Answers"
+  },
+  {
+    "badge": "Q13",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "13",
+    "slug": "qnas--13-values-units-and-percentages",
+    "sourcePath": "qnas/13-values-units-and-percentages.md",
+    "title": "Q&A: Values, Units, and Percentages: Questions and Answers"
+  },
+  {
+    "badge": "Q14",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "14",
+    "slug": "qnas--14-colors-and-color-functions",
+    "sourcePath": "qnas/14-colors-and-color-functions.md",
+    "title": "Q&A: Colors and Color Functions: Questions and Answers"
+  },
+  {
+    "badge": "Q15",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "15",
+    "slug": "qnas--15-css-math-functions",
+    "sourcePath": "qnas/15-css-math-functions.md",
+    "title": "Q&A: CSS Math Functions: Questions and Answers"
+  },
+  {
+    "badge": "Q16",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "16",
+    "slug": "qnas--16-box-model",
+    "sourcePath": "qnas/16-box-model.md",
+    "title": "Q&A: The CSS Box Model: Questions and Answers"
+  },
+  {
+    "badge": "Q17",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "17",
+    "slug": "qnas--17-width-height-and-sizing",
+    "sourcePath": "qnas/17-width-height-and-sizing.md",
+    "title": "Q&A: Width, Height, and Sizing: Questions and Answers"
+  },
+  {
+    "badge": "Q18",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "18",
+    "slug": "qnas--18-margin-and-padding",
+    "sourcePath": "qnas/18-margin-and-padding.md",
+    "title": "Q&A: Margin and Padding: Questions and Answers"
+  },
+  {
+    "badge": "Q19",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "19",
+    "slug": "qnas--19-borders-outlines-and-shadows",
+    "sourcePath": "qnas/19-borders-outlines-and-shadows.md",
+    "title": "Q&A: Borders, Outlines, and Shadows: Questions and Answers"
+  },
+  {
+    "badge": "Q20",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "20",
+    "slug": "qnas--20-display-and-box-types",
+    "sourcePath": "qnas/20-display-and-box-types.md",
+    "title": "Q&A: Display and Box Types: Questions and Answers"
+  },
+  {
+    "badge": "Q21",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "21",
+    "slug": "qnas--21-normal-flow-and-formatting-contexts",
+    "sourcePath": "qnas/21-normal-flow-and-formatting-contexts.md",
+    "title": "Q&A: Normal Flow and Formatting Contexts: Questions and Answers"
+  },
+  {
+    "badge": "Q22",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "22",
+    "slug": "qnas--22-positioning",
+    "sourcePath": "qnas/22-positioning.md",
+    "title": "Q&A: Positioning Elements: Questions and Answers"
+  },
+  {
+    "badge": "Q23",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "23",
+    "slug": "qnas--23-z-index-and-stacking-contexts",
+    "sourcePath": "qnas/23-z-index-and-stacking-contexts.md",
+    "title": "Q&A: Z-index and Stacking Contexts: Questions and Answers"
+  },
+  {
+    "badge": "Q24",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "24",
+    "slug": "qnas--24-overflow-and-scrolling",
+    "sourcePath": "qnas/24-overflow-and-scrolling.md",
+    "title": "Q&A: Overflow and Scrolling: Questions and Answers"
+  },
+  {
+    "badge": "Q25",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "25",
+    "slug": "qnas--25-floats-and-clear",
+    "sourcePath": "qnas/25-floats-and-clear.md",
+    "title": "Q&A: Floats and Clearing: Questions and Answers"
+  },
+  {
+    "badge": "Q26",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "26",
+    "slug": "qnas--26-flexbox",
+    "sourcePath": "qnas/26-flexbox.md",
+    "title": "Q&A: Flexbox Layout: Questions and Answers"
+  },
+  {
+    "badge": "Q27",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "27",
+    "slug": "qnas--27-css-grid",
+    "sourcePath": "qnas/27-css-grid.md",
+    "title": "Q&A: CSS Grid Layout: Questions and Answers"
+  },
+  {
+    "badge": "Q28",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "28",
+    "slug": "qnas--28-alignment-and-gaps",
+    "sourcePath": "qnas/28-alignment-and-gaps.md",
+    "title": "Q&A: Alignment and Gaps: Questions and Answers"
+  },
+  {
+    "badge": "Q29",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "29",
+    "slug": "qnas--29-multi-column-layout",
+    "sourcePath": "qnas/29-multi-column-layout.md",
+    "title": "Q&A: Multi-column Layout: Questions and Answers"
+  },
+  {
+    "badge": "Q30",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "30",
+    "slug": "qnas--30-responsive-design-and-media-queries",
+    "sourcePath": "qnas/30-responsive-design-and-media-queries.md",
+    "title": "Q&A: Responsive Design and Media Queries: Questions and Answers"
+  },
+  {
+    "badge": "Q31",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "31",
+    "slug": "qnas--31-container-queries",
+    "sourcePath": "qnas/31-container-queries.md",
+    "title": "Q&A: Container Queries: Questions and Answers"
+  },
+  {
+    "badge": "Q32",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "32",
+    "slug": "qnas--32-logical-properties-and-writing-modes",
+    "sourcePath": "qnas/32-logical-properties-and-writing-modes.md",
+    "title": "Q&A: Logical Properties and Writing Modes: Questions and Answers"
+  },
+  {
+    "badge": "Q33",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "33",
+    "slug": "qnas--33-backgrounds-and-gradients",
+    "sourcePath": "qnas/33-backgrounds-and-gradients.md",
+    "title": "Q&A: Backgrounds and Gradients - Q&A"
+  },
+  {
+    "badge": "Q34",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "34",
+    "slug": "qnas--34-fonts-and-typography",
+    "sourcePath": "qnas/34-fonts-and-typography.md",
+    "title": "Q&A: Fonts and Typography - Q&A"
+  },
+  {
+    "badge": "Q35",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "35",
+    "slug": "qnas--35-text-layout-and-wrapping",
+    "sourcePath": "qnas/35-text-layout-and-wrapping.md",
+    "title": "Q&A: Text layout, spacing, and wrapping - Q&A"
+  },
+  {
+    "badge": "Q36",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "36",
+    "slug": "qnas--36-lists-and-markers",
+    "sourcePath": "qnas/36-lists-and-markers.md",
+    "title": "Q&A: Lists and markers - Q&A"
+  },
+  {
+    "badge": "Q37",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "37",
+    "slug": "qnas--37-styling-tables",
+    "sourcePath": "qnas/37-styling-tables.md",
+    "title": "Q&A: Styling tables - Q&A"
+  },
+  {
+    "badge": "Q38",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "38",
+    "slug": "qnas--38-styling-links",
+    "sourcePath": "qnas/38-styling-links.md",
+    "title": "Q&A: Styling links and link states - Q&A"
+  },
+  {
+    "badge": "Q39",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "39",
+    "slug": "qnas--39-styling-forms-and-controls",
+    "sourcePath": "qnas/39-styling-forms-and-controls.md",
+    "title": "Q&A: Styling forms and controls - Q&A"
+  },
+  {
+    "badge": "Q40",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "40",
+    "slug": "qnas--40-replaced-elements-and-object-fitting",
+    "sourcePath": "qnas/40-replaced-elements-and-object-fitting.md",
+    "title": "Q&A: Replaced elements, aspect ratios, and object fitting - Q&A"
+  },
+  {
+    "badge": "Q41",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "41",
+    "slug": "qnas--41-custom-properties-and-design-tokens",
+    "sourcePath": "qnas/41-custom-properties-and-design-tokens.md",
+    "title": "Q&A: Custom properties and design tokens - Q&A"
+  },
+  {
+    "badge": "Q42",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "42",
+    "slug": "qnas--42-generated-content-and-counters",
+    "sourcePath": "qnas/42-generated-content-and-counters.md",
+    "title": "Q&A: Generated content and counters - Q&A"
+  },
+  {
+    "badge": "Q43",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "43",
+    "slug": "qnas--43-transforms",
+    "sourcePath": "qnas/43-transforms.md",
+    "title": "Q&A: Transforms - Q&A"
+  },
+  {
+    "badge": "Q44",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "44",
+    "slug": "qnas--44-transitions",
+    "sourcePath": "qnas/44-transitions.md",
+    "title": "Q&A: Transitions - Q&A"
+  },
+  {
+    "badge": "Q45",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "45",
+    "slug": "qnas--45-animations-and-keyframes",
+    "sourcePath": "qnas/45-animations-and-keyframes.md",
+    "title": "Q&A: Animations and keyframes - Q&A"
+  },
+  {
+    "badge": "Q46",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "46",
+    "slug": "qnas--46-scroll-driven-animations",
+    "sourcePath": "qnas/46-scroll-driven-animations.md",
+    "title": "Q&A: Scroll-driven animations - Q&A"
+  },
+  {
+    "badge": "Q47",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "47",
+    "slug": "qnas--47-filters-blending-and-opacity",
+    "sourcePath": "qnas/47-filters-blending-and-opacity.md",
+    "title": "Q&A: Filters, blending, and opacity - Q&A"
+  },
+  {
+    "badge": "Q48",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "48",
+    "slug": "qnas--48-clipping-masking-and-shapes",
+    "sourcePath": "qnas/48-clipping-masking-and-shapes.md",
+    "title": "Q&A: Clipping, masks, and shapes - Q&A"
+  },
+  {
+    "badge": "Q49",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "49",
+    "slug": "qnas--49-css-nesting",
+    "sourcePath": "qnas/49-css-nesting.md",
+    "title": "Q&A: CSS nesting - Q&A"
+  },
+  {
+    "badge": "Q50",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "50",
+    "slug": "qnas--50-at-rules-and-imports",
+    "sourcePath": "qnas/50-at-rules-and-imports.md",
+    "title": "Q&A: At-rules, imports, and font-face - Q&A"
+  },
+  {
+    "badge": "Q51",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "51",
+    "slug": "qnas--51-feature-queries-and-progressive-enhancement",
+    "sourcePath": "qnas/51-feature-queries-and-progressive-enhancement.md",
+    "title": "Q&A: Feature queries and progressive enhancement - Q&A"
+  },
+  {
+    "badge": "Q52",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "52",
+    "slug": "qnas--52-scoping-and-component-styles",
+    "sourcePath": "qnas/52-scoping-and-component-styles.md",
+    "title": "Q&A: Scoped styles and component styling - Q&A"
+  },
+  {
+    "badge": "Q53",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "53",
+    "slug": "qnas--53-accessible-css-and-user-preferences",
+    "sourcePath": "qnas/53-accessible-css-and-user-preferences.md",
+    "title": "Q&A: Accessible CSS and user preferences - Q&A"
+  },
+  {
+    "badge": "Q54",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "54",
+    "slug": "qnas--54-focus-and-keyboard-interaction",
+    "sourcePath": "qnas/54-focus-and-keyboard-interaction.md",
+    "title": "Q&A: Focus styles and keyboard interaction - Q&A"
+  },
+  {
+    "badge": "Q55",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "55",
+    "slug": "qnas--55-color-schemes-and-theming",
+    "sourcePath": "qnas/55-color-schemes-and-theming.md",
+    "title": "Q&A: Color schemes and theming - Q&A"
+  },
+  {
+    "badge": "Q56",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "56",
+    "slug": "qnas--56-print-styles",
+    "sourcePath": "qnas/56-print-styles.md",
+    "title": "Q&A: Print styles - Q&A"
+  },
+  {
+    "badge": "Q57",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "57",
+    "slug": "qnas--57-anchor-positioning",
+    "sourcePath": "qnas/57-anchor-positioning.md",
+    "title": "Q&A: Anchor positioning - Q&A"
+  },
+  {
+    "badge": "Q58",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "58",
+    "slug": "qnas--58-view-transitions",
+    "sourcePath": "qnas/58-view-transitions.md",
+    "title": "Q&A: Styling view transitions - Q&A"
+  },
+  {
+    "badge": "Q59",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "59",
+    "slug": "qnas--59-responsive-typography-and-fluid-sizing",
+    "sourcePath": "qnas/59-responsive-typography-and-fluid-sizing.md",
+    "title": "Q&A: Responsive typography and fluid sizing - Q&A"
+  },
+  {
+    "badge": "Q60",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "60",
+    "slug": "qnas--60-css-architecture-and-naming",
+    "sourcePath": "qnas/60-css-architecture-and-naming.md",
+    "title": "Q&A: CSS architecture and naming conventions - Q&A"
+  },
+  {
+    "badge": "Q61",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "61",
+    "slug": "qnas--61-resets-and-base-styles",
+    "sourcePath": "qnas/61-resets-and-base-styles.md",
+    "title": "Q&A: Resets and base styles - Q&A"
+  },
+  {
+    "badge": "Q62",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "62",
+    "slug": "qnas--62-organizing-large-stylesheets",
+    "sourcePath": "qnas/62-organizing-large-stylesheets.md",
+    "title": "Q&A: Organizing large stylesheets - Q&A"
+  },
+  {
+    "badge": "Q63",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "63",
+    "slug": "qnas--63-shadow-dom-and-web-components",
+    "sourcePath": "qnas/63-shadow-dom-and-web-components.md",
+    "title": "Q&A: Styling Shadow DOM and web components - Q&A"
+  },
+  {
+    "badge": "Q64",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "64",
+    "slug": "qnas--64-debugging-with-browser-devtools",
+    "sourcePath": "qnas/64-debugging-with-browser-devtools.md",
+    "title": "Q&A: Debugging with browser developer tools - Q&A"
+  },
+  {
+    "badge": "Q65",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "65",
+    "slug": "qnas--65-validation-and-browser-compatibility",
+    "sourcePath": "qnas/65-validation-and-browser-compatibility.md",
+    "title": "Q&A: Validation and browser compatibility - Q&A"
+  },
+  {
+    "badge": "Q66",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "66",
+    "slug": "qnas--66-prefixes-fallbacks-and-feature-detection",
+    "sourcePath": "qnas/66-prefixes-fallbacks-and-feature-detection.md",
+    "title": "Q&A: Prefixes, fallbacks, and feature detection - Q&A"
+  },
+  {
+    "badge": "Q67",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "67",
+    "slug": "qnas--67-css-performance",
+    "sourcePath": "qnas/67-css-performance.md",
+    "title": "Q&A: CSS performance - Q&A"
+  },
+  {
+    "badge": "Q68",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "68",
+    "slug": "qnas--68-practical-page-projects",
+    "sourcePath": "qnas/68-practical-page-projects.md",
+    "title": "Q&A: Practical page projects - Q&A"
+  },
+  {
+    "badge": "Q69",
+    "kindLabel": "Q&A",
+    "kindOrder": 1,
+    "number": "69",
+    "slug": "qnas--69-css-reference-and-glossary",
+    "sourcePath": "qnas/69-css-reference-and-glossary.md",
+    "title": "Q&A: CSS reference and glossary Q&A"
+  },
+  {
+    "badge": "E01",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "01",
+    "slug": "examples--01-introduction-to-css",
+    "sourcePath": "examples/01-introduction-to-css.md",
+    "title": "Example: Introduction to CSS"
+  },
+  {
+    "badge": "E02",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "02",
+    "slug": "examples--02-css-syntax-and-rulesets",
+    "sourcePath": "examples/02-css-syntax-and-rulesets.md",
+    "title": "Example: CSS Syntax and Rulesets"
+  },
+  {
+    "badge": "E03",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "03",
+    "slug": "examples--03-connecting-css-to-html",
+    "sourcePath": "examples/03-connecting-css-to-html.md",
+    "title": "Example: Connecting CSS to HTML"
+  },
+  {
+    "badge": "E04",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "04",
+    "slug": "examples--04-stylesheets-comments-and-organization",
+    "sourcePath": "examples/04-stylesheets-comments-and-organization.md",
+    "title": "Example: Stylesheets, Comments, and Organization"
+  },
+  {
+    "badge": "E05",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "05",
+    "slug": "examples--05-selector-basics",
+    "sourcePath": "examples/05-selector-basics.md",
+    "title": "Example: CSS Selector Basics: Example"
+  },
+  {
+    "badge": "E06",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "06",
+    "slug": "examples--06-combinators-and-selector-relationships",
+    "sourcePath": "examples/06-combinators-and-selector-relationships.md",
+    "title": "Example: Combinators and Selector Relationships: Example"
+  },
+  {
+    "badge": "E07",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "07",
+    "slug": "examples--07-attribute-selectors",
+    "sourcePath": "examples/07-attribute-selectors.md",
+    "title": "Example: Attribute Selectors: Example"
+  },
+  {
+    "badge": "E08",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "08",
+    "slug": "examples--08-pseudo-classes",
+    "sourcePath": "examples/08-pseudo-classes.md",
+    "title": "Example: Pseudo-classes: Example"
+  },
+  {
+    "badge": "E09",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "09",
+    "slug": "examples--09-pseudo-elements",
+    "sourcePath": "examples/09-pseudo-elements.md",
+    "title": "Example: Pseudo-elements: Example"
+  },
+  {
+    "badge": "E10",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "10",
+    "slug": "examples--10-cascade-and-inheritance",
+    "sourcePath": "examples/10-cascade-and-inheritance.md",
+    "title": "Example: The Cascade and Inheritance: Example"
+  },
+  {
+    "badge": "E11",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "11",
+    "slug": "examples--11-specificity-and-conflicts",
+    "sourcePath": "examples/11-specificity-and-conflicts.md",
+    "title": "Example: Specificity and Resolving Conflicts: Example"
+  },
+  {
+    "badge": "E12",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "12",
+    "slug": "examples--12-cascade-layers",
+    "sourcePath": "examples/12-cascade-layers.md",
+    "title": "Example: Cascade Layers: Example"
+  },
+  {
+    "badge": "E13",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "13",
+    "slug": "examples--13-values-units-and-percentages",
+    "sourcePath": "examples/13-values-units-and-percentages.md",
+    "title": "Example: Values, Units, and Percentages: Example"
+  },
+  {
+    "badge": "E14",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "14",
+    "slug": "examples--14-colors-and-color-functions",
+    "sourcePath": "examples/14-colors-and-color-functions.md",
+    "title": "Example: Colors and Color Functions: Example"
+  },
+  {
+    "badge": "E15",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "15",
+    "slug": "examples--15-css-math-functions",
+    "sourcePath": "examples/15-css-math-functions.md",
+    "title": "Example: CSS Math Functions: Example"
+  },
+  {
+    "badge": "E16",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "16",
+    "slug": "examples--16-box-model",
+    "sourcePath": "examples/16-box-model.md",
+    "title": "Example: The CSS Box Model: Example"
+  },
+  {
+    "badge": "E17",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "17",
+    "slug": "examples--17-width-height-and-sizing",
+    "sourcePath": "examples/17-width-height-and-sizing.md",
+    "title": "Example: Width, Height, and Sizing: Example"
+  },
+  {
+    "badge": "E18",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "18",
+    "slug": "examples--18-margin-and-padding",
+    "sourcePath": "examples/18-margin-and-padding.md",
+    "title": "Example: Margin and Padding: Example"
+  },
+  {
+    "badge": "E19",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "19",
+    "slug": "examples--19-borders-outlines-and-shadows",
+    "sourcePath": "examples/19-borders-outlines-and-shadows.md",
+    "title": "Example: Borders, Outlines, and Shadows: Example"
+  },
+  {
+    "badge": "E20",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "20",
+    "slug": "examples--20-display-and-box-types",
+    "sourcePath": "examples/20-display-and-box-types.md",
+    "title": "Example: Display and Box Types: Example"
+  },
+  {
+    "badge": "E21",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "21",
+    "slug": "examples--21-normal-flow-and-formatting-contexts",
+    "sourcePath": "examples/21-normal-flow-and-formatting-contexts.md",
+    "title": "Example: Normal Flow and Formatting Contexts: Example"
+  },
+  {
+    "badge": "E22",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "22",
+    "slug": "examples--22-positioning",
+    "sourcePath": "examples/22-positioning.md",
+    "title": "Example: Positioning Elements: Example"
+  },
+  {
+    "badge": "E23",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "23",
+    "slug": "examples--23-z-index-and-stacking-contexts",
+    "sourcePath": "examples/23-z-index-and-stacking-contexts.md",
+    "title": "Example: Z-index and Stacking Contexts: Example"
+  },
+  {
+    "badge": "E24",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "24",
+    "slug": "examples--24-overflow-and-scrolling",
+    "sourcePath": "examples/24-overflow-and-scrolling.md",
+    "title": "Example: Overflow and Scrolling: Example"
+  },
+  {
+    "badge": "E25",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "25",
+    "slug": "examples--25-floats-and-clear",
+    "sourcePath": "examples/25-floats-and-clear.md",
+    "title": "Example: Floats and Clearing: Example"
+  },
+  {
+    "badge": "E26",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "26",
+    "slug": "examples--26-flexbox",
+    "sourcePath": "examples/26-flexbox.md",
+    "title": "Example: Flexbox Layout: Example"
+  },
+  {
+    "badge": "E27",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "27",
+    "slug": "examples--27-css-grid",
+    "sourcePath": "examples/27-css-grid.md",
+    "title": "Example: CSS Grid Layout: Example"
+  },
+  {
+    "badge": "E28",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "28",
+    "slug": "examples--28-alignment-and-gaps",
+    "sourcePath": "examples/28-alignment-and-gaps.md",
+    "title": "Example: Alignment and Gaps: Example"
+  },
+  {
+    "badge": "E29",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "29",
+    "slug": "examples--29-multi-column-layout",
+    "sourcePath": "examples/29-multi-column-layout.md",
+    "title": "Example: Multi-column Layout: Example"
+  },
+  {
+    "badge": "E30",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "30",
+    "slug": "examples--30-responsive-design-and-media-queries",
+    "sourcePath": "examples/30-responsive-design-and-media-queries.md",
+    "title": "Example: Responsive Design and Media Queries: Example"
+  },
+  {
+    "badge": "E31",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "31",
+    "slug": "examples--31-container-queries",
+    "sourcePath": "examples/31-container-queries.md",
+    "title": "Example: Container Queries: Example"
+  },
+  {
+    "badge": "E32",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "32",
+    "slug": "examples--32-logical-properties-and-writing-modes",
+    "sourcePath": "examples/32-logical-properties-and-writing-modes.md",
+    "title": "Example: Logical Properties and Writing Modes: Example"
+  },
+  {
+    "badge": "E33",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "33",
+    "slug": "examples--33-backgrounds-and-gradients",
+    "sourcePath": "examples/33-backgrounds-and-gradients.md",
+    "title": "Example: Backgrounds and Gradients - Example"
+  },
+  {
+    "badge": "E34",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "34",
+    "slug": "examples--34-fonts-and-typography",
+    "sourcePath": "examples/34-fonts-and-typography.md",
+    "title": "Example: Fonts and Typography - Example"
+  },
+  {
+    "badge": "E35",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "35",
+    "slug": "examples--35-text-layout-and-wrapping",
+    "sourcePath": "examples/35-text-layout-and-wrapping.md",
+    "title": "Example: Text layout, spacing, and wrapping - Example"
+  },
+  {
+    "badge": "E36",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "36",
+    "slug": "examples--36-lists-and-markers",
+    "sourcePath": "examples/36-lists-and-markers.md",
+    "title": "Example: Lists and markers - Example"
+  },
+  {
+    "badge": "E37",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "37",
+    "slug": "examples--37-styling-tables",
+    "sourcePath": "examples/37-styling-tables.md",
+    "title": "Example: Styling tables - Example"
+  },
+  {
+    "badge": "E38",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "38",
+    "slug": "examples--38-styling-links",
+    "sourcePath": "examples/38-styling-links.md",
+    "title": "Example: Styling links and link states - Example"
+  },
+  {
+    "badge": "E39",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "39",
+    "slug": "examples--39-styling-forms-and-controls",
+    "sourcePath": "examples/39-styling-forms-and-controls.md",
+    "title": "Example: Styling forms and controls - Example"
+  },
+  {
+    "badge": "E40",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "40",
+    "slug": "examples--40-replaced-elements-and-object-fitting",
+    "sourcePath": "examples/40-replaced-elements-and-object-fitting.md",
+    "title": "Example: Replaced elements, aspect ratios, and object fitting - Example"
+  },
+  {
+    "badge": "E41",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "41",
+    "slug": "examples--41-custom-properties-and-design-tokens",
+    "sourcePath": "examples/41-custom-properties-and-design-tokens.md",
+    "title": "Example: Custom properties and design tokens - Example"
+  },
+  {
+    "badge": "E42",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "42",
+    "slug": "examples--42-generated-content-and-counters",
+    "sourcePath": "examples/42-generated-content-and-counters.md",
+    "title": "Example: Generated content and counters"
+  },
+  {
+    "badge": "E43",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "43",
+    "slug": "examples--43-transforms",
+    "sourcePath": "examples/43-transforms.md",
+    "title": "Example: Transforms"
+  },
+  {
+    "badge": "E44",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "44",
+    "slug": "examples--44-transitions",
+    "sourcePath": "examples/44-transitions.md",
+    "title": "Example: Transitions"
+  },
+  {
+    "badge": "E45",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "45",
+    "slug": "examples--45-animations-and-keyframes",
+    "sourcePath": "examples/45-animations-and-keyframes.md",
+    "title": "Example: Animations and keyframes"
+  },
+  {
+    "badge": "E46",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "46",
+    "slug": "examples--46-scroll-driven-animations",
+    "sourcePath": "examples/46-scroll-driven-animations.md",
+    "title": "Example: Scroll-driven animations"
+  },
+  {
+    "badge": "E47",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "47",
+    "slug": "examples--47-filters-blending-and-opacity",
+    "sourcePath": "examples/47-filters-blending-and-opacity.md",
+    "title": "Example: Filters, blending, and opacity"
+  },
+  {
+    "badge": "E48",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "48",
+    "slug": "examples--48-clipping-masking-and-shapes",
+    "sourcePath": "examples/48-clipping-masking-and-shapes.md",
+    "title": "Example: Clipping, masks, and shapes"
+  },
+  {
+    "badge": "E49",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "49",
+    "slug": "examples--49-css-nesting",
+    "sourcePath": "examples/49-css-nesting.md",
+    "title": "Example: CSS nesting"
+  },
+  {
+    "badge": "E50",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "50",
+    "slug": "examples--50-at-rules-and-imports",
+    "sourcePath": "examples/50-at-rules-and-imports.md",
+    "title": "Example: At-rules, imports, and font-face"
+  },
+  {
+    "badge": "E51",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "51",
+    "slug": "examples--51-feature-queries-and-progressive-enhancement",
+    "sourcePath": "examples/51-feature-queries-and-progressive-enhancement.md",
+    "title": "Example: Feature queries and progressive enhancement"
+  },
+  {
+    "badge": "E52",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "52",
+    "slug": "examples--52-scoping-and-component-styles",
+    "sourcePath": "examples/52-scoping-and-component-styles.md",
+    "title": "Example: Scoped styles and component styling"
+  },
+  {
+    "badge": "E53",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "53",
+    "slug": "examples--53-accessible-css-and-user-preferences",
+    "sourcePath": "examples/53-accessible-css-and-user-preferences.md",
+    "title": "Example: Accessible CSS and user preferences"
+  },
+  {
+    "badge": "E54",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "54",
+    "slug": "examples--54-focus-and-keyboard-interaction",
+    "sourcePath": "examples/54-focus-and-keyboard-interaction.md",
+    "title": "Example: Focus styles and keyboard interaction"
+  },
+  {
+    "badge": "E55",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "55",
+    "slug": "examples--55-color-schemes-and-theming",
+    "sourcePath": "examples/55-color-schemes-and-theming.md",
+    "title": "Example: Color schemes and theming"
+  },
+  {
+    "badge": "E56",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "56",
+    "slug": "examples--56-print-styles",
+    "sourcePath": "examples/56-print-styles.md",
+    "title": "Example: Print styles"
+  },
+  {
+    "badge": "E57",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "57",
+    "slug": "examples--57-anchor-positioning",
+    "sourcePath": "examples/57-anchor-positioning.md",
+    "title": "Example: Anchor positioning"
+  },
+  {
+    "badge": "E58",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "58",
+    "slug": "examples--58-view-transitions",
+    "sourcePath": "examples/58-view-transitions.md",
+    "title": "Example: Styling view transitions"
+  },
+  {
+    "badge": "E59",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "59",
+    "slug": "examples--59-responsive-typography-and-fluid-sizing",
+    "sourcePath": "examples/59-responsive-typography-and-fluid-sizing.md",
+    "title": "Example: Responsive typography and fluid sizing"
+  },
+  {
+    "badge": "E60",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "60",
+    "slug": "examples--60-css-architecture-and-naming",
+    "sourcePath": "examples/60-css-architecture-and-naming.md",
+    "title": "Example: CSS architecture and naming conventions"
+  },
+  {
+    "badge": "E61",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "61",
+    "slug": "examples--61-resets-and-base-styles",
+    "sourcePath": "examples/61-resets-and-base-styles.md",
+    "title": "Example: Resets and base styles"
+  },
+  {
+    "badge": "E62",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "62",
+    "slug": "examples--62-organizing-large-stylesheets",
+    "sourcePath": "examples/62-organizing-large-stylesheets.md",
+    "title": "Example: Organizing large stylesheets"
+  },
+  {
+    "badge": "E63",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "63",
+    "slug": "examples--63-shadow-dom-and-web-components",
+    "sourcePath": "examples/63-shadow-dom-and-web-components.md",
+    "title": "Example: Styling Shadow DOM and web components"
+  },
+  {
+    "badge": "E64",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "64",
+    "slug": "examples--64-debugging-with-browser-devtools",
+    "sourcePath": "examples/64-debugging-with-browser-devtools.md",
+    "title": "Example: Debugging with browser developer tools - Example"
+  },
+  {
+    "badge": "E65",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "65",
+    "slug": "examples--65-validation-and-browser-compatibility",
+    "sourcePath": "examples/65-validation-and-browser-compatibility.md",
+    "title": "Example: Validation and browser compatibility - Example"
+  },
+  {
+    "badge": "E66",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "66",
+    "slug": "examples--66-prefixes-fallbacks-and-feature-detection",
+    "sourcePath": "examples/66-prefixes-fallbacks-and-feature-detection.md",
+    "title": "Example: Prefixes, fallbacks, and feature detection - Example"
+  },
+  {
+    "badge": "E67",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "67",
+    "slug": "examples--67-css-performance",
+    "sourcePath": "examples/67-css-performance.md",
+    "title": "Example: CSS performance - Example"
+  },
+  {
+    "badge": "E68",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "68",
+    "slug": "examples--68-practical-page-projects",
+    "sourcePath": "examples/68-practical-page-projects.md",
+    "title": "Example: Practical page projects - Example"
+  },
+  {
+    "badge": "E69",
+    "kindLabel": "Example",
+    "kindOrder": 2,
+    "number": "69",
+    "slug": "examples--69-css-reference-and-glossary",
+    "sourcePath": "examples/69-css-reference-and-glossary.md",
+    "title": "Example: CSS reference and glossary - Example"
+  },
+  {
+    "badge": "G01",
+    "kindLabel": "Guide",
+    "kindOrder": 3,
+    "number": "01",
+    "slug": "css-keywords",
+    "sourcePath": "css-keywords.md",
+    "title": "CSS Keywords and Syntax Terms"
+  },
+  {
+    "badge": "G02",
+    "kindLabel": "Guide",
+    "kindOrder": 3,
+    "number": "02",
+    "slug": "css-summary",
+    "sourcePath": "css-summary.md",
+    "title": "CSS Summary"
+  }
+]
