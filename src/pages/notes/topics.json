@@ -133,5 +133,12 @@
     "category": "Backend development",
     "description": "Original FastAPI study notes covering Python APIs, Pydantic validation, dependencies, databases, async work, security, tests, and deployment.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/fastApiNotes"
+  },
+  {
+    "slug": "filezilla-notes",
+    "title": "FileZilla Study Notes",
+    "category": "Tools & Workflows",
+    "description": "Practical FileZilla Client and Server notes covering FTP, FTPS, SFTP, transfer workflows, access control, network setup, security, and troubleshooting.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/fileZillaNotes"
   }
 ]
