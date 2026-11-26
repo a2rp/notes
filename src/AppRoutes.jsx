@@ -11,6 +11,7 @@ const AngularNotes = lazy(() => import("./pages/notes/angularNotes"));
 const JavaScriptNotes = lazy(() => import("./pages/notes/javaScriptNotes"));
 const ApacheDerbyNotes = lazy(() => import("./pages/notes/apacheDerbyNotes"));
 const AspNetNotes = lazy(() => import("./pages/notes/aspNetNotes"));
+const AwsNotes = lazy(() => import("./pages/notes/awsNotes"));
 const BackendEngineeringCoreNotes = lazy(() => import("./pages/notes/backendEngineeringCoreNotes"));
 const ArchitectureAndCleanCodeCoreNotes = lazy(() => import("./pages/notes/architectureAndCleanCodeCoreNotes"));
 const CCoreNotes = lazy(() => import("./pages/notes/cCoreNotes"));
@@ -73,6 +74,8 @@ function AppRoutes() {
                 <Route path="/notes/apache-derby-notes/:chapterSlug" element={<ApacheDerbyNotes />} />
                 <Route path="/notes/asp-net-notes" element={<AspNetNotes />} />
                 <Route path="/notes/asp-net-notes/:chapterSlug" element={<AspNetNotes />} />
+                <Route path="/notes/aws-notes" element={<AwsNotes />} />
+                <Route path="/notes/aws-notes/:chapterSlug" element={<AwsNotes />} />
                 <Route path="/notes/backend-engineering-core-notes" element={<BackendEngineeringCoreNotes />} />
                 <Route path="/notes/backend-engineering-core-notes/*" element={<BackendEngineeringCoreNotes />} />
                 <Route path="/notes/c-core-notes" element={<CCoreNotes />} />

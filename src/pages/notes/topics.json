@@ -38,6 +38,12 @@
     "description": "ASP.NET Core and C# notes covering HTTP, APIs, EF Core, Identity, security, testing, and deployment."
   },
   {
+    "slug": "aws-notes",
+    "title": "AWS Study Notes",
+    "category": "Cloud & DevOps",
+    "description": "18 chapters on AWS fundamentals, IAM, CLI, networking, compute, storage, databases, serverless, containers, messaging, observability, infrastructure as code, security, reliability, and cost management."
+  },
+  {
     "slug": "backend-engineering-core-notes",
     "title": "Backend Engineering Core Notes",
     "category": "Backend development",
