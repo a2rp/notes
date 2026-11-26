@@ -1,6 +1,6 @@
 # Developer Notes
 
-A route-based React library for practical developer references. It brings Algorithms Core Notes, Architecture & Clean Code Core Notes, Apache Derby Notes, Android Notes, Angular Notes, ASP.NET Core Notes, Backend Engineering Core Notes, and JavaScript Notes together, with each collection and its chapters kept locally in the app.
+A route-based React library for practical developer references. It brings Algorithms Core Notes, Architecture & Clean Code Core Notes, Apache Derby Notes, Android Notes, Angular Notes, ASP.NET Core Notes, Backend Engineering Core Notes, C Core Notes, and JavaScript Notes together, with each collection and its chapters kept locally in the app.
 
 ## Features
 
@@ -11,12 +11,13 @@ A route-based React library for practical developer references. It brings Algori
 - ASP.NET Core Notes with 19 chapters, a code-samples appendix, and Q&A
 - JavaScript Notes with 16 original chapters, code recipes, and Q&A
 - Angular Notes with 16 original chapters, code samples, and Q&A
+- C Core Notes with a focused 18-section interactive programming guide
 - Local chapter content, linked navigation, and original repository links
 - Responsive layouts, route loading spinner, and smooth scroll-to-top
 
 ## Tech stack
 
-React, Vite, React Router, React Markdown, remark-gfm, and React Icons.
+React, Vite, React Router, React Markdown, remark-gfm, styled-components, and React Icons.
 
 ## Run locally
 

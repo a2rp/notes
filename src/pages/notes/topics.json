@@ -44,6 +44,12 @@
     "description": "A practical guide to Node.js internals, API design, authentication, security, performance, and production observability."
   },
   {
+    "slug": "c-core-notes",
+    "title": "C Core Notes",
+    "category": "Programming Languages",
+    "description": "A focused C programming revision guide covering syntax, control flow, pointers, memory, files, data structures, and best practices."
+  },
+  {
     "slug": "javascript-notes",
     "title": "JavaScript Notes",
     "category": "Languages & Platforms",
