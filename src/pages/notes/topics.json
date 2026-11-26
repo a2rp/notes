@@ -104,6 +104,12 @@
     "description": "A practical JavaScript guide covering language fundamentals, modern syntax, async code, modules, browser APIs, testing, and security."
   },
   {
+    "slug": "framer-motion-notes",
+    "title": "Framer Motion Notes",
+    "category": "Frontend development",
+    "description": "16 practical chapters on Motion for React covering animation basics, variants, gestures, layout, scroll, SVG, accessibility, performance, code samples, and Q&A."
+  },
+  {
     "slug": "computer-networks-core-notes",
     "title": "Computer Networks Core Notes",
     "category": "Networking",

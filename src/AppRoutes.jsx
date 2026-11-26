@@ -9,6 +9,7 @@ const AlgorithmsCoreNotes = lazy(() => import("./pages/notes/algorithmsCoreNotes
 const AndroidNotes = lazy(() => import("./pages/notes/androidNotes"));
 const AngularNotes = lazy(() => import("./pages/notes/angularNotes"));
 const JavaScriptNotes = lazy(() => import("./pages/notes/javaScriptNotes"));
+const FramerMotionNotes = lazy(() => import("./pages/notes/framerMotionNotes"));
 const ApacheDerbyNotes = lazy(() => import("./pages/notes/apacheDerbyNotes"));
 const AspNetNotes = lazy(() => import("./pages/notes/aspNetNotes"));
 const AwsNotes = lazy(() => import("./pages/notes/awsNotes"));
@@ -73,6 +74,8 @@ function AppRoutes() {
                 <Route path="/notes/angular-notes/:chapterSlug" element={<AngularNotes />} />
                 <Route path="/notes/javascript-notes" element={<JavaScriptNotes />} />
                 <Route path="/notes/javascript-notes/:chapterSlug" element={<JavaScriptNotes />} />
+                <Route path="/notes/framer-motion-notes" element={<FramerMotionNotes />} />
+                <Route path="/notes/framer-motion-notes/:chapterSlug" element={<FramerMotionNotes />} />
                 <Route path="/notes/apache-derby-notes" element={<ApacheDerbyNotes />} />
                 <Route path="/notes/apache-derby-notes/:chapterSlug" element={<ApacheDerbyNotes />} />
                 <Route path="/notes/asp-net-notes" element={<AspNetNotes />} />
