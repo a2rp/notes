@@ -104,6 +104,13 @@
     "description": "A practical JavaScript guide covering language fundamentals, modern syntax, async code, modules, browser APIs, testing, and security."
   },
   {
+    "slug": "html-notes",
+    "title": "HTML Notes",
+    "category": "Frontend development",
+    "description": "57 HTML lessons with matching code examples and Q&A, plus quick guides for HTML syntax, elements, and reference topics.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/htmlNotes"
+  },
+  {
     "slug": "framer-motion-notes",
     "title": "Framer Motion Notes",
     "category": "Frontend development",
