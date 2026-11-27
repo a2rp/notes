@@ -227,5 +227,12 @@
     "category": "Databases",
     "description": "A focused Firestore guide covering documents, queries, data modeling, Security Rules, offline behavior, testing, and production operations.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/firestoreNotes"
+  },
+  {
+    "slug": "laravel-notes",
+    "title": "Laravel Study Notes",
+    "category": "Backend development",
+    "description": "18 practical Laravel 13 chapters with code samples and review questions, covering routing, Blade, Eloquent, authentication, APIs, testing, and deployment.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/laravelNotes"
   }
 ]
