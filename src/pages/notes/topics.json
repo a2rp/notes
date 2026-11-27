@@ -277,6 +277,12 @@
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/nodeJsNotes"
   },
   {
+    "slug": "operating-systems-core-notes",
+    "title": "Operating Systems Core Notes",
+    "category": "Operating Systems",
+    "description": "Original interactive notes on operating-system fundamentals, processes, CPU scheduling, synchronization, deadlocks, memory management, file systems, I/O, and interview questions."
+  },
+  {
     "slug": "reactjs-notes",
     "title": "ReactJS Notes",
     "category": "Frontend development",
