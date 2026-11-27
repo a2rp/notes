@@ -248,5 +248,11 @@
     "category": "Frontend development",
     "description": "18 chapters on Material UI components, forms, feedback, navigation, theming, styling, responsive design, accessibility, and production practices.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/materialUiNotes"
+  },
+  {
+    "slug": "mongodb-notes",
+    "title": "MongoDB Notes",
+    "category": "Databases",
+    "description": "18 chapters on MongoDB fundamentals, mongosh, CRUD, data modeling, indexes, aggregation, transactions, security, and the official Node.js driver."
   }
 ]
