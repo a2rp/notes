@@ -261,5 +261,12 @@
     "category": "Databases",
     "description": "18 original chapters on SQL Server fundamentals, T-SQL, queries, schema design, transactions, indexing, security, backup and restore, and JavaScript database access.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/mssqlServerNotes"
+  },
+  {
+    "slug": "nestjs-notes",
+    "title": "NestJS Study Notes",
+    "category": "Backend development",
+    "description": "18 original JavaScript chapters covering NestJS modules, controllers, providers, dependency injection, HTTP request flow, validation, security, testing, and production readiness.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/nestjsNotes"
   }
 ]

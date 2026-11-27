@@ -28,6 +28,7 @@ A route-based React library for practical developer references. It brings Algori
 - Material UI Study Notes with 18 chapters, practical component examples, and Q&A
 - MongoDB Notes with 16 core chapters, a complete code-samples appendix, and Q&A
 - Microsoft SQL Server Notes with 18 original chapters, runnable T-SQL examples, code samples, and Q&A
+- NestJS Study Notes with 18 original JavaScript chapters, application examples, and Q&A
 - Local chapter content, linked navigation, and original repository links
 - Responsive layouts, route loading spinner, and smooth scroll-to-top
 
