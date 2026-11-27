@@ -1,6 +1,6 @@
 # Developer Notes
 
-A route-based React library for practical developer references. It brings Algorithms Core Notes, Architecture & Clean Code Core Notes, Apache Derby Notes, Android Notes, Angular Notes, ASP.NET Core Notes, Backend Engineering Core Notes, C Core Notes, C and C++ Study Notes, Chakra UI Study Notes, CodeIgniter 4 Study Notes, DataTables Study Notes, DevOps and Cloud Core Notes, Docker Study Notes, Express.js Study Notes, FastAPI Study Notes, FileZilla Notes, Firebase Notes, Firestore Notes, JavaScript Notes, Laravel Notes, Linux Notes, Material UI Notes, and MongoDB Notes together, with each collection and its chapters kept locally in the app.
+A route-based React library for practical developer references. It brings Algorithms Core Notes, Architecture & Clean Code Core Notes, Apache Derby Notes, Android Notes, Angular Notes, ASP.NET Core Notes, Backend Engineering Core Notes, C Core Notes, C and C++ Study Notes, Chakra UI Study Notes, CodeIgniter 4 Study Notes, DataTables Study Notes, DevOps and Cloud Core Notes, Docker Study Notes, Express.js Study Notes, FastAPI Study Notes, FileZilla Notes, Firebase Notes, Firestore Notes, JavaScript Notes, Laravel Notes, Linux Notes, Material UI Notes, MongoDB Notes, and ReactJS Notes together, with each collection and its chapters kept locally in the app.
 
 ## Features
 
@@ -30,12 +30,13 @@ A route-based React library for practical developer references. It brings Algori
 - Microsoft SQL Server Notes with 18 original chapters, runnable T-SQL examples, code samples, and Q&A
 - NestJS Study Notes with 18 original JavaScript chapters, application examples, and Q&A
 - Node.js Study Notes with 18 original chapters, runtime examples, code samples, and Q&A
+- ReactJS Notes with 222 focused topics across the React ecosystem
 - Local chapter content, linked navigation, and original repository links
 - Responsive layouts, route loading spinner, and smooth scroll-to-top
 
 ## Tech stack
 
-React, Vite, React Router, React Markdown, remark-gfm, styled-components, and React Icons.
+React, Vite, React Router, React Markdown, remark-gfm, styled-components, React Icons, Material UI, and supporting data visualization libraries.
 
 ## Run locally
 

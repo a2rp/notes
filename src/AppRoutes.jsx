@@ -18,6 +18,7 @@ const MongoDbNotes = lazy(() => import("./pages/notes/mongodbNotes"));
 const MssqlServerNotes = lazy(() => import("./pages/notes/mssqlServerNotes"));
 const NestJsNotes = lazy(() => import("./pages/notes/nestjsNotes"));
 const NodeJsNotes = lazy(() => import("./pages/notes/nodeJsNotes"));
+const ReactJsNotes = lazy(() => import("./pages/notes/reactJsNotes"));
 const JavaScriptPracticalNotes = lazy(() => import("./pages/notes/javascriptPracticalNotes"));
 const HtmlNotes = lazy(() => import("./pages/notes/htmlNotes"));
 const FramerMotionNotes = lazy(() => import("./pages/notes/framerMotionNotes"));
@@ -104,6 +105,7 @@ function AppRoutes() {
                 <Route path="/notes/nestjs-notes/:chapterSlug" element={<NestJsNotes />} />
                 <Route path="/notes/nodejs-notes" element={<NodeJsNotes />} />
                 <Route path="/notes/nodejs-notes/:chapterSlug" element={<NodeJsNotes />} />
+                <Route path="/notes/reactjs-notes/*" element={<ReactJsNotes />} />
                 <Route path="/notes/javascript-practical-notes" element={<JavaScriptPracticalNotes />} />
                 <Route path="/notes/javascript-practical-notes/:section/:contentSlug" element={<JavaScriptPracticalNotes />} />
                 <Route path="/notes/html-notes" element={<HtmlNotes />} />

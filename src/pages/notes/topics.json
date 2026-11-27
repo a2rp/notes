@@ -275,5 +275,11 @@
     "category": "Backend development",
     "description": "18 original chapters on the Node.js runtime, npm, modules, asynchronous JavaScript, events, files, streams, HTTP, testing, security, and production practices.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/nodeJsNotes"
+  },
+  {
+    "slug": "reactjs-notes",
+    "title": "ReactJS Notes",
+    "category": "Frontend development",
+    "description": "A complete React learning guide with practical notes on JSX, components, state, hooks, routing, forms, data fetching, performance, testing, security, and deployment."
   }
 ]
