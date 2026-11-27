@@ -118,6 +118,13 @@
     "description": "A practical JavaScript guide covering language fundamentals, modern syntax, async code, modules, browser APIs, testing, and security."
   },
   {
+    "slug": "javascript-practical-notes",
+    "title": "JavaScript Practical Notes",
+    "category": "Programming Languages",
+    "description": "145 JavaScript lessons, each with companion Q&A and examples, plus quick guides from language fundamentals through browser APIs, Node.js, testing, and security.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/javascriptPracticalNotes"
+  },
+  {
     "slug": "html-notes",
     "title": "HTML Notes",
     "category": "Frontend development",

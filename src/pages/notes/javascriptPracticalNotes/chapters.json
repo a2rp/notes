@@ -1,0 +1,3061 @@
+[
+    {
+        "section":  "examples",
+        "number":  1,
+        "fileName":  "001-introduction-to-javascript.md",
+        "slug":  "introduction-to-javascript",
+        "title":  "01 - Introduction to JavaScript: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  2,
+        "fileName":  "002-javascript-on-the-web-html-css-and-javascript-roles.md",
+        "slug":  "javascript-on-the-web-html-css-and-javascript-roles",
+        "title":  "02 - JavaScript on the web: HTML, CSS, and JavaScript roles - Example"
+    },
+    {
+        "section":  "examples",
+        "number":  3,
+        "fileName":  "003-javascript-engines-and-runtime-environments.md",
+        "slug":  "javascript-engines-and-runtime-environments",
+        "title":  "03 - JavaScript engines and runtime environments - Example"
+    },
+    {
+        "section":  "examples",
+        "number":  4,
+        "fileName":  "004-set-up-the-editor-terminal-and-project-files.md",
+        "slug":  "set-up-the-editor-terminal-and-project-files",
+        "title":  "04 - Set up the editor, terminal, and project files - Example"
+    },
+    {
+        "section":  "examples",
+        "number":  5,
+        "fileName":  "005-browser-console-and-developer-tools.md",
+        "slug":  "browser-console-and-developer-tools",
+        "title":  "05 - Browser console and developer tools: example"
+    },
+    {
+        "section":  "examples",
+        "number":  6,
+        "fileName":  "006-ecmascript-editions-proposals-and-compatibility.md",
+        "slug":  "ecmascript-editions-proposals-and-compatibility",
+        "title":  "06 - ECMAScript editions, proposals, and compatibility: example"
+    },
+    {
+        "section":  "examples",
+        "number":  7,
+        "fileName":  "007-source-syntax-statements-expressions-comments-and-automatic-semicolon-insertion.md",
+        "slug":  "source-syntax-statements-expressions-comments-and-automatic-semicolon-insertion",
+        "title":  "07 - Source syntax, statements, expressions, comments, and automatic semicolon insertion: example"
+    },
+    {
+        "section":  "examples",
+        "number":  8,
+        "fileName":  "008-identifiers-keywords-reserved-words-and-naming.md",
+        "slug":  "identifiers-keywords-reserved-words-and-naming",
+        "title":  "08 - Identifiers, keywords, reserved words, and naming: example"
+    },
+    {
+        "section":  "examples",
+        "number":  9,
+        "fileName":  "009-classic-scripts-modules-and-script-loading.md",
+        "slug":  "classic-scripts-modules-and-script-loading",
+        "title":  "09 - Classic scripts, modules, and script loading: example"
+    },
+    {
+        "section":  "examples",
+        "number":  10,
+        "fileName":  "010-variables-const-let-and-var.md",
+        "slug":  "variables-const-let-and-var",
+        "title":  "10 - Variables: const, let, and var: example"
+    },
+    {
+        "section":  "examples",
+        "number":  11,
+        "fileName":  "011-scope-global-function-and-block.md",
+        "slug":  "scope-global-function-and-block",
+        "title":  "11 - Scope: global, function, and block: example"
+    },
+    {
+        "section":  "examples",
+        "number":  12,
+        "fileName":  "012-hoisting-and-the-temporal-dead-zone.md",
+        "slug":  "hoisting-and-the-temporal-dead-zone",
+        "title":  "12 - Hoisting and the temporal dead zone: example"
+    },
+    {
+        "section":  "examples",
+        "number":  13,
+        "fileName":  "013-strict-mode.md",
+        "slug":  "strict-mode",
+        "title":  "13 - Strict mode: example"
+    },
+    {
+        "section":  "examples",
+        "number":  14,
+        "fileName":  "014-values-types-and-dynamic-typing.md",
+        "slug":  "values-types-and-dynamic-typing",
+        "title":  "14 - Values, types, and dynamic typing: example"
+    },
+    {
+        "section":  "examples",
+        "number":  15,
+        "fileName":  "015-primitive-values-and-object-references.md",
+        "slug":  "primitive-values-and-object-references",
+        "title":  "15 - Primitive values and object references: example"
+    },
+    {
+        "section":  "examples",
+        "number":  16,
+        "fileName":  "016-undefined-null-and-nan.md",
+        "slug":  "undefined-null-and-nan",
+        "title":  "16 - undefined, null, and NaN: example"
+    },
+    {
+        "section":  "examples",
+        "number":  17,
+        "fileName":  "017-booleans-truthiness-and-falsy-values.md",
+        "slug":  "booleans-truthiness-and-falsy-values",
+        "title":  "17 - Booleans, truthiness, and falsy values: example"
+    },
+    {
+        "section":  "examples",
+        "number":  18,
+        "fileName":  "018-typeof-instanceof-and-reliable-type-checks.md",
+        "slug":  "typeof-instanceof-and-reliable-type-checks",
+        "title":  "18 - typeof, instanceof, and reliable type checks: example"
+    },
+    {
+        "section":  "examples",
+        "number":  19,
+        "fileName":  "019-type-conversion-and-coercion.md",
+        "slug":  "type-conversion-and-coercion",
+        "title":  "19 - Type conversion and coercion: example"
+    },
+    {
+        "section":  "examples",
+        "number":  20,
+        "fileName":  "020-equality-comparison-and-relational-operators.md",
+        "slug":  "equality-comparison-and-relational-operators",
+        "title":  "20 - Equality, comparison, and relational operators: example"
+    },
+    {
+        "section":  "examples",
+        "number":  21,
+        "fileName":  "021-numbers-floating-point-and-safe-integers.md",
+        "slug":  "numbers-floating-point-and-safe-integers",
+        "title":  "21 - Numbers, floating point, and safe integers: example"
+    },
+    {
+        "section":  "examples",
+        "number":  22,
+        "fileName":  "022-bigint.md",
+        "slug":  "bigint",
+        "title":  "22 - BigInt: example"
+    },
+    {
+        "section":  "examples",
+        "number":  23,
+        "fileName":  "023-strings-and-template-literals.md",
+        "slug":  "strings-and-template-literals",
+        "title":  "23 - Strings and template literals: example"
+    },
+    {
+        "section":  "examples",
+        "number":  24,
+        "fileName":  "024-unicode-code-units-code-points-and-graphemes.md",
+        "slug":  "unicode-code-units-code-points-and-graphemes",
+        "title":  "24 - Unicode: code units, code points, and graphemes"
+    },
+    {
+        "section":  "examples",
+        "number":  25,
+        "fileName":  "025-string-methods-and-text-processing.md",
+        "slug":  "string-methods-and-text-processing",
+        "title":  "25 - String methods and text processing"
+    },
+    {
+        "section":  "examples",
+        "number":  26,
+        "fileName":  "026-operators-precedence-and-associativity.md",
+        "slug":  "operators-precedence-and-associativity",
+        "title":  "26 - Operators, precedence, and associativity"
+    },
+    {
+        "section":  "examples",
+        "number":  27,
+        "fileName":  "027-logical-operators-and-short-circuiting.md",
+        "slug":  "logical-operators-and-short-circuiting",
+        "title":  "27 - Logical operators and short-circuiting"
+    },
+    {
+        "section":  "examples",
+        "number":  28,
+        "fileName":  "028-optional-chaining-and-nullish-coalescing.md",
+        "slug":  "optional-chaining-and-nullish-coalescing",
+        "title":  "28 - Optional chaining and nullish coalescing"
+    },
+    {
+        "section":  "examples",
+        "number":  29,
+        "fileName":  "029-bitwise-operators-and-integer-operations.md",
+        "slug":  "bitwise-operators-and-integer-operations",
+        "title":  "29 - Bitwise operators and integer operations: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  30,
+        "fileName":  "030-conditional-statements.md",
+        "slug":  "conditional-statements",
+        "title":  "30 - Conditional statements: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  31,
+        "fileName":  "031-switch-statements.md",
+        "slug":  "switch-statements",
+        "title":  "31 - switch statements: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  32,
+        "fileName":  "032-loops-and-iteration-statements.md",
+        "slug":  "loops-and-iteration-statements",
+        "title":  "32 - Loops and iteration statements: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  33,
+        "fileName":  "033-break-continue-and-labels.md",
+        "slug":  "break-continue-and-labels",
+        "title":  "33 - break, continue, and labels: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  34,
+        "fileName":  "034-errors-exceptions-and-try-catch-and-finally.md",
+        "slug":  "errors-exceptions-and-try-catch-and-finally",
+        "title":  "34 - Errors, exceptions, and try, catch, and finally - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  35,
+        "fileName":  "035-debugging-stack-traces-and-breakpoints.md",
+        "slug":  "debugging-stack-traces-and-breakpoints",
+        "title":  "35 - Debugging, stack traces, and breakpoints - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  36,
+        "fileName":  "036-function-declarations-and-expressions.md",
+        "slug":  "function-declarations-and-expressions",
+        "title":  "36 - Function declarations and expressions - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  37,
+        "fileName":  "037-parameters-default-values-rest-and-arguments.md",
+        "slug":  "parameters-default-values-rest-and-arguments",
+        "title":  "37 - Parameters, default values, rest, and arguments - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  38,
+        "fileName":  "038-return-values-and-early-returns.md",
+        "slug":  "return-values-and-early-returns",
+        "title":  "38 - Return values and early returns - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  39,
+        "fileName":  "039-arrow-functions.md",
+        "slug":  "arrow-functions",
+        "title":  "39 - Arrow functions - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  40,
+        "fileName":  "040-callbacks-and-higher-order-functions.md",
+        "slug":  "callbacks-and-higher-order-functions",
+        "title":  "40 - Callbacks and higher-order functions - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  41,
+        "fileName":  "041-lexical-scope-and-closures.md",
+        "slug":  "lexical-scope-and-closures",
+        "title":  "41 - Lexical scope and closures - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  42,
+        "fileName":  "042-this-and-invocation-context.md",
+        "slug":  "this-and-invocation-context",
+        "title":  "42 - this and invocation context - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  43,
+        "fileName":  "043-call-apply-and-bind.md",
+        "slug":  "call-apply-and-bind",
+        "title":  "43 - call, apply, and bind - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  44,
+        "fileName":  "044-recursion-and-the-call-stack.md",
+        "slug":  "recursion-and-the-call-stack",
+        "title":  "44 - Recursion and the call stack - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  45,
+        "fileName":  "045-arrays-create-read-and-update.md",
+        "slug":  "arrays-create-read-and-update",
+        "title":  "45 - Arrays: create, read, and update - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  46,
+        "fileName":  "046-array-iteration-methods.md",
+        "slug":  "array-iteration-methods",
+        "title":  "46 - Array iteration methods - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  47,
+        "fileName":  "047-transforming-arrays-map-filter-reduce-and-flat.md",
+        "slug":  "transforming-arrays-map-filter-reduce-and-flat",
+        "title":  "47 - Transforming arrays: map, filter, reduce, and flat - Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  48,
+        "fileName":  "048-searching-and-testing-arrays.md",
+        "slug":  "searching-and-testing-arrays",
+        "title":  "48 - Searching and testing arrays: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  49,
+        "fileName":  "049-mutation-copying-and-immutable-array-updates.md",
+        "slug":  "mutation-copying-and-immutable-array-updates",
+        "title":  "49 - Mutation, copying, and immutable array updates: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  50,
+        "fileName":  "050-sorting-comparators-and-locale-aware-comparison.md",
+        "slug":  "sorting-comparators-and-locale-aware-comparison",
+        "title":  "50 - Sorting, comparators, and locale-aware comparison: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  51,
+        "fileName":  "051-sparse-arrays-array-like-objects-and-array-protocols.md",
+        "slug":  "sparse-arrays-array-like-objects-and-array-protocols",
+        "title":  "51 - Sparse arrays, array-like objects, and array protocols: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  52,
+        "fileName":  "052-objects-properties-and-methods.md",
+        "slug":  "objects-properties-and-methods",
+        "title":  "52 - Objects: properties and methods: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  53,
+        "fileName":  "053-property-keys-descriptors-and-enumerability.md",
+        "slug":  "property-keys-descriptors-and-enumerability",
+        "title":  "53 - Property keys, descriptors, and enumerability: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  54,
+        "fileName":  "054-computed-properties-shorthand-and-method-definitions.md",
+        "slug":  "computed-properties-shorthand-and-method-definitions",
+        "title":  "54 - Computed properties, shorthand, and method definitions: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  55,
+        "fileName":  "055-object-and-array-destructuring.md",
+        "slug":  "object-and-array-destructuring",
+        "title":  "55 - Object and array destructuring: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  56,
+        "fileName":  "056-spread-syntax-and-rest-properties.md",
+        "slug":  "spread-syntax-and-rest-properties",
+        "title":  "56 - Spread syntax and rest properties: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  57,
+        "fileName":  "057-object-identity-shallow-copies-deep-copies-and-structuredclone.md",
+        "slug":  "object-identity-shallow-copies-deep-copies-and-structuredclone",
+        "title":  "57 - Object identity, shallow copies, deep copies, and structuredClone: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  58,
+        "fileName":  "058-getters-setters-property-control-freeze-and-seal.md",
+        "slug":  "getters-setters-property-control-freeze-and-seal",
+        "title":  "58 - Getters, setters, property control, freeze, and seal: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  59,
+        "fileName":  "059-prototypes-and-the-prototype-chain.md",
+        "slug":  "prototypes-and-the-prototype-chain",
+        "title":  "59 - Prototypes and the prototype chain: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  60,
+        "fileName":  "060-constructor-functions-new-and-instanceof.md",
+        "slug":  "constructor-functions-new-and-instanceof",
+        "title":  "60 - Constructor functions, new, and instanceof: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  61,
+        "fileName":  "061-classes-fields-and-methods.md",
+        "slug":  "classes-fields-and-methods",
+        "title":  "61 - Classes: fields and methods: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  62,
+        "fileName":  "062-static-fields-private-elements-and-initialization-blocks.md",
+        "slug":  "static-fields-private-elements-and-initialization-blocks",
+        "title":  "62 - Static fields, private elements, and initialization blocks: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  63,
+        "fileName":  "063-inheritance-extends-and-super.md",
+        "slug":  "inheritance-extends-and-super",
+        "title":  "63 - Inheritance, extends, and super: examples"
+    },
+    {
+        "section":  "examples",
+        "number":  64,
+        "fileName":  "064-composition-delegation-and-mixins.md",
+        "slug":  "composition-delegation-and-mixins",
+        "title":  "64 - Composition, delegation, and mixins: Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  65,
+        "fileName":  "065-map-and-set-collections.md",
+        "slug":  "map-and-set-collections",
+        "title":  "65 - Map and Set collections: Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  66,
+        "fileName":  "066-weakmap-and-weakset.md",
+        "slug":  "weakmap-and-weakset",
+        "title":  "66 - WeakMap and WeakSet: Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  67,
+        "fileName":  "067-symbols-and-well-known-symbols.md",
+        "slug":  "symbols-and-well-known-symbols",
+        "title":  "67 - Symbols and well-known symbols: Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  68,
+        "fileName":  "068-iterables-and-the-iterator-protocol.md",
+        "slug":  "iterables-and-the-iterator-protocol",
+        "title":  "68 - Iterables and the iterator protocol: Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  69,
+        "fileName":  "069-generators-and-yield.md",
+        "slug":  "generators-and-yield",
+        "title":  "69 - Generators and yield: Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  70,
+        "fileName":  "070-arraybuffer-dataview-and-typed-arrays.md",
+        "slug":  "arraybuffer-dataview-and-typed-arrays",
+        "title":  "70 - ArrayBuffer, DataView, and typed arrays: Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  71,
+        "fileName":  "071-sharedarraybuffer-atomics-and-shared-memory.md",
+        "slug":  "sharedarraybuffer-atomics-and-shared-memory",
+        "title":  "71 - SharedArrayBuffer, Atomics, and shared memory: Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  72,
+        "fileName":  "072-regular-expression-syntax.md",
+        "slug":  "regular-expression-syntax",
+        "title":  "72 - Regular expression syntax: Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  73,
+        "fileName":  "073-regexp-groups-flags-and-string-methods.md",
+        "slug":  "regexp-groups-flags-and-string-methods",
+        "title":  "73 - RegExp groups, flags, and string methods: Examples"
+    },
+    {
+        "section":  "examples",
+        "number":  74,
+        "fileName":  "074-json-parsing-serialization-and-data-limits.md",
+        "slug":  "json-parsing-serialization-and-data-limits",
+        "title":  "74 - JSON parsing, serialization, and data limits example"
+    },
+    {
+        "section":  "examples",
+        "number":  75,
+        "fileName":  "075-math-number-and-numeric-utilities.md",
+        "slug":  "math-number-and-numeric-utilities",
+        "title":  "75 - Math, Number, and numeric utilities example"
+    },
+    {
+        "section":  "examples",
+        "number":  76,
+        "fileName":  "076-dates-time-zones-and-temporal.md",
+        "slug":  "dates-time-zones-and-temporal",
+        "title":  "76 - Dates, time zones, and Temporal example"
+    },
+    {
+        "section":  "examples",
+        "number":  77,
+        "fileName":  "077-intl-and-locale-aware-formatting.md",
+        "slug":  "intl-and-locale-aware-formatting",
+        "title":  "77 - Intl and locale-aware formatting example"
+    },
+    {
+        "section":  "examples",
+        "number":  78,
+        "fileName":  "078-proxy-and-reflect.md",
+        "slug":  "proxy-and-reflect",
+        "title":  "78 - Proxy and Reflect example"
+    },
+    {
+        "section":  "examples",
+        "number":  79,
+        "fileName":  "079-memory-garbage-collection-and-weak-references.md",
+        "slug":  "memory-garbage-collection-and-weak-references",
+        "title":  "79 - Memory, garbage collection, and weak references example"
+    },
+    {
+        "section":  "examples",
+        "number":  80,
+        "fileName":  "080-modules-scripts-modules-and-module-scope.md",
+        "slug":  "modules-scripts-modules-and-module-scope",
+        "title":  "80 - Modules: scripts, modules, and module scope example"
+    },
+    {
+        "section":  "examples",
+        "number":  81,
+        "fileName":  "081-export-and-import-forms.md",
+        "slug":  "export-and-import-forms",
+        "title":  "81 - Export and import forms example"
+    },
+    {
+        "section":  "examples",
+        "number":  82,
+        "fileName":  "082-dynamic-imports-and-import-attributes.md",
+        "slug":  "dynamic-imports-and-import-attributes",
+        "title":  "82 - Dynamic imports and import attributes example"
+    },
+    {
+        "section":  "examples",
+        "number":  83,
+        "fileName":  "083-module-loading-resolution-and-import-maps.md",
+        "slug":  "module-loading-resolution-and-import-maps",
+        "title":  "83 - Module loading, resolution, and import maps example"
+    },
+    {
+        "section":  "examples",
+        "number":  84,
+        "fileName":  "084-package-json-npm-dependencies-scripts-and-package-managers.md",
+        "slug":  "package-json-npm-dependencies-scripts-and-package-managers",
+        "title":  "84 - Package.json, npm, dependencies, scripts, and package managers example"
+    },
+    {
+        "section":  "examples",
+        "number":  85,
+        "fileName":  "085-es-modules-and-commonjs-in-node-js.md",
+        "slug":  "es-modules-and-commonjs-in-node-js",
+        "title":  "85 - ES modules and CommonJS in Node.js example"
+    },
+    {
+        "section":  "examples",
+        "number":  86,
+        "fileName":  "086-transpilation-bundlers-polyfills-and-source-maps.md",
+        "slug":  "transpilation-bundlers-polyfills-and-source-maps",
+        "title":  "86 - Transpilation, bundlers, polyfills, and source maps example"
+    },
+    {
+        "section":  "examples",
+        "number":  87,
+        "fileName":  "087-testing-fundamentals-assertions-and-test-design.md",
+        "slug":  "testing-fundamentals-assertions-and-test-design",
+        "title":  "87 - Testing fundamentals, assertions, and test design"
+    },
+    {
+        "section":  "examples",
+        "number":  88,
+        "fileName":  "088-test-runners-mocking-and-browser-testing.md",
+        "slug":  "test-runners-mocking-and-browser-testing",
+        "title":  "88 - Test runners, mocking, and browser testing"
+    },
+    {
+        "section":  "examples",
+        "number":  89,
+        "fileName":  "089-formatting-linting-jsdoc-and-editor-tooling.md",
+        "slug":  "formatting-linting-jsdoc-and-editor-tooling",
+        "title":  "89 - Formatting, linting, JSDoc, and editor tooling"
+    },
+    {
+        "section":  "examples",
+        "number":  90,
+        "fileName":  "090-the-asynchronous-programming-model.md",
+        "slug":  "the-asynchronous-programming-model",
+        "title":  "90 - The asynchronous programming model"
+    },
+    {
+        "section":  "examples",
+        "number":  91,
+        "fileName":  "091-the-event-loop-task-queues-and-microtasks.md",
+        "slug":  "the-event-loop-task-queues-and-microtasks",
+        "title":  "91 - The event loop, task queues, and microtasks"
+    },
+    {
+        "section":  "examples",
+        "number":  92,
+        "fileName":  "092-timers-animation-frames-and-scheduling.md",
+        "slug":  "timers-animation-frames-and-scheduling",
+        "title":  "92 - Timers, animation frames, and scheduling"
+    },
+    {
+        "section":  "examples",
+        "number":  93,
+        "fileName":  "093-promises-states-chaining-and-error-handling.md",
+        "slug":  "promises-states-chaining-and-error-handling",
+        "title":  "93 - Promises, states, chaining, and error handling"
+    },
+    {
+        "section":  "examples",
+        "number":  94,
+        "fileName":  "094-promise-combinators-and-concurrent-work.md",
+        "slug":  "promise-combinators-and-concurrent-work",
+        "title":  "94 - Promise combinators and concurrent work"
+    },
+    {
+        "section":  "examples",
+        "number":  95,
+        "fileName":  "095-async-and-await.md",
+        "slug":  "async-and-await",
+        "title":  "95 - Async and await"
+    },
+    {
+        "section":  "examples",
+        "number":  96,
+        "fileName":  "096-asynchronous-errors-concurrency-and-coordination.md",
+        "slug":  "asynchronous-errors-concurrency-and-coordination",
+        "title":  "96 - Asynchronous errors, concurrency, and coordination"
+    },
+    {
+        "section":  "examples",
+        "number":  97,
+        "fileName":  "097-cancellation-timeouts-and-abortcontroller.md",
+        "slug":  "cancellation-timeouts-and-abortcontroller",
+        "title":  "97 - Cancellation, timeouts, and AbortController"
+    },
+    {
+        "section":  "examples",
+        "number":  98,
+        "fileName":  "098-browser-globals-globalthis-window-and-document.md",
+        "slug":  "browser-globals-globalthis-window-and-document",
+        "title":  "98 - Browser globals, globalThis, window, and document"
+    },
+    {
+        "section":  "examples",
+        "number":  99,
+        "fileName":  "099-the-dom-tree-selectors-and-traversal.md",
+        "slug":  "the-dom-tree-selectors-and-traversal",
+        "title":  "99 - The DOM tree, selectors, and traversal"
+    },
+    {
+        "section":  "examples",
+        "number":  100,
+        "fileName":  "100-creating-updating-and-removing-dom-content.md",
+        "slug":  "creating-updating-and-removing-dom-content",
+        "title":  "100 - Creating, updating, and removing DOM content: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  101,
+        "fileName":  "101-attributes-classes-forms-and-styles-from-javascript.md",
+        "slug":  "attributes-classes-forms-and-styles-from-javascript",
+        "title":  "101 - Attributes, classes, forms, and styles from JavaScript: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  102,
+        "fileName":  "102-browser-events-capture-bubbling-and-default-actions.md",
+        "slug":  "browser-events-capture-bubbling-and-default-actions",
+        "title":  "102 - Browser events: capture, bubbling, and default actions: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  103,
+        "fileName":  "103-event-delegation-and-reusable-handlers.md",
+        "slug":  "event-delegation-and-reusable-handlers",
+        "title":  "103 - Event delegation and reusable handlers: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  104,
+        "fileName":  "104-forms-input-validation-and-submission.md",
+        "slug":  "forms-input-validation-and-submission",
+        "title":  "104 - Forms, input validation, and submission: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  105,
+        "fileName":  "105-fetch-api-requests-responses-and-headers.md",
+        "slug":  "fetch-api-requests-responses-and-headers",
+        "title":  "105 - Fetch API: requests, responses, and headers: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  106,
+        "fileName":  "106-http-methods-status-codes-and-json-apis.md",
+        "slug":  "http-methods-status-codes-and-json-apis",
+        "title":  "106 - HTTP methods, status codes, and JSON APIs: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  107,
+        "fileName":  "107-cors-credentials-and-cross-origin-rules.md",
+        "slug":  "cors-credentials-and-cross-origin-rules",
+        "title":  "107 - CORS, credentials, and cross-origin rules: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  108,
+        "fileName":  "108-url-urlsearchparams-and-the-history-api.md",
+        "slug":  "url-urlsearchparams-and-the-history-api",
+        "title":  "108 - URL, URLSearchParams, and the History API: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  109,
+        "fileName":  "109-cookies-web-storage-and-client-state.md",
+        "slug":  "cookies-web-storage-and-client-state",
+        "title":  "109 - Cookies, Web Storage, and client state: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  110,
+        "fileName":  "110-indexeddb-and-structured-client-storage.md",
+        "slug":  "indexeddb-and-structured-client-storage",
+        "title":  "110 - IndexedDB and structured client storage: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  111,
+        "fileName":  "111-files-blobs-object-urls-clipboard-and-downloads.md",
+        "slug":  "files-blobs-object-urls-clipboard-and-downloads",
+        "title":  "111 - Files, blobs, object URLs, clipboard, and downloads: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  112,
+        "fileName":  "112-web-workers-shared-workers-and-message-passing.md",
+        "slug":  "web-workers-shared-workers-and-message-passing",
+        "title":  "112 - Web Workers, shared workers, and message passing: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  113,
+        "fileName":  "113-service-workers-offline-behavior-and-cache-lifecycle.md",
+        "slug":  "service-workers-offline-behavior-and-cache-lifecycle",
+        "title":  "113 - Service workers, offline behavior, and cache lifecycle: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  114,
+        "fileName":  "114-mutation-intersection-and-resize-observers.md",
+        "slug":  "mutation-intersection-and-resize-observers",
+        "title":  "114 - Mutation, intersection, and resize observers: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  115,
+        "fileName":  "115-web-components-custom-elements-and-shadow-dom.md",
+        "slug":  "web-components-custom-elements-and-shadow-dom",
+        "title":  "115 - Web Components, custom elements, and Shadow DOM: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  116,
+        "fileName":  "116-websockets-server-sent-events-and-real-time-updates.md",
+        "slug":  "websockets-server-sent-events-and-real-time-updates",
+        "title":  "116 - WebSockets, Server-Sent Events, and real-time updates: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  117,
+        "fileName":  "117-permissions-geolocation-and-device-apis.md",
+        "slug":  "permissions-geolocation-and-device-apis",
+        "title":  "117 - Permissions, geolocation, and device APIs"
+    },
+    {
+        "section":  "examples",
+        "number":  118,
+        "fileName":  "118-accessibility-keyboard-interaction-and-dynamic-content.md",
+        "slug":  "accessibility-keyboard-interaction-and-dynamic-content",
+        "title":  "118 - Accessibility, keyboard interaction, and dynamic content"
+    },
+    {
+        "section":  "examples",
+        "number":  119,
+        "fileName":  "119-browser-security-xss-injection-and-safe-dom-updates.md",
+        "slug":  "browser-security-xss-injection-and-safe-dom-updates",
+        "title":  "119 - Browser security: XSS, injection, and safe DOM updates"
+    },
+    {
+        "section":  "examples",
+        "number":  120,
+        "fileName":  "120-web-crypto-and-secure-random-values.md",
+        "slug":  "web-crypto-and-secure-random-values",
+        "title":  "120 - Web Crypto and secure random values"
+    },
+    {
+        "section":  "examples",
+        "number":  121,
+        "fileName":  "121-browser-rendering-scheduling-and-performance.md",
+        "slug":  "browser-rendering-scheduling-and-performance",
+        "title":  "121 - Browser rendering, scheduling, and performance"
+    },
+    {
+        "section":  "examples",
+        "number":  122,
+        "fileName":  "122-node-js-runtime-globals-and-execution-model.md",
+        "slug":  "node-js-runtime-globals-and-execution-model",
+        "title":  "122 - Node.js runtime, globals, and execution model"
+    },
+    {
+        "section":  "examples",
+        "number":  123,
+        "fileName":  "123-command-line-arguments-environment-variables-and-process.md",
+        "slug":  "command-line-arguments-environment-variables-and-process",
+        "title":  "123 - Command-line arguments, environment variables, and process"
+    },
+    {
+        "section":  "examples",
+        "number":  124,
+        "fileName":  "124-node-js-modules-core-apis-and-package-resolution.md",
+        "slug":  "node-js-modules-core-apis-and-package-resolution",
+        "title":  "124 - Node.js modules, core APIs, and package resolution"
+    },
+    {
+        "section":  "examples",
+        "number":  125,
+        "fileName":  "125-file-system-paths-and-url-handling-in-node-js.md",
+        "slug":  "file-system-paths-and-url-handling-in-node-js",
+        "title":  "125 - File system, paths, and URL handling in Node.js"
+    },
+    {
+        "section":  "examples",
+        "number":  126,
+        "fileName":  "126-buffers-streams-and-backpressure.md",
+        "slug":  "buffers-streams-and-backpressure",
+        "title":  "126 - Buffers, streams, and backpressure"
+    },
+    {
+        "section":  "examples",
+        "number":  127,
+        "fileName":  "127-eventemitter-signals-timers-and-the-node-js-event-loop.md",
+        "slug":  "eventemitter-signals-timers-and-the-node-js-event-loop",
+        "title":  "127 - EventEmitter, signals, timers, and the Node.js event loop"
+    },
+    {
+        "section":  "examples",
+        "number":  128,
+        "fileName":  "128-worker-threads-child-processes-and-subprocesses.md",
+        "slug":  "worker-threads-child-processes-and-subprocesses",
+        "title":  "128 - Worker threads, child processes, and subprocesses: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  129,
+        "fileName":  "129-build-http-servers-and-handle-requests.md",
+        "slug":  "build-http-servers-and-handle-requests",
+        "title":  "129 - Build HTTP servers and handle requests: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  130,
+        "fileName":  "130-node-js-test-runner-and-service-tests.md",
+        "slug":  "node-js-test-runner-and-service-tests",
+        "title":  "130 - Node.js test runner and service tests: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  131,
+        "fileName":  "131-node-js-debugging-diagnostics-and-profiling.md",
+        "slug":  "node-js-debugging-diagnostics-and-profiling",
+        "title":  "131 - Node.js debugging, diagnostics, and profiling: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  132,
+        "fileName":  "132-data-structures-in-javascript.md",
+        "slug":  "data-structures-in-javascript",
+        "title":  "132 - Data structures in JavaScript: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  133,
+        "fileName":  "133-algorithmic-thinking-complexity-and-common-patterns.md",
+        "slug":  "algorithmic-thinking-complexity-and-common-patterns",
+        "title":  "133 - Algorithmic thinking, complexity, and common patterns: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  134,
+        "fileName":  "134-functional-programming-composition-and-purity.md",
+        "slug":  "functional-programming-composition-and-purity",
+        "title":  "134 - Functional programming: composition and purity: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  135,
+        "fileName":  "135-object-oriented-programming-composition-and-design-patterns.md",
+        "slug":  "object-oriented-programming-composition-and-design-patterns",
+        "title":  "135 - Object-oriented programming, composition, and design patterns: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  136,
+        "fileName":  "136-modular-architecture-and-dependency-boundaries.md",
+        "slug":  "modular-architecture-and-dependency-boundaries",
+        "title":  "136 - Modular architecture and dependency boundaries: Example"
+    },
+    {
+        "section":  "examples",
+        "number":  137,
+        "fileName":  "137-error-handling-reliability-and-application-security.md",
+        "slug":  "error-handling-reliability-and-application-security",
+        "title":  "Example 137 - Error handling, reliability, and application security"
+    },
+    {
+        "section":  "examples",
+        "number":  138,
+        "fileName":  "138-dependency-hygiene-lockfiles-and-software-supply-chain.md",
+        "slug":  "dependency-hygiene-lockfiles-and-software-supply-chain",
+        "title":  "Example 138 - Dependency hygiene, lockfiles, and software supply chain"
+    },
+    {
+        "section":  "examples",
+        "number":  139,
+        "fileName":  "139-performance-analysis-memory-leaks-and-optimization.md",
+        "slug":  "performance-analysis-memory-leaks-and-optimization",
+        "title":  "Example 139 - Performance analysis, memory leaks, and optimization"
+    },
+    {
+        "section":  "examples",
+        "number":  140,
+        "fileName":  "140-feature-detection-compatibility-and-graceful-fallback.md",
+        "slug":  "feature-detection-compatibility-and-graceful-fallback",
+        "title":  "Example 140 - Feature detection, compatibility, and graceful fallback"
+    },
+    {
+        "section":  "examples",
+        "number":  141,
+        "fileName":  "141-browser-project-build-an-interactive-interface.md",
+        "slug":  "browser-project-build-an-interactive-interface",
+        "title":  "Example 141 - Browser project: build an interactive interface"
+    },
+    {
+        "section":  "examples",
+        "number":  142,
+        "fileName":  "142-browser-project-build-an-api-driven-application.md",
+        "slug":  "browser-project-build-an-api-driven-application",
+        "title":  "Example 142 - Browser project: build an API-driven application"
+    },
+    {
+        "section":  "examples",
+        "number":  143,
+        "fileName":  "143-node-js-project-build-a-command-line-utility.md",
+        "slug":  "node-js-project-build-a-command-line-utility",
+        "title":  "Example 143 - Node.js project: build a command-line utility"
+    },
+    {
+        "section":  "examples",
+        "number":  144,
+        "fileName":  "144-capstone-project-plan-build-test-and-document-an-application.md",
+        "slug":  "capstone-project-plan-build-test-and-document-an-application",
+        "title":  "Example 144 - Capstone project: plan, build, test, and document an application"
+    },
+    {
+        "section":  "examples",
+        "number":  145,
+        "fileName":  "145-javascript-quick-reference-and-glossary.md",
+        "slug":  "javascript-quick-reference-and-glossary",
+        "title":  "145 - JavaScript quick reference and glossary example"
+    },
+    {
+        "section":  "guides",
+        "number":  0,
+        "fileName":  "javascript-keywords.md",
+        "slug":  "javascript-keywords",
+        "title":  "JavaScript Keywords"
+    },
+    {
+        "section":  "guides",
+        "number":  0,
+        "fileName":  "javascript-summary.md",
+        "slug":  "javascript-summary",
+        "title":  "JavaScript: Complete Summary"
+    },
+    {
+        "section":  "lessons",
+        "number":  1,
+        "fileName":  "001-introduction-to-javascript.md",
+        "slug":  "introduction-to-javascript",
+        "title":  "01 - Introduction to JavaScript"
+    },
+    {
+        "section":  "lessons",
+        "number":  2,
+        "fileName":  "002-javascript-on-the-web-html-css-and-javascript-roles.md",
+        "slug":  "javascript-on-the-web-html-css-and-javascript-roles",
+        "title":  "02 - JavaScript on the web: HTML, CSS, and JavaScript roles"
+    },
+    {
+        "section":  "lessons",
+        "number":  3,
+        "fileName":  "003-javascript-engines-and-runtime-environments.md",
+        "slug":  "javascript-engines-and-runtime-environments",
+        "title":  "03 - JavaScript engines and runtime environments"
+    },
+    {
+        "section":  "lessons",
+        "number":  4,
+        "fileName":  "004-set-up-the-editor-terminal-and-project-files.md",
+        "slug":  "set-up-the-editor-terminal-and-project-files",
+        "title":  "04 - Set up the editor, terminal, and project files"
+    },
+    {
+        "section":  "lessons",
+        "number":  5,
+        "fileName":  "005-browser-console-and-developer-tools.md",
+        "slug":  "browser-console-and-developer-tools",
+        "title":  "05 - Browser console and developer tools"
+    },
+    {
+        "section":  "lessons",
+        "number":  6,
+        "fileName":  "006-ecmascript-editions-proposals-and-compatibility.md",
+        "slug":  "ecmascript-editions-proposals-and-compatibility",
+        "title":  "06 - ECMAScript editions, proposals, and compatibility"
+    },
+    {
+        "section":  "lessons",
+        "number":  7,
+        "fileName":  "007-source-syntax-statements-expressions-comments-and-automatic-semicolon-insertion.md",
+        "slug":  "source-syntax-statements-expressions-comments-and-automatic-semicolon-insertion",
+        "title":  "07 - Source syntax, statements, expressions, comments, and automatic semicolon insertion"
+    },
+    {
+        "section":  "lessons",
+        "number":  8,
+        "fileName":  "008-identifiers-keywords-reserved-words-and-naming.md",
+        "slug":  "identifiers-keywords-reserved-words-and-naming",
+        "title":  "08 - Identifiers, keywords, reserved words, and naming"
+    },
+    {
+        "section":  "lessons",
+        "number":  9,
+        "fileName":  "009-classic-scripts-modules-and-script-loading.md",
+        "slug":  "classic-scripts-modules-and-script-loading",
+        "title":  "09 - Classic scripts, modules, and script loading"
+    },
+    {
+        "section":  "lessons",
+        "number":  10,
+        "fileName":  "010-variables-const-let-and-var.md",
+        "slug":  "variables-const-let-and-var",
+        "title":  "10 - Variables: const, let, and var"
+    },
+    {
+        "section":  "lessons",
+        "number":  11,
+        "fileName":  "011-scope-global-function-and-block.md",
+        "slug":  "scope-global-function-and-block",
+        "title":  "11 - Scope: global, function, and block"
+    },
+    {
+        "section":  "lessons",
+        "number":  12,
+        "fileName":  "012-hoisting-and-the-temporal-dead-zone.md",
+        "slug":  "hoisting-and-the-temporal-dead-zone",
+        "title":  "12 - Hoisting and the temporal dead zone"
+    },
+    {
+        "section":  "lessons",
+        "number":  13,
+        "fileName":  "013-strict-mode.md",
+        "slug":  "strict-mode",
+        "title":  "13 - Strict mode"
+    },
+    {
+        "section":  "lessons",
+        "number":  14,
+        "fileName":  "014-values-types-and-dynamic-typing.md",
+        "slug":  "values-types-and-dynamic-typing",
+        "title":  "14 - Values, types, and dynamic typing"
+    },
+    {
+        "section":  "lessons",
+        "number":  15,
+        "fileName":  "015-primitive-values-and-object-references.md",
+        "slug":  "primitive-values-and-object-references",
+        "title":  "15 - Primitive values and object references"
+    },
+    {
+        "section":  "lessons",
+        "number":  16,
+        "fileName":  "016-undefined-null-and-nan.md",
+        "slug":  "undefined-null-and-nan",
+        "title":  "16 - undefined, null, and NaN"
+    },
+    {
+        "section":  "lessons",
+        "number":  17,
+        "fileName":  "017-booleans-truthiness-and-falsy-values.md",
+        "slug":  "booleans-truthiness-and-falsy-values",
+        "title":  "17 - Booleans, truthiness, and falsy values"
+    },
+    {
+        "section":  "lessons",
+        "number":  18,
+        "fileName":  "018-typeof-instanceof-and-reliable-type-checks.md",
+        "slug":  "typeof-instanceof-and-reliable-type-checks",
+        "title":  "18 - typeof, instanceof, and reliable type checks"
+    },
+    {
+        "section":  "lessons",
+        "number":  19,
+        "fileName":  "019-type-conversion-and-coercion.md",
+        "slug":  "type-conversion-and-coercion",
+        "title":  "19 - Type conversion and coercion"
+    },
+    {
+        "section":  "lessons",
+        "number":  20,
+        "fileName":  "020-equality-comparison-and-relational-operators.md",
+        "slug":  "equality-comparison-and-relational-operators",
+        "title":  "20 - Equality, comparison, and relational operators"
+    },
+    {
+        "section":  "lessons",
+        "number":  21,
+        "fileName":  "021-numbers-floating-point-and-safe-integers.md",
+        "slug":  "numbers-floating-point-and-safe-integers",
+        "title":  "21 - Numbers, floating point, and safe integers"
+    },
+    {
+        "section":  "lessons",
+        "number":  22,
+        "fileName":  "022-bigint.md",
+        "slug":  "bigint",
+        "title":  "22 - BigInt"
+    },
+    {
+        "section":  "lessons",
+        "number":  23,
+        "fileName":  "023-strings-and-template-literals.md",
+        "slug":  "strings-and-template-literals",
+        "title":  "23 - Strings and template literals"
+    },
+    {
+        "section":  "lessons",
+        "number":  24,
+        "fileName":  "024-unicode-code-units-code-points-and-graphemes.md",
+        "slug":  "unicode-code-units-code-points-and-graphemes",
+        "title":  "24 - Unicode: code units, code points, and graphemes"
+    },
+    {
+        "section":  "lessons",
+        "number":  25,
+        "fileName":  "025-string-methods-and-text-processing.md",
+        "slug":  "string-methods-and-text-processing",
+        "title":  "25 - String methods and text processing"
+    },
+    {
+        "section":  "lessons",
+        "number":  26,
+        "fileName":  "026-operators-precedence-and-associativity.md",
+        "slug":  "operators-precedence-and-associativity",
+        "title":  "26 - Operators, precedence, and associativity"
+    },
+    {
+        "section":  "lessons",
+        "number":  27,
+        "fileName":  "027-logical-operators-and-short-circuiting.md",
+        "slug":  "logical-operators-and-short-circuiting",
+        "title":  "27 - Logical operators and short-circuiting"
+    },
+    {
+        "section":  "lessons",
+        "number":  28,
+        "fileName":  "028-optional-chaining-and-nullish-coalescing.md",
+        "slug":  "optional-chaining-and-nullish-coalescing",
+        "title":  "28 - Optional chaining and nullish coalescing"
+    },
+    {
+        "section":  "lessons",
+        "number":  29,
+        "fileName":  "029-bitwise-operators-and-integer-operations.md",
+        "slug":  "bitwise-operators-and-integer-operations",
+        "title":  "29 - Bitwise operators and integer operations"
+    },
+    {
+        "section":  "lessons",
+        "number":  30,
+        "fileName":  "030-conditional-statements.md",
+        "slug":  "conditional-statements",
+        "title":  "30 - Conditional statements"
+    },
+    {
+        "section":  "lessons",
+        "number":  31,
+        "fileName":  "031-switch-statements.md",
+        "slug":  "switch-statements",
+        "title":  "31 - switch statements"
+    },
+    {
+        "section":  "lessons",
+        "number":  32,
+        "fileName":  "032-loops-and-iteration-statements.md",
+        "slug":  "loops-and-iteration-statements",
+        "title":  "32 - Loops and iteration statements"
+    },
+    {
+        "section":  "lessons",
+        "number":  33,
+        "fileName":  "033-break-continue-and-labels.md",
+        "slug":  "break-continue-and-labels",
+        "title":  "33 - break, continue, and labels"
+    },
+    {
+        "section":  "lessons",
+        "number":  34,
+        "fileName":  "034-errors-exceptions-and-try-catch-and-finally.md",
+        "slug":  "errors-exceptions-and-try-catch-and-finally",
+        "title":  "34 - Errors, exceptions, and try, catch, and finally"
+    },
+    {
+        "section":  "lessons",
+        "number":  35,
+        "fileName":  "035-debugging-stack-traces-and-breakpoints.md",
+        "slug":  "debugging-stack-traces-and-breakpoints",
+        "title":  "35 - Debugging, stack traces, and breakpoints"
+    },
+    {
+        "section":  "lessons",
+        "number":  36,
+        "fileName":  "036-function-declarations-and-expressions.md",
+        "slug":  "function-declarations-and-expressions",
+        "title":  "36 - Function declarations and expressions"
+    },
+    {
+        "section":  "lessons",
+        "number":  37,
+        "fileName":  "037-parameters-default-values-rest-and-arguments.md",
+        "slug":  "parameters-default-values-rest-and-arguments",
+        "title":  "37 - Parameters, default values, rest, and arguments"
+    },
+    {
+        "section":  "lessons",
+        "number":  38,
+        "fileName":  "038-return-values-and-early-returns.md",
+        "slug":  "return-values-and-early-returns",
+        "title":  "38 - Return values and early returns"
+    },
+    {
+        "section":  "lessons",
+        "number":  39,
+        "fileName":  "039-arrow-functions.md",
+        "slug":  "arrow-functions",
+        "title":  "39 - Arrow functions"
+    },
+    {
+        "section":  "lessons",
+        "number":  40,
+        "fileName":  "040-callbacks-and-higher-order-functions.md",
+        "slug":  "callbacks-and-higher-order-functions",
+        "title":  "40 - Callbacks and higher-order functions"
+    },
+    {
+        "section":  "lessons",
+        "number":  41,
+        "fileName":  "041-lexical-scope-and-closures.md",
+        "slug":  "lexical-scope-and-closures",
+        "title":  "41 - Lexical scope and closures"
+    },
+    {
+        "section":  "lessons",
+        "number":  42,
+        "fileName":  "042-this-and-invocation-context.md",
+        "slug":  "this-and-invocation-context",
+        "title":  "42 - this and invocation context"
+    },
+    {
+        "section":  "lessons",
+        "number":  43,
+        "fileName":  "043-call-apply-and-bind.md",
+        "slug":  "call-apply-and-bind",
+        "title":  "43 - call, apply, and bind"
+    },
+    {
+        "section":  "lessons",
+        "number":  44,
+        "fileName":  "044-recursion-and-the-call-stack.md",
+        "slug":  "recursion-and-the-call-stack",
+        "title":  "44 - Recursion and the call stack"
+    },
+    {
+        "section":  "lessons",
+        "number":  45,
+        "fileName":  "045-arrays-create-read-and-update.md",
+        "slug":  "arrays-create-read-and-update",
+        "title":  "45 - Arrays: create, read, and update"
+    },
+    {
+        "section":  "lessons",
+        "number":  46,
+        "fileName":  "046-array-iteration-methods.md",
+        "slug":  "array-iteration-methods",
+        "title":  "46 - Array iteration methods"
+    },
+    {
+        "section":  "lessons",
+        "number":  47,
+        "fileName":  "047-transforming-arrays-map-filter-reduce-and-flat.md",
+        "slug":  "transforming-arrays-map-filter-reduce-and-flat",
+        "title":  "47 - Transforming arrays: map, filter, reduce, and flat"
+    },
+    {
+        "section":  "lessons",
+        "number":  48,
+        "fileName":  "048-searching-and-testing-arrays.md",
+        "slug":  "searching-and-testing-arrays",
+        "title":  "48 - Searching and testing arrays"
+    },
+    {
+        "section":  "lessons",
+        "number":  49,
+        "fileName":  "049-mutation-copying-and-immutable-array-updates.md",
+        "slug":  "mutation-copying-and-immutable-array-updates",
+        "title":  "49 - Mutation, copying, and immutable array updates"
+    },
+    {
+        "section":  "lessons",
+        "number":  50,
+        "fileName":  "050-sorting-comparators-and-locale-aware-comparison.md",
+        "slug":  "sorting-comparators-and-locale-aware-comparison",
+        "title":  "50 - Sorting, comparators, and locale-aware comparison"
+    },
+    {
+        "section":  "lessons",
+        "number":  51,
+        "fileName":  "051-sparse-arrays-array-like-objects-and-array-protocols.md",
+        "slug":  "sparse-arrays-array-like-objects-and-array-protocols",
+        "title":  "51 - Sparse arrays, array-like objects, and array protocols"
+    },
+    {
+        "section":  "lessons",
+        "number":  52,
+        "fileName":  "052-objects-properties-and-methods.md",
+        "slug":  "objects-properties-and-methods",
+        "title":  "52 - Objects: properties and methods"
+    },
+    {
+        "section":  "lessons",
+        "number":  53,
+        "fileName":  "053-property-keys-descriptors-and-enumerability.md",
+        "slug":  "property-keys-descriptors-and-enumerability",
+        "title":  "53 - Property keys, descriptors, and enumerability"
+    },
+    {
+        "section":  "lessons",
+        "number":  54,
+        "fileName":  "054-computed-properties-shorthand-and-method-definitions.md",
+        "slug":  "computed-properties-shorthand-and-method-definitions",
+        "title":  "54 - Computed properties, shorthand, and method definitions"
+    },
+    {
+        "section":  "lessons",
+        "number":  55,
+        "fileName":  "055-object-and-array-destructuring.md",
+        "slug":  "object-and-array-destructuring",
+        "title":  "55 - Object and array destructuring"
+    },
+    {
+        "section":  "lessons",
+        "number":  56,
+        "fileName":  "056-spread-syntax-and-rest-properties.md",
+        "slug":  "spread-syntax-and-rest-properties",
+        "title":  "56 - Spread syntax and rest properties"
+    },
+    {
+        "section":  "lessons",
+        "number":  57,
+        "fileName":  "057-object-identity-shallow-copies-deep-copies-and-structuredclone.md",
+        "slug":  "object-identity-shallow-copies-deep-copies-and-structuredclone",
+        "title":  "57 - Object identity, shallow copies, deep copies, and structuredClone"
+    },
+    {
+        "section":  "lessons",
+        "number":  58,
+        "fileName":  "058-getters-setters-property-control-freeze-and-seal.md",
+        "slug":  "getters-setters-property-control-freeze-and-seal",
+        "title":  "58 - Getters, setters, property control, freeze, and seal"
+    },
+    {
+        "section":  "lessons",
+        "number":  59,
+        "fileName":  "059-prototypes-and-the-prototype-chain.md",
+        "slug":  "prototypes-and-the-prototype-chain",
+        "title":  "59 - Prototypes and the prototype chain"
+    },
+    {
+        "section":  "lessons",
+        "number":  60,
+        "fileName":  "060-constructor-functions-new-and-instanceof.md",
+        "slug":  "constructor-functions-new-and-instanceof",
+        "title":  "60 - Constructor functions, new, and instanceof"
+    },
+    {
+        "section":  "lessons",
+        "number":  61,
+        "fileName":  "061-classes-fields-and-methods.md",
+        "slug":  "classes-fields-and-methods",
+        "title":  "61 - Classes: fields and methods"
+    },
+    {
+        "section":  "lessons",
+        "number":  62,
+        "fileName":  "062-static-fields-private-elements-and-initialization-blocks.md",
+        "slug":  "static-fields-private-elements-and-initialization-blocks",
+        "title":  "62 - Static fields, private elements, and initialization blocks"
+    },
+    {
+        "section":  "lessons",
+        "number":  63,
+        "fileName":  "063-inheritance-extends-and-super.md",
+        "slug":  "inheritance-extends-and-super",
+        "title":  "63 - Inheritance, extends, and super"
+    },
+    {
+        "section":  "lessons",
+        "number":  64,
+        "fileName":  "064-composition-delegation-and-mixins.md",
+        "slug":  "composition-delegation-and-mixins",
+        "title":  "64 - Composition, delegation, and mixins"
+    },
+    {
+        "section":  "lessons",
+        "number":  65,
+        "fileName":  "065-map-and-set-collections.md",
+        "slug":  "map-and-set-collections",
+        "title":  "65 - Map and Set collections"
+    },
+    {
+        "section":  "lessons",
+        "number":  66,
+        "fileName":  "066-weakmap-and-weakset.md",
+        "slug":  "weakmap-and-weakset",
+        "title":  "66 - WeakMap and WeakSet"
+    },
+    {
+        "section":  "lessons",
+        "number":  67,
+        "fileName":  "067-symbols-and-well-known-symbols.md",
+        "slug":  "symbols-and-well-known-symbols",
+        "title":  "67 - Symbols and well-known symbols"
+    },
+    {
+        "section":  "lessons",
+        "number":  68,
+        "fileName":  "068-iterables-and-the-iterator-protocol.md",
+        "slug":  "iterables-and-the-iterator-protocol",
+        "title":  "68 - Iterables and the iterator protocol"
+    },
+    {
+        "section":  "lessons",
+        "number":  69,
+        "fileName":  "069-generators-and-yield.md",
+        "slug":  "generators-and-yield",
+        "title":  "69 - Generators and yield"
+    },
+    {
+        "section":  "lessons",
+        "number":  70,
+        "fileName":  "070-arraybuffer-dataview-and-typed-arrays.md",
+        "slug":  "arraybuffer-dataview-and-typed-arrays",
+        "title":  "70 - ArrayBuffer, DataView, and typed arrays"
+    },
+    {
+        "section":  "lessons",
+        "number":  71,
+        "fileName":  "071-sharedarraybuffer-atomics-and-shared-memory.md",
+        "slug":  "sharedarraybuffer-atomics-and-shared-memory",
+        "title":  "71 - SharedArrayBuffer, Atomics, and shared memory"
+    },
+    {
+        "section":  "lessons",
+        "number":  72,
+        "fileName":  "072-regular-expression-syntax.md",
+        "slug":  "regular-expression-syntax",
+        "title":  "72 - Regular expression syntax"
+    },
+    {
+        "section":  "lessons",
+        "number":  73,
+        "fileName":  "073-regexp-groups-flags-and-string-methods.md",
+        "slug":  "regexp-groups-flags-and-string-methods",
+        "title":  "73 - RegExp groups, flags, and string methods"
+    },
+    {
+        "section":  "lessons",
+        "number":  74,
+        "fileName":  "074-json-parsing-serialization-and-data-limits.md",
+        "slug":  "json-parsing-serialization-and-data-limits",
+        "title":  "74 - JSON parsing, serialization, and data limits"
+    },
+    {
+        "section":  "lessons",
+        "number":  75,
+        "fileName":  "075-math-number-and-numeric-utilities.md",
+        "slug":  "math-number-and-numeric-utilities",
+        "title":  "75 - Math, Number, and numeric utilities"
+    },
+    {
+        "section":  "lessons",
+        "number":  76,
+        "fileName":  "076-dates-time-zones-and-temporal.md",
+        "slug":  "dates-time-zones-and-temporal",
+        "title":  "76 - Dates, time zones, and Temporal"
+    },
+    {
+        "section":  "lessons",
+        "number":  77,
+        "fileName":  "077-intl-and-locale-aware-formatting.md",
+        "slug":  "intl-and-locale-aware-formatting",
+        "title":  "77 - Intl and locale-aware formatting"
+    },
+    {
+        "section":  "lessons",
+        "number":  78,
+        "fileName":  "078-proxy-and-reflect.md",
+        "slug":  "proxy-and-reflect",
+        "title":  "78 - Proxy and Reflect"
+    },
+    {
+        "section":  "lessons",
+        "number":  79,
+        "fileName":  "079-memory-garbage-collection-and-weak-references.md",
+        "slug":  "memory-garbage-collection-and-weak-references",
+        "title":  "79 - Memory, garbage collection, and weak references"
+    },
+    {
+        "section":  "lessons",
+        "number":  80,
+        "fileName":  "080-modules-scripts-modules-and-module-scope.md",
+        "slug":  "modules-scripts-modules-and-module-scope",
+        "title":  "80 - Modules: scripts, modules, and module scope"
+    },
+    {
+        "section":  "lessons",
+        "number":  81,
+        "fileName":  "081-export-and-import-forms.md",
+        "slug":  "export-and-import-forms",
+        "title":  "81 - Export and import forms"
+    },
+    {
+        "section":  "lessons",
+        "number":  82,
+        "fileName":  "082-dynamic-imports-and-import-attributes.md",
+        "slug":  "dynamic-imports-and-import-attributes",
+        "title":  "82 - Dynamic imports and import attributes"
+    },
+    {
+        "section":  "lessons",
+        "number":  83,
+        "fileName":  "083-module-loading-resolution-and-import-maps.md",
+        "slug":  "module-loading-resolution-and-import-maps",
+        "title":  "83 - Module loading, resolution, and import maps"
+    },
+    {
+        "section":  "lessons",
+        "number":  84,
+        "fileName":  "084-package-json-npm-dependencies-scripts-and-package-managers.md",
+        "slug":  "package-json-npm-dependencies-scripts-and-package-managers",
+        "title":  "84 - Package.json, npm, dependencies, scripts, and package managers"
+    },
+    {
+        "section":  "lessons",
+        "number":  85,
+        "fileName":  "085-es-modules-and-commonjs-in-node-js.md",
+        "slug":  "es-modules-and-commonjs-in-node-js",
+        "title":  "85 - ES modules and CommonJS in Node.js"
+    },
+    {
+        "section":  "lessons",
+        "number":  86,
+        "fileName":  "086-transpilation-bundlers-polyfills-and-source-maps.md",
+        "slug":  "transpilation-bundlers-polyfills-and-source-maps",
+        "title":  "86 - Transpilation, bundlers, polyfills, and source maps"
+    },
+    {
+        "section":  "lessons",
+        "number":  87,
+        "fileName":  "087-testing-fundamentals-assertions-and-test-design.md",
+        "slug":  "testing-fundamentals-assertions-and-test-design",
+        "title":  "87 - Testing fundamentals, assertions, and test design"
+    },
+    {
+        "section":  "lessons",
+        "number":  88,
+        "fileName":  "088-test-runners-mocking-and-browser-testing.md",
+        "slug":  "test-runners-mocking-and-browser-testing",
+        "title":  "88 - Test runners, mocking, and browser testing"
+    },
+    {
+        "section":  "lessons",
+        "number":  89,
+        "fileName":  "089-formatting-linting-jsdoc-and-editor-tooling.md",
+        "slug":  "formatting-linting-jsdoc-and-editor-tooling",
+        "title":  "89 - Formatting, linting, JSDoc, and editor tooling"
+    },
+    {
+        "section":  "lessons",
+        "number":  90,
+        "fileName":  "090-the-asynchronous-programming-model.md",
+        "slug":  "the-asynchronous-programming-model",
+        "title":  "90 - The asynchronous programming model"
+    },
+    {
+        "section":  "lessons",
+        "number":  91,
+        "fileName":  "091-the-event-loop-task-queues-and-microtasks.md",
+        "slug":  "the-event-loop-task-queues-and-microtasks",
+        "title":  "91 - The event loop, task queues, and microtasks"
+    },
+    {
+        "section":  "lessons",
+        "number":  92,
+        "fileName":  "092-timers-animation-frames-and-scheduling.md",
+        "slug":  "timers-animation-frames-and-scheduling",
+        "title":  "92 - Timers, animation frames, and scheduling"
+    },
+    {
+        "section":  "lessons",
+        "number":  93,
+        "fileName":  "093-promises-states-chaining-and-error-handling.md",
+        "slug":  "promises-states-chaining-and-error-handling",
+        "title":  "93 - Promises, states, chaining, and error handling"
+    },
+    {
+        "section":  "lessons",
+        "number":  94,
+        "fileName":  "094-promise-combinators-and-concurrent-work.md",
+        "slug":  "promise-combinators-and-concurrent-work",
+        "title":  "94 - Promise combinators and concurrent work"
+    },
+    {
+        "section":  "lessons",
+        "number":  95,
+        "fileName":  "095-async-and-await.md",
+        "slug":  "async-and-await",
+        "title":  "95 - Async and await"
+    },
+    {
+        "section":  "lessons",
+        "number":  96,
+        "fileName":  "096-asynchronous-errors-concurrency-and-coordination.md",
+        "slug":  "asynchronous-errors-concurrency-and-coordination",
+        "title":  "96 - Asynchronous errors, concurrency, and coordination"
+    },
+    {
+        "section":  "lessons",
+        "number":  97,
+        "fileName":  "097-cancellation-timeouts-and-abortcontroller.md",
+        "slug":  "cancellation-timeouts-and-abortcontroller",
+        "title":  "97 - Cancellation, timeouts, and AbortController"
+    },
+    {
+        "section":  "lessons",
+        "number":  98,
+        "fileName":  "098-browser-globals-globalthis-window-and-document.md",
+        "slug":  "browser-globals-globalthis-window-and-document",
+        "title":  "98 - Browser globals, globalThis, window, and document"
+    },
+    {
+        "section":  "lessons",
+        "number":  99,
+        "fileName":  "099-the-dom-tree-selectors-and-traversal.md",
+        "slug":  "the-dom-tree-selectors-and-traversal",
+        "title":  "99 - The DOM tree, selectors, and traversal"
+    },
+    {
+        "section":  "lessons",
+        "number":  100,
+        "fileName":  "100-creating-updating-and-removing-dom-content.md",
+        "slug":  "creating-updating-and-removing-dom-content",
+        "title":  "100 - Creating, updating, and removing DOM content"
+    },
+    {
+        "section":  "lessons",
+        "number":  101,
+        "fileName":  "101-attributes-classes-forms-and-styles-from-javascript.md",
+        "slug":  "attributes-classes-forms-and-styles-from-javascript",
+        "title":  "101 - Attributes, classes, forms, and styles from JavaScript"
+    },
+    {
+        "section":  "lessons",
+        "number":  102,
+        "fileName":  "102-browser-events-capture-bubbling-and-default-actions.md",
+        "slug":  "browser-events-capture-bubbling-and-default-actions",
+        "title":  "102 - Browser events: capture, bubbling, and default actions"
+    },
+    {
+        "section":  "lessons",
+        "number":  103,
+        "fileName":  "103-event-delegation-and-reusable-handlers.md",
+        "slug":  "event-delegation-and-reusable-handlers",
+        "title":  "103 - Event delegation and reusable handlers"
+    },
+    {
+        "section":  "lessons",
+        "number":  104,
+        "fileName":  "104-forms-input-validation-and-submission.md",
+        "slug":  "forms-input-validation-and-submission",
+        "title":  "104 - Forms, input validation, and submission"
+    },
+    {
+        "section":  "lessons",
+        "number":  105,
+        "fileName":  "105-fetch-api-requests-responses-and-headers.md",
+        "slug":  "fetch-api-requests-responses-and-headers",
+        "title":  "105 - Fetch API: requests, responses, and headers"
+    },
+    {
+        "section":  "lessons",
+        "number":  106,
+        "fileName":  "106-http-methods-status-codes-and-json-apis.md",
+        "slug":  "http-methods-status-codes-and-json-apis",
+        "title":  "106 - HTTP methods, status codes, and JSON APIs"
+    },
+    {
+        "section":  "lessons",
+        "number":  107,
+        "fileName":  "107-cors-credentials-and-cross-origin-rules.md",
+        "slug":  "cors-credentials-and-cross-origin-rules",
+        "title":  "107 - CORS, credentials, and cross-origin rules"
+    },
+    {
+        "section":  "lessons",
+        "number":  108,
+        "fileName":  "108-url-urlsearchparams-and-the-history-api.md",
+        "slug":  "url-urlsearchparams-and-the-history-api",
+        "title":  "108 - URL, URLSearchParams, and the History API"
+    },
+    {
+        "section":  "lessons",
+        "number":  109,
+        "fileName":  "109-cookies-web-storage-and-client-state.md",
+        "slug":  "cookies-web-storage-and-client-state",
+        "title":  "109 - Cookies, Web Storage, and client state"
+    },
+    {
+        "section":  "lessons",
+        "number":  110,
+        "fileName":  "110-indexeddb-and-structured-client-storage.md",
+        "slug":  "indexeddb-and-structured-client-storage",
+        "title":  "110 - IndexedDB and structured client storage"
+    },
+    {
+        "section":  "lessons",
+        "number":  111,
+        "fileName":  "111-files-blobs-object-urls-clipboard-and-downloads.md",
+        "slug":  "files-blobs-object-urls-clipboard-and-downloads",
+        "title":  "111 - Files, blobs, object URLs, clipboard, and downloads"
+    },
+    {
+        "section":  "lessons",
+        "number":  112,
+        "fileName":  "112-web-workers-shared-workers-and-message-passing.md",
+        "slug":  "web-workers-shared-workers-and-message-passing",
+        "title":  "112 - Web Workers, shared workers, and message passing"
+    },
+    {
+        "section":  "lessons",
+        "number":  113,
+        "fileName":  "113-service-workers-offline-behavior-and-cache-lifecycle.md",
+        "slug":  "service-workers-offline-behavior-and-cache-lifecycle",
+        "title":  "113 - Service workers, offline behavior, and cache lifecycle"
+    },
+    {
+        "section":  "lessons",
+        "number":  114,
+        "fileName":  "114-mutation-intersection-and-resize-observers.md",
+        "slug":  "mutation-intersection-and-resize-observers",
+        "title":  "114 - Mutation, intersection, and resize observers"
+    },
+    {
+        "section":  "lessons",
+        "number":  115,
+        "fileName":  "115-web-components-custom-elements-and-shadow-dom.md",
+        "slug":  "web-components-custom-elements-and-shadow-dom",
+        "title":  "115 - Web Components, custom elements, and Shadow DOM"
+    },
+    {
+        "section":  "lessons",
+        "number":  116,
+        "fileName":  "116-websockets-server-sent-events-and-real-time-updates.md",
+        "slug":  "websockets-server-sent-events-and-real-time-updates",
+        "title":  "116 - WebSockets, Server-Sent Events, and real-time updates"
+    },
+    {
+        "section":  "lessons",
+        "number":  117,
+        "fileName":  "117-permissions-geolocation-and-device-apis.md",
+        "slug":  "permissions-geolocation-and-device-apis",
+        "title":  "117 - Permissions, geolocation, and device APIs"
+    },
+    {
+        "section":  "lessons",
+        "number":  118,
+        "fileName":  "118-accessibility-keyboard-interaction-and-dynamic-content.md",
+        "slug":  "accessibility-keyboard-interaction-and-dynamic-content",
+        "title":  "118 - Accessibility, keyboard interaction, and dynamic content"
+    },
+    {
+        "section":  "lessons",
+        "number":  119,
+        "fileName":  "119-browser-security-xss-injection-and-safe-dom-updates.md",
+        "slug":  "browser-security-xss-injection-and-safe-dom-updates",
+        "title":  "119 - Browser security: XSS, injection, and safe DOM updates"
+    },
+    {
+        "section":  "lessons",
+        "number":  120,
+        "fileName":  "120-web-crypto-and-secure-random-values.md",
+        "slug":  "web-crypto-and-secure-random-values",
+        "title":  "120 - Web Crypto and secure random values"
+    },
+    {
+        "section":  "lessons",
+        "number":  121,
+        "fileName":  "121-browser-rendering-scheduling-and-performance.md",
+        "slug":  "browser-rendering-scheduling-and-performance",
+        "title":  "121 - Browser rendering, scheduling, and performance"
+    },
+    {
+        "section":  "lessons",
+        "number":  122,
+        "fileName":  "122-node-js-runtime-globals-and-execution-model.md",
+        "slug":  "node-js-runtime-globals-and-execution-model",
+        "title":  "122 - Node.js runtime, globals, and execution model"
+    },
+    {
+        "section":  "lessons",
+        "number":  123,
+        "fileName":  "123-command-line-arguments-environment-variables-and-process.md",
+        "slug":  "command-line-arguments-environment-variables-and-process",
+        "title":  "123 - Command-line arguments, environment variables, and process"
+    },
+    {
+        "section":  "lessons",
+        "number":  124,
+        "fileName":  "124-node-js-modules-core-apis-and-package-resolution.md",
+        "slug":  "node-js-modules-core-apis-and-package-resolution",
+        "title":  "124 - Node.js modules, core APIs, and package resolution"
+    },
+    {
+        "section":  "lessons",
+        "number":  125,
+        "fileName":  "125-file-system-paths-and-url-handling-in-node-js.md",
+        "slug":  "file-system-paths-and-url-handling-in-node-js",
+        "title":  "125 - File system, paths, and URL handling in Node.js"
+    },
+    {
+        "section":  "lessons",
+        "number":  126,
+        "fileName":  "126-buffers-streams-and-backpressure.md",
+        "slug":  "buffers-streams-and-backpressure",
+        "title":  "126 - Buffers, streams, and backpressure"
+    },
+    {
+        "section":  "lessons",
+        "number":  127,
+        "fileName":  "127-eventemitter-signals-timers-and-the-node-js-event-loop.md",
+        "slug":  "eventemitter-signals-timers-and-the-node-js-event-loop",
+        "title":  "127 - EventEmitter, signals, timers, and the Node.js event loop"
+    },
+    {
+        "section":  "lessons",
+        "number":  128,
+        "fileName":  "128-worker-threads-child-processes-and-subprocesses.md",
+        "slug":  "worker-threads-child-processes-and-subprocesses",
+        "title":  "128 - Worker threads, child processes, and subprocesses"
+    },
+    {
+        "section":  "lessons",
+        "number":  129,
+        "fileName":  "129-build-http-servers-and-handle-requests.md",
+        "slug":  "build-http-servers-and-handle-requests",
+        "title":  "129 - Build HTTP servers and handle requests"
+    },
+    {
+        "section":  "lessons",
+        "number":  130,
+        "fileName":  "130-node-js-test-runner-and-service-tests.md",
+        "slug":  "node-js-test-runner-and-service-tests",
+        "title":  "130 - Node.js test runner and service tests"
+    },
+    {
+        "section":  "lessons",
+        "number":  131,
+        "fileName":  "131-node-js-debugging-diagnostics-and-profiling.md",
+        "slug":  "node-js-debugging-diagnostics-and-profiling",
+        "title":  "131 - Node.js debugging, diagnostics, and profiling"
+    },
+    {
+        "section":  "lessons",
+        "number":  132,
+        "fileName":  "132-data-structures-in-javascript.md",
+        "slug":  "data-structures-in-javascript",
+        "title":  "132 - Data structures in JavaScript"
+    },
+    {
+        "section":  "lessons",
+        "number":  133,
+        "fileName":  "133-algorithmic-thinking-complexity-and-common-patterns.md",
+        "slug":  "algorithmic-thinking-complexity-and-common-patterns",
+        "title":  "133 - Algorithmic thinking, complexity, and common patterns"
+    },
+    {
+        "section":  "lessons",
+        "number":  134,
+        "fileName":  "134-functional-programming-composition-and-purity.md",
+        "slug":  "functional-programming-composition-and-purity",
+        "title":  "134 - Functional programming: composition and purity"
+    },
+    {
+        "section":  "lessons",
+        "number":  135,
+        "fileName":  "135-object-oriented-programming-composition-and-design-patterns.md",
+        "slug":  "object-oriented-programming-composition-and-design-patterns",
+        "title":  "135 - Object-oriented programming, composition, and design patterns"
+    },
+    {
+        "section":  "lessons",
+        "number":  136,
+        "fileName":  "136-modular-architecture-and-dependency-boundaries.md",
+        "slug":  "modular-architecture-and-dependency-boundaries",
+        "title":  "136 - Modular architecture and dependency boundaries"
+    },
+    {
+        "section":  "lessons",
+        "number":  137,
+        "fileName":  "137-error-handling-reliability-and-application-security.md",
+        "slug":  "error-handling-reliability-and-application-security",
+        "title":  "137 - Error handling, reliability, and application security"
+    },
+    {
+        "section":  "lessons",
+        "number":  138,
+        "fileName":  "138-dependency-hygiene-lockfiles-and-software-supply-chain.md",
+        "slug":  "dependency-hygiene-lockfiles-and-software-supply-chain",
+        "title":  "138 - Dependency hygiene, lockfiles, and software supply chain"
+    },
+    {
+        "section":  "lessons",
+        "number":  139,
+        "fileName":  "139-performance-analysis-memory-leaks-and-optimization.md",
+        "slug":  "performance-analysis-memory-leaks-and-optimization",
+        "title":  "139 - Performance analysis, memory leaks, and optimization"
+    },
+    {
+        "section":  "lessons",
+        "number":  140,
+        "fileName":  "140-feature-detection-compatibility-and-graceful-fallback.md",
+        "slug":  "feature-detection-compatibility-and-graceful-fallback",
+        "title":  "140 - Feature detection, compatibility, and graceful fallback"
+    },
+    {
+        "section":  "lessons",
+        "number":  141,
+        "fileName":  "141-browser-project-build-an-interactive-interface.md",
+        "slug":  "browser-project-build-an-interactive-interface",
+        "title":  "141 - Browser project: build an interactive interface"
+    },
+    {
+        "section":  "lessons",
+        "number":  142,
+        "fileName":  "142-browser-project-build-an-api-driven-application.md",
+        "slug":  "browser-project-build-an-api-driven-application",
+        "title":  "142 - Browser project: build an API-driven application"
+    },
+    {
+        "section":  "lessons",
+        "number":  143,
+        "fileName":  "143-node-js-project-build-a-command-line-utility.md",
+        "slug":  "node-js-project-build-a-command-line-utility",
+        "title":  "143 - Node.js project: build a command-line utility"
+    },
+    {
+        "section":  "lessons",
+        "number":  144,
+        "fileName":  "144-capstone-project-plan-build-test-and-document-an-application.md",
+        "slug":  "capstone-project-plan-build-test-and-document-an-application",
+        "title":  "144 - Capstone project: plan, build, test, and document an application"
+    },
+    {
+        "section":  "lessons",
+        "number":  145,
+        "fileName":  "145-javascript-quick-reference-and-glossary.md",
+        "slug":  "javascript-quick-reference-and-glossary",
+        "title":  "145 - JavaScript quick reference and glossary"
+    },
+    {
+        "section":  "qnas",
+        "number":  1,
+        "fileName":  "001-introduction-to-javascript.md",
+        "slug":  "introduction-to-javascript",
+        "title":  "01 - Introduction to JavaScript: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  2,
+        "fileName":  "002-javascript-on-the-web-html-css-and-javascript-roles.md",
+        "slug":  "javascript-on-the-web-html-css-and-javascript-roles",
+        "title":  "02 - JavaScript on the web: HTML, CSS, and JavaScript roles - Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  3,
+        "fileName":  "003-javascript-engines-and-runtime-environments.md",
+        "slug":  "javascript-engines-and-runtime-environments",
+        "title":  "03 - JavaScript engines and runtime environments - Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  4,
+        "fileName":  "004-set-up-the-editor-terminal-and-project-files.md",
+        "slug":  "set-up-the-editor-terminal-and-project-files",
+        "title":  "04 - Set up the editor, terminal, and project files - Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  5,
+        "fileName":  "005-browser-console-and-developer-tools.md",
+        "slug":  "browser-console-and-developer-tools",
+        "title":  "05 - Browser console and developer tools: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  6,
+        "fileName":  "006-ecmascript-editions-proposals-and-compatibility.md",
+        "slug":  "ecmascript-editions-proposals-and-compatibility",
+        "title":  "06 - ECMAScript editions, proposals, and compatibility: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  7,
+        "fileName":  "007-source-syntax-statements-expressions-comments-and-automatic-semicolon-insertion.md",
+        "slug":  "source-syntax-statements-expressions-comments-and-automatic-semicolon-insertion",
+        "title":  "07 - Source syntax, statements, expressions, comments, and automatic semicolon insertion: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  8,
+        "fileName":  "008-identifiers-keywords-reserved-words-and-naming.md",
+        "slug":  "identifiers-keywords-reserved-words-and-naming",
+        "title":  "08 - Identifiers, keywords, reserved words, and naming: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  9,
+        "fileName":  "009-classic-scripts-modules-and-script-loading.md",
+        "slug":  "classic-scripts-modules-and-script-loading",
+        "title":  "09 - Classic scripts, modules, and script loading: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  10,
+        "fileName":  "010-variables-const-let-and-var.md",
+        "slug":  "variables-const-let-and-var",
+        "title":  "10 - Variables: const, let, and var: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  11,
+        "fileName":  "011-scope-global-function-and-block.md",
+        "slug":  "scope-global-function-and-block",
+        "title":  "11 - Scope: global, function, and block: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  12,
+        "fileName":  "012-hoisting-and-the-temporal-dead-zone.md",
+        "slug":  "hoisting-and-the-temporal-dead-zone",
+        "title":  "12 - Hoisting and the temporal dead zone: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  13,
+        "fileName":  "013-strict-mode.md",
+        "slug":  "strict-mode",
+        "title":  "13 - Strict mode: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  14,
+        "fileName":  "014-values-types-and-dynamic-typing.md",
+        "slug":  "values-types-and-dynamic-typing",
+        "title":  "14 - Values, types, and dynamic typing: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  15,
+        "fileName":  "015-primitive-values-and-object-references.md",
+        "slug":  "primitive-values-and-object-references",
+        "title":  "15 - Primitive values and object references: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  16,
+        "fileName":  "016-undefined-null-and-nan.md",
+        "slug":  "undefined-null-and-nan",
+        "title":  "16 - undefined, null, and NaN: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  17,
+        "fileName":  "017-booleans-truthiness-and-falsy-values.md",
+        "slug":  "booleans-truthiness-and-falsy-values",
+        "title":  "17 - Booleans, truthiness, and falsy values"
+    },
+    {
+        "section":  "qnas",
+        "number":  18,
+        "fileName":  "018-typeof-instanceof-and-reliable-type-checks.md",
+        "slug":  "typeof-instanceof-and-reliable-type-checks",
+        "title":  "18 - typeof, instanceof, and reliable type checks"
+    },
+    {
+        "section":  "qnas",
+        "number":  19,
+        "fileName":  "019-type-conversion-and-coercion.md",
+        "slug":  "type-conversion-and-coercion",
+        "title":  "19 - Type conversion and coercion"
+    },
+    {
+        "section":  "qnas",
+        "number":  20,
+        "fileName":  "020-equality-comparison-and-relational-operators.md",
+        "slug":  "equality-comparison-and-relational-operators",
+        "title":  "20 - Equality, comparison, and relational operators"
+    },
+    {
+        "section":  "qnas",
+        "number":  21,
+        "fileName":  "021-numbers-floating-point-and-safe-integers.md",
+        "slug":  "numbers-floating-point-and-safe-integers",
+        "title":  "21 - Numbers, floating point, and safe integers"
+    },
+    {
+        "section":  "qnas",
+        "number":  22,
+        "fileName":  "022-bigint.md",
+        "slug":  "bigint",
+        "title":  "22 - BigInt"
+    },
+    {
+        "section":  "qnas",
+        "number":  23,
+        "fileName":  "023-strings-and-template-literals.md",
+        "slug":  "strings-and-template-literals",
+        "title":  "23 - Strings and template literals"
+    },
+    {
+        "section":  "qnas",
+        "number":  24,
+        "fileName":  "024-unicode-code-units-code-points-and-graphemes.md",
+        "slug":  "unicode-code-units-code-points-and-graphemes",
+        "title":  "24 - Unicode: code units, code points, and graphemes"
+    },
+    {
+        "section":  "qnas",
+        "number":  25,
+        "fileName":  "025-string-methods-and-text-processing.md",
+        "slug":  "string-methods-and-text-processing",
+        "title":  "25 - String methods and text processing"
+    },
+    {
+        "section":  "qnas",
+        "number":  26,
+        "fileName":  "026-operators-precedence-and-associativity.md",
+        "slug":  "operators-precedence-and-associativity",
+        "title":  "26 - Operators, precedence, and associativity"
+    },
+    {
+        "section":  "qnas",
+        "number":  27,
+        "fileName":  "027-logical-operators-and-short-circuiting.md",
+        "slug":  "logical-operators-and-short-circuiting",
+        "title":  "27 - Logical operators and short-circuiting"
+    },
+    {
+        "section":  "qnas",
+        "number":  28,
+        "fileName":  "028-optional-chaining-and-nullish-coalescing.md",
+        "slug":  "optional-chaining-and-nullish-coalescing",
+        "title":  "28 - Optional chaining and nullish coalescing"
+    },
+    {
+        "section":  "qnas",
+        "number":  29,
+        "fileName":  "029-bitwise-operators-and-integer-operations.md",
+        "slug":  "bitwise-operators-and-integer-operations",
+        "title":  "29 - Bitwise operators and integer operations: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  30,
+        "fileName":  "030-conditional-statements.md",
+        "slug":  "conditional-statements",
+        "title":  "30 - Conditional statements: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  31,
+        "fileName":  "031-switch-statements.md",
+        "slug":  "switch-statements",
+        "title":  "31 - switch statements: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  32,
+        "fileName":  "032-loops-and-iteration-statements.md",
+        "slug":  "loops-and-iteration-statements",
+        "title":  "32 - Loops and iteration statements: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  33,
+        "fileName":  "033-break-continue-and-labels.md",
+        "slug":  "break-continue-and-labels",
+        "title":  "33 - break, continue, and labels: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  34,
+        "fileName":  "034-errors-exceptions-and-try-catch-and-finally.md",
+        "slug":  "errors-exceptions-and-try-catch-and-finally",
+        "title":  "34 - Errors, exceptions, and try, catch, and finally - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  35,
+        "fileName":  "035-debugging-stack-traces-and-breakpoints.md",
+        "slug":  "debugging-stack-traces-and-breakpoints",
+        "title":  "35 - Debugging, stack traces, and breakpoints - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  36,
+        "fileName":  "036-function-declarations-and-expressions.md",
+        "slug":  "function-declarations-and-expressions",
+        "title":  "36 - Function declarations and expressions - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  37,
+        "fileName":  "037-parameters-default-values-rest-and-arguments.md",
+        "slug":  "parameters-default-values-rest-and-arguments",
+        "title":  "37 - Parameters, default values, rest, and arguments - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  38,
+        "fileName":  "038-return-values-and-early-returns.md",
+        "slug":  "return-values-and-early-returns",
+        "title":  "38 - Return values and early returns - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  39,
+        "fileName":  "039-arrow-functions.md",
+        "slug":  "arrow-functions",
+        "title":  "39 - Arrow functions - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  40,
+        "fileName":  "040-callbacks-and-higher-order-functions.md",
+        "slug":  "callbacks-and-higher-order-functions",
+        "title":  "40 - Callbacks and higher-order functions - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  41,
+        "fileName":  "041-lexical-scope-and-closures.md",
+        "slug":  "lexical-scope-and-closures",
+        "title":  "41 - Lexical scope and closures - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  42,
+        "fileName":  "042-this-and-invocation-context.md",
+        "slug":  "this-and-invocation-context",
+        "title":  "42 - this and invocation context - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  43,
+        "fileName":  "043-call-apply-and-bind.md",
+        "slug":  "call-apply-and-bind",
+        "title":  "43 - call, apply, and bind - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  44,
+        "fileName":  "044-recursion-and-the-call-stack.md",
+        "slug":  "recursion-and-the-call-stack",
+        "title":  "44 - Recursion and the call stack - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  45,
+        "fileName":  "045-arrays-create-read-and-update.md",
+        "slug":  "arrays-create-read-and-update",
+        "title":  "45 - Arrays: create, read, and update - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  46,
+        "fileName":  "046-array-iteration-methods.md",
+        "slug":  "array-iteration-methods",
+        "title":  "46 - Array iteration methods - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  47,
+        "fileName":  "047-transforming-arrays-map-filter-reduce-and-flat.md",
+        "slug":  "transforming-arrays-map-filter-reduce-and-flat",
+        "title":  "47 - Transforming arrays: map, filter, reduce, and flat - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  48,
+        "fileName":  "048-searching-and-testing-arrays.md",
+        "slug":  "searching-and-testing-arrays",
+        "title":  "48 - Searching and testing arrays: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  49,
+        "fileName":  "049-mutation-copying-and-immutable-array-updates.md",
+        "slug":  "mutation-copying-and-immutable-array-updates",
+        "title":  "49 - Mutation, copying, and immutable array updates: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  50,
+        "fileName":  "050-sorting-comparators-and-locale-aware-comparison.md",
+        "slug":  "sorting-comparators-and-locale-aware-comparison",
+        "title":  "50 - Sorting, comparators, and locale-aware comparison: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  51,
+        "fileName":  "051-sparse-arrays-array-like-objects-and-array-protocols.md",
+        "slug":  "sparse-arrays-array-like-objects-and-array-protocols",
+        "title":  "51 - Sparse arrays, array-like objects, and array protocols: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  52,
+        "fileName":  "052-objects-properties-and-methods.md",
+        "slug":  "objects-properties-and-methods",
+        "title":  "52 - Objects: properties and methods: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  53,
+        "fileName":  "053-property-keys-descriptors-and-enumerability.md",
+        "slug":  "property-keys-descriptors-and-enumerability",
+        "title":  "53 - Property keys, descriptors, and enumerability: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  54,
+        "fileName":  "054-computed-properties-shorthand-and-method-definitions.md",
+        "slug":  "computed-properties-shorthand-and-method-definitions",
+        "title":  "54 - Computed properties, shorthand, and method definitions: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  55,
+        "fileName":  "055-object-and-array-destructuring.md",
+        "slug":  "object-and-array-destructuring",
+        "title":  "55 - Object and array destructuring: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  56,
+        "fileName":  "056-spread-syntax-and-rest-properties.md",
+        "slug":  "spread-syntax-and-rest-properties",
+        "title":  "56 - Spread syntax and rest properties: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  57,
+        "fileName":  "057-object-identity-shallow-copies-deep-copies-and-structuredclone.md",
+        "slug":  "object-identity-shallow-copies-deep-copies-and-structuredclone",
+        "title":  "57 - Object identity, shallow copies, deep copies, and structuredClone: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  58,
+        "fileName":  "058-getters-setters-property-control-freeze-and-seal.md",
+        "slug":  "getters-setters-property-control-freeze-and-seal",
+        "title":  "58 - Getters, setters, property control, freeze, and seal: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  59,
+        "fileName":  "059-prototypes-and-the-prototype-chain.md",
+        "slug":  "prototypes-and-the-prototype-chain",
+        "title":  "59 - Prototypes and the prototype chain: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  60,
+        "fileName":  "060-constructor-functions-new-and-instanceof.md",
+        "slug":  "constructor-functions-new-and-instanceof",
+        "title":  "60 - Constructor functions, new, and instanceof: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  61,
+        "fileName":  "061-classes-fields-and-methods.md",
+        "slug":  "classes-fields-and-methods",
+        "title":  "61 - Classes: fields and methods: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  62,
+        "fileName":  "062-static-fields-private-elements-and-initialization-blocks.md",
+        "slug":  "static-fields-private-elements-and-initialization-blocks",
+        "title":  "62 - Static fields, private elements, and initialization blocks: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  63,
+        "fileName":  "063-inheritance-extends-and-super.md",
+        "slug":  "inheritance-extends-and-super",
+        "title":  "63 - Inheritance, extends, and super: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  64,
+        "fileName":  "064-composition-delegation-and-mixins.md",
+        "slug":  "composition-delegation-and-mixins",
+        "title":  "64 - Composition, delegation, and mixins: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  65,
+        "fileName":  "065-map-and-set-collections.md",
+        "slug":  "map-and-set-collections",
+        "title":  "65 - Map and Set collections: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  66,
+        "fileName":  "066-weakmap-and-weakset.md",
+        "slug":  "weakmap-and-weakset",
+        "title":  "66 - WeakMap and WeakSet: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  67,
+        "fileName":  "067-symbols-and-well-known-symbols.md",
+        "slug":  "symbols-and-well-known-symbols",
+        "title":  "67 - Symbols and well-known symbols: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  68,
+        "fileName":  "068-iterables-and-the-iterator-protocol.md",
+        "slug":  "iterables-and-the-iterator-protocol",
+        "title":  "68 - Iterables and the iterator protocol: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  69,
+        "fileName":  "069-generators-and-yield.md",
+        "slug":  "generators-and-yield",
+        "title":  "69 - Generators and yield: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  70,
+        "fileName":  "070-arraybuffer-dataview-and-typed-arrays.md",
+        "slug":  "arraybuffer-dataview-and-typed-arrays",
+        "title":  "70 - ArrayBuffer, DataView, and typed arrays: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  71,
+        "fileName":  "071-sharedarraybuffer-atomics-and-shared-memory.md",
+        "slug":  "sharedarraybuffer-atomics-and-shared-memory",
+        "title":  "71 - SharedArrayBuffer, Atomics, and shared memory: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  72,
+        "fileName":  "072-regular-expression-syntax.md",
+        "slug":  "regular-expression-syntax",
+        "title":  "72 - Regular expression syntax: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  73,
+        "fileName":  "073-regexp-groups-flags-and-string-methods.md",
+        "slug":  "regexp-groups-flags-and-string-methods",
+        "title":  "73 - RegExp groups, flags, and string methods: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  74,
+        "fileName":  "074-json-parsing-serialization-and-data-limits.md",
+        "slug":  "json-parsing-serialization-and-data-limits",
+        "title":  "74 - JSON parsing, serialization, and data limits Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  75,
+        "fileName":  "075-math-number-and-numeric-utilities.md",
+        "slug":  "math-number-and-numeric-utilities",
+        "title":  "75 - Math, Number, and numeric utilities Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  76,
+        "fileName":  "076-dates-time-zones-and-temporal.md",
+        "slug":  "dates-time-zones-and-temporal",
+        "title":  "76 - Dates, time zones, and Temporal Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  77,
+        "fileName":  "077-intl-and-locale-aware-formatting.md",
+        "slug":  "intl-and-locale-aware-formatting",
+        "title":  "77 - Intl and locale-aware formatting Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  78,
+        "fileName":  "078-proxy-and-reflect.md",
+        "slug":  "proxy-and-reflect",
+        "title":  "78 - Proxy and Reflect Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  79,
+        "fileName":  "079-memory-garbage-collection-and-weak-references.md",
+        "slug":  "memory-garbage-collection-and-weak-references",
+        "title":  "79 - Memory, garbage collection, and weak references Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  80,
+        "fileName":  "080-modules-scripts-modules-and-module-scope.md",
+        "slug":  "modules-scripts-modules-and-module-scope",
+        "title":  "80 - Modules: scripts, modules, and module scope Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  81,
+        "fileName":  "081-export-and-import-forms.md",
+        "slug":  "export-and-import-forms",
+        "title":  "81 - Export and import forms Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  82,
+        "fileName":  "082-dynamic-imports-and-import-attributes.md",
+        "slug":  "dynamic-imports-and-import-attributes",
+        "title":  "82 - Dynamic imports and import attributes Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  83,
+        "fileName":  "083-module-loading-resolution-and-import-maps.md",
+        "slug":  "module-loading-resolution-and-import-maps",
+        "title":  "83 - Module loading, resolution, and import maps Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  84,
+        "fileName":  "084-package-json-npm-dependencies-scripts-and-package-managers.md",
+        "slug":  "package-json-npm-dependencies-scripts-and-package-managers",
+        "title":  "84 - Package.json, npm, dependencies, scripts, and package managers Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  85,
+        "fileName":  "085-es-modules-and-commonjs-in-node-js.md",
+        "slug":  "es-modules-and-commonjs-in-node-js",
+        "title":  "85 - ES modules and CommonJS in Node.js Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  86,
+        "fileName":  "086-transpilation-bundlers-polyfills-and-source-maps.md",
+        "slug":  "transpilation-bundlers-polyfills-and-source-maps",
+        "title":  "86 - Transpilation, bundlers, polyfills, and source maps Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  87,
+        "fileName":  "087-testing-fundamentals-assertions-and-test-design.md",
+        "slug":  "testing-fundamentals-assertions-and-test-design",
+        "title":  "87 - Testing fundamentals, assertions, and test design"
+    },
+    {
+        "section":  "qnas",
+        "number":  88,
+        "fileName":  "088-test-runners-mocking-and-browser-testing.md",
+        "slug":  "test-runners-mocking-and-browser-testing",
+        "title":  "88 - Test runners, mocking, and browser testing"
+    },
+    {
+        "section":  "qnas",
+        "number":  89,
+        "fileName":  "089-formatting-linting-jsdoc-and-editor-tooling.md",
+        "slug":  "formatting-linting-jsdoc-and-editor-tooling",
+        "title":  "89 - Formatting, linting, JSDoc, and editor tooling"
+    },
+    {
+        "section":  "qnas",
+        "number":  90,
+        "fileName":  "090-the-asynchronous-programming-model.md",
+        "slug":  "the-asynchronous-programming-model",
+        "title":  "90 - The asynchronous programming model"
+    },
+    {
+        "section":  "qnas",
+        "number":  91,
+        "fileName":  "091-the-event-loop-task-queues-and-microtasks.md",
+        "slug":  "the-event-loop-task-queues-and-microtasks",
+        "title":  "91 - The event loop, task queues, and microtasks"
+    },
+    {
+        "section":  "qnas",
+        "number":  92,
+        "fileName":  "092-timers-animation-frames-and-scheduling.md",
+        "slug":  "timers-animation-frames-and-scheduling",
+        "title":  "92 - Timers, animation frames, and scheduling"
+    },
+    {
+        "section":  "qnas",
+        "number":  93,
+        "fileName":  "093-promises-states-chaining-and-error-handling.md",
+        "slug":  "promises-states-chaining-and-error-handling",
+        "title":  "93 - Promises, states, chaining, and error handling"
+    },
+    {
+        "section":  "qnas",
+        "number":  94,
+        "fileName":  "094-promise-combinators-and-concurrent-work.md",
+        "slug":  "promise-combinators-and-concurrent-work",
+        "title":  "94 - Promise combinators and concurrent work"
+    },
+    {
+        "section":  "qnas",
+        "number":  95,
+        "fileName":  "095-async-and-await.md",
+        "slug":  "async-and-await",
+        "title":  "95 - Async and await"
+    },
+    {
+        "section":  "qnas",
+        "number":  96,
+        "fileName":  "096-asynchronous-errors-concurrency-and-coordination.md",
+        "slug":  "asynchronous-errors-concurrency-and-coordination",
+        "title":  "96 - Asynchronous errors, concurrency, and coordination"
+    },
+    {
+        "section":  "qnas",
+        "number":  97,
+        "fileName":  "097-cancellation-timeouts-and-abortcontroller.md",
+        "slug":  "cancellation-timeouts-and-abortcontroller",
+        "title":  "97 - Cancellation, timeouts, and AbortController"
+    },
+    {
+        "section":  "qnas",
+        "number":  98,
+        "fileName":  "098-browser-globals-globalthis-window-and-document.md",
+        "slug":  "browser-globals-globalthis-window-and-document",
+        "title":  "98 - Browser globals, globalThis, window, and document"
+    },
+    {
+        "section":  "qnas",
+        "number":  99,
+        "fileName":  "099-the-dom-tree-selectors-and-traversal.md",
+        "slug":  "the-dom-tree-selectors-and-traversal",
+        "title":  "99 - The DOM tree, selectors, and traversal: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  100,
+        "fileName":  "100-creating-updating-and-removing-dom-content.md",
+        "slug":  "creating-updating-and-removing-dom-content",
+        "title":  "100 - Creating, updating, and removing DOM content: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  101,
+        "fileName":  "101-attributes-classes-forms-and-styles-from-javascript.md",
+        "slug":  "attributes-classes-forms-and-styles-from-javascript",
+        "title":  "101 - Attributes, classes, forms, and styles from JavaScript: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  102,
+        "fileName":  "102-browser-events-capture-bubbling-and-default-actions.md",
+        "slug":  "browser-events-capture-bubbling-and-default-actions",
+        "title":  "102 - Browser events: capture, bubbling, and default actions: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  103,
+        "fileName":  "103-event-delegation-and-reusable-handlers.md",
+        "slug":  "event-delegation-and-reusable-handlers",
+        "title":  "103 - Event delegation and reusable handlers: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  104,
+        "fileName":  "104-forms-input-validation-and-submission.md",
+        "slug":  "forms-input-validation-and-submission",
+        "title":  "104 - Forms, input validation, and submission: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  105,
+        "fileName":  "105-fetch-api-requests-responses-and-headers.md",
+        "slug":  "fetch-api-requests-responses-and-headers",
+        "title":  "105 - Fetch API: requests, responses, and headers: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  106,
+        "fileName":  "106-http-methods-status-codes-and-json-apis.md",
+        "slug":  "http-methods-status-codes-and-json-apis",
+        "title":  "106 - HTTP methods, status codes, and JSON APIs: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  107,
+        "fileName":  "107-cors-credentials-and-cross-origin-rules.md",
+        "slug":  "cors-credentials-and-cross-origin-rules",
+        "title":  "107 - CORS, credentials, and cross-origin rules: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  108,
+        "fileName":  "108-url-urlsearchparams-and-the-history-api.md",
+        "slug":  "url-urlsearchparams-and-the-history-api",
+        "title":  "108 - URL, URLSearchParams, and the History API: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  109,
+        "fileName":  "109-cookies-web-storage-and-client-state.md",
+        "slug":  "cookies-web-storage-and-client-state",
+        "title":  "109 - Cookies, Web Storage, and client state: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  110,
+        "fileName":  "110-indexeddb-and-structured-client-storage.md",
+        "slug":  "indexeddb-and-structured-client-storage",
+        "title":  "110 - IndexedDB and structured client storage: Questions and Answers"
+    },
+    {
+        "section":  "qnas",
+        "number":  111,
+        "fileName":  "111-files-blobs-object-urls-clipboard-and-downloads.md",
+        "slug":  "files-blobs-object-urls-clipboard-and-downloads",
+        "title":  "111 - Files, blobs, object URLs, clipboard, and downloads - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  112,
+        "fileName":  "112-web-workers-shared-workers-and-message-passing.md",
+        "slug":  "web-workers-shared-workers-and-message-passing",
+        "title":  "112 - Web Workers, shared workers, and message passing - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  113,
+        "fileName":  "113-service-workers-offline-behavior-and-cache-lifecycle.md",
+        "slug":  "service-workers-offline-behavior-and-cache-lifecycle",
+        "title":  "113 - Service workers, offline behavior, and cache lifecycle - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  114,
+        "fileName":  "114-mutation-intersection-and-resize-observers.md",
+        "slug":  "mutation-intersection-and-resize-observers",
+        "title":  "114 - Mutation, intersection, and resize observers - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  115,
+        "fileName":  "115-web-components-custom-elements-and-shadow-dom.md",
+        "slug":  "web-components-custom-elements-and-shadow-dom",
+        "title":  "115 - Web Components, custom elements, and Shadow DOM: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  116,
+        "fileName":  "116-websockets-server-sent-events-and-real-time-updates.md",
+        "slug":  "websockets-server-sent-events-and-real-time-updates",
+        "title":  "116 - WebSockets, Server-Sent Events, and real-time updates: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  117,
+        "fileName":  "117-permissions-geolocation-and-device-apis.md",
+        "slug":  "permissions-geolocation-and-device-apis",
+        "title":  "117 - Permissions, geolocation, and device APIs: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  118,
+        "fileName":  "118-accessibility-keyboard-interaction-and-dynamic-content.md",
+        "slug":  "accessibility-keyboard-interaction-and-dynamic-content",
+        "title":  "118 - Accessibility, keyboard interaction, and dynamic content: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  119,
+        "fileName":  "119-browser-security-xss-injection-and-safe-dom-updates.md",
+        "slug":  "browser-security-xss-injection-and-safe-dom-updates",
+        "title":  "119 - Browser security: XSS, injection, and safe DOM updates: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  120,
+        "fileName":  "120-web-crypto-and-secure-random-values.md",
+        "slug":  "web-crypto-and-secure-random-values",
+        "title":  "120 - Web Crypto and secure random values: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  121,
+        "fileName":  "121-browser-rendering-scheduling-and-performance.md",
+        "slug":  "browser-rendering-scheduling-and-performance",
+        "title":  "121 - Browser rendering, scheduling, and performance: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  122,
+        "fileName":  "122-node-js-runtime-globals-and-execution-model.md",
+        "slug":  "node-js-runtime-globals-and-execution-model",
+        "title":  "122 - Node.js runtime, globals, and execution model: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  123,
+        "fileName":  "123-command-line-arguments-environment-variables-and-process.md",
+        "slug":  "command-line-arguments-environment-variables-and-process",
+        "title":  "123 - Command-line arguments, environment variables, and process: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  124,
+        "fileName":  "124-node-js-modules-core-apis-and-package-resolution.md",
+        "slug":  "node-js-modules-core-apis-and-package-resolution",
+        "title":  "124 - Node.js modules, core APIs, and package resolution: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  125,
+        "fileName":  "125-file-system-paths-and-url-handling-in-node-js.md",
+        "slug":  "file-system-paths-and-url-handling-in-node-js",
+        "title":  "125 - File system, paths, and URL handling in Node.js: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  126,
+        "fileName":  "126-buffers-streams-and-backpressure.md",
+        "slug":  "buffers-streams-and-backpressure",
+        "title":  "126 - Buffers, streams, and backpressure: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  127,
+        "fileName":  "127-eventemitter-signals-timers-and-the-node-js-event-loop.md",
+        "slug":  "eventemitter-signals-timers-and-the-node-js-event-loop",
+        "title":  "127 - EventEmitter, signals, timers, and the Node.js event loop: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  128,
+        "fileName":  "128-worker-threads-child-processes-and-subprocesses.md",
+        "slug":  "worker-threads-child-processes-and-subprocesses",
+        "title":  "128 - Worker threads, child processes, and subprocesses: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  129,
+        "fileName":  "129-build-http-servers-and-handle-requests.md",
+        "slug":  "build-http-servers-and-handle-requests",
+        "title":  "129 - Build HTTP servers and handle requests: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  130,
+        "fileName":  "130-node-js-test-runner-and-service-tests.md",
+        "slug":  "node-js-test-runner-and-service-tests",
+        "title":  "130 - Node.js test runner and service tests: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  131,
+        "fileName":  "131-node-js-debugging-diagnostics-and-profiling.md",
+        "slug":  "node-js-debugging-diagnostics-and-profiling",
+        "title":  "131 - Node.js debugging, diagnostics, and profiling: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  132,
+        "fileName":  "132-data-structures-in-javascript.md",
+        "slug":  "data-structures-in-javascript",
+        "title":  "132 - Data structures in JavaScript: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  133,
+        "fileName":  "133-algorithmic-thinking-complexity-and-common-patterns.md",
+        "slug":  "algorithmic-thinking-complexity-and-common-patterns",
+        "title":  "133 - Algorithmic thinking, complexity, and common patterns: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  134,
+        "fileName":  "134-functional-programming-composition-and-purity.md",
+        "slug":  "functional-programming-composition-and-purity",
+        "title":  "134 - Functional programming: composition and purity: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  135,
+        "fileName":  "135-object-oriented-programming-composition-and-design-patterns.md",
+        "slug":  "object-oriented-programming-composition-and-design-patterns",
+        "title":  "135 - Object-oriented programming, composition, and design patterns: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  136,
+        "fileName":  "136-modular-architecture-and-dependency-boundaries.md",
+        "slug":  "modular-architecture-and-dependency-boundaries",
+        "title":  "136 - Modular architecture and dependency boundaries: Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  137,
+        "fileName":  "137-error-handling-reliability-and-application-security.md",
+        "slug":  "error-handling-reliability-and-application-security",
+        "title":  "Error handling, reliability, and application security - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  138,
+        "fileName":  "138-dependency-hygiene-lockfiles-and-software-supply-chain.md",
+        "slug":  "dependency-hygiene-lockfiles-and-software-supply-chain",
+        "title":  "Dependency hygiene, lockfiles, and software supply chain - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  139,
+        "fileName":  "139-performance-analysis-memory-leaks-and-optimization.md",
+        "slug":  "performance-analysis-memory-leaks-and-optimization",
+        "title":  "Performance analysis, memory leaks, and optimization - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  140,
+        "fileName":  "140-feature-detection-compatibility-and-graceful-fallback.md",
+        "slug":  "feature-detection-compatibility-and-graceful-fallback",
+        "title":  "Feature detection, compatibility, and graceful fallback - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  141,
+        "fileName":  "141-browser-project-build-an-interactive-interface.md",
+        "slug":  "browser-project-build-an-interactive-interface",
+        "title":  "Browser project: build an interactive interface - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  142,
+        "fileName":  "142-browser-project-build-an-api-driven-application.md",
+        "slug":  "browser-project-build-an-api-driven-application",
+        "title":  "Browser project: build an API-driven application - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  143,
+        "fileName":  "143-node-js-project-build-a-command-line-utility.md",
+        "slug":  "node-js-project-build-a-command-line-utility",
+        "title":  "Node.js project: build a command-line utility - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  144,
+        "fileName":  "144-capstone-project-plan-build-test-and-document-an-application.md",
+        "slug":  "capstone-project-plan-build-test-and-document-an-application",
+        "title":  "Capstone project: plan, build, test, and document an application - Q\u0026A"
+    },
+    {
+        "section":  "qnas",
+        "number":  145,
+        "fileName":  "145-javascript-quick-reference-and-glossary.md",
+        "slug":  "javascript-quick-reference-and-glossary",
+        "title":  "145 - JavaScript quick reference and glossary Q\u0026A"
+    }
+]

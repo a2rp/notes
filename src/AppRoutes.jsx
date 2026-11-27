@@ -11,6 +11,7 @@ const AngularNotes = lazy(() => import("./pages/notes/angularNotes"));
 const JavaScriptNotes = lazy(() => import("./pages/notes/javaScriptNotes"));
 const JavaCoreNotes = lazy(() => import("./pages/notes/javaCoreNotes"));
 const JavaNotes = lazy(() => import("./pages/notes/javaNotes"));
+const JavaScriptPracticalNotes = lazy(() => import("./pages/notes/javascriptPracticalNotes"));
 const HtmlNotes = lazy(() => import("./pages/notes/htmlNotes"));
 const FramerMotionNotes = lazy(() => import("./pages/notes/framerMotionNotes"));
 const GsapNotes = lazy(() => import("./pages/notes/gsapNotes"));
@@ -82,6 +83,8 @@ function AppRoutes() {
                 <Route path="/notes/java-core-notes" element={<JavaCoreNotes />} />
                 <Route path="/notes/java-notes" element={<JavaNotes />} />
                 <Route path="/notes/java-notes/:chapterSlug" element={<JavaNotes />} />
+                <Route path="/notes/javascript-practical-notes" element={<JavaScriptPracticalNotes />} />
+                <Route path="/notes/javascript-practical-notes/:section/:contentSlug" element={<JavaScriptPracticalNotes />} />
                 <Route path="/notes/html-notes" element={<HtmlNotes />} />
                 <Route path="/notes/html-notes/*" element={<HtmlNotes />} />
                 <Route path="/notes/framer-motion-notes" element={<FramerMotionNotes />} />
