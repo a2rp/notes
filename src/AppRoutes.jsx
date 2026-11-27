@@ -13,6 +13,7 @@ const JavaCoreNotes = lazy(() => import("./pages/notes/javaCoreNotes"));
 const JavaNotes = lazy(() => import("./pages/notes/javaNotes"));
 const LaravelNotes = lazy(() => import("./pages/notes/laravelNotes"));
 const LinuxNotes = lazy(() => import("./pages/notes/linuxNotes"));
+const MaterialUiNotes = lazy(() => import("./pages/notes/materialUiNotes"));
 const JavaScriptPracticalNotes = lazy(() => import("./pages/notes/javascriptPracticalNotes"));
 const HtmlNotes = lazy(() => import("./pages/notes/htmlNotes"));
 const FramerMotionNotes = lazy(() => import("./pages/notes/framerMotionNotes"));
@@ -89,6 +90,8 @@ function AppRoutes() {
                 <Route path="/notes/laravel-notes/:chapterSlug" element={<LaravelNotes />} />
                 <Route path="/notes/linux-notes" element={<LinuxNotes />} />
                 <Route path="/notes/linux-notes/:chapterSlug" element={<LinuxNotes />} />
+                <Route path="/notes/material-ui-notes" element={<MaterialUiNotes />} />
+                <Route path="/notes/material-ui-notes/:chapterSlug" element={<MaterialUiNotes />} />
                 <Route path="/notes/javascript-practical-notes" element={<JavaScriptPracticalNotes />} />
                 <Route path="/notes/javascript-practical-notes/:section/:contentSlug" element={<JavaScriptPracticalNotes />} />
                 <Route path="/notes/html-notes" element={<HtmlNotes />} />

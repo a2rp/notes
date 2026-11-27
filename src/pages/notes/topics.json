@@ -241,5 +241,12 @@
     "category": "Operating Systems",
     "description": "18 practical Linux chapters with command examples and review questions, covering the terminal, filesystems, users, processes, Bash, networking, storage, security, and systemd.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/linuxNotes"
+  },
+  {
+    "slug": "material-ui-notes",
+    "title": "Material UI Study Notes",
+    "category": "Frontend development",
+    "description": "18 chapters on Material UI components, forms, feedback, navigation, theming, styling, responsive design, accessibility, and production practices.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/materialUiNotes"
   }
 ]
