@@ -24,6 +24,7 @@ const OracleNotes = lazy(() => import("./pages/notes/oracleNotes"));
 const JavaScriptPracticalNotes = lazy(() => import("./pages/notes/javascriptPracticalNotes"));
 const HtmlNotes = lazy(() => import("./pages/notes/htmlNotes"));
 const HtmlCoreNotes = lazy(() => import("./pages/notes/htmlCoreNotes"));
+const HtmlStudyNotes = lazy(() => import("./pages/notes/htmlStudyNotes"));
 const FramerMotionNotes = lazy(() => import("./pages/notes/framerMotionNotes"));
 const GsapNotes = lazy(() => import("./pages/notes/gsapNotes"));
 const FrontendEngineeringCoreNotes = lazy(() => import("./pages/notes/frontendEngineeringCoreNotes"));
@@ -118,6 +119,8 @@ function AppRoutes() {
                 <Route path="/notes/html-notes" element={<HtmlNotes />} />
                 <Route path="/notes/html-notes/*" element={<HtmlNotes />} />
                 <Route path="/notes/html-core-notes" element={<HtmlCoreNotes />} />
+                <Route path="/notes/html-study-notes" element={<HtmlStudyNotes />} />
+                <Route path="/notes/html-study-notes/:chapterSlug" element={<HtmlStudyNotes />} />
                 <Route path="/notes/framer-motion-notes" element={<FramerMotionNotes />} />
                 <Route path="/notes/framer-motion-notes/:chapterSlug" element={<FramerMotionNotes />} />
                 <Route path="/notes/gsap-notes" element={<GsapNotes />} />

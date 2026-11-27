@@ -146,6 +146,13 @@
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/htmlCoreNotes"
   },
   {
+    "slug": "html-study-notes",
+    "title": "HTML Study Notes",
+    "category": "Frontend development",
+    "description": "18 practical HTML sections covering document structure, elements, text, links, media, tables, forms, semantics, accessibility, metadata, code samples, and review questions.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/htmlStudyNotes"
+  },
+  {
     "slug": "framer-motion-notes",
     "title": "Framer Motion Notes",
     "category": "Frontend development",
