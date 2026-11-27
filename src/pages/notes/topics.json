@@ -254,5 +254,12 @@
     "title": "MongoDB Notes",
     "category": "Databases",
     "description": "18 chapters on MongoDB fundamentals, mongosh, CRUD, data modeling, indexes, aggregation, transactions, security, and the official Node.js driver."
+  },
+  {
+    "slug": "mssql-server-notes",
+    "title": "Microsoft SQL Server Notes",
+    "category": "Databases",
+    "description": "18 original chapters on SQL Server fundamentals, T-SQL, queries, schema design, transactions, indexing, security, backup and restore, and JavaScript database access.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/mssqlServerNotes"
   }
 ]

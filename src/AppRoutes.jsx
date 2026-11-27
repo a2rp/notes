@@ -15,6 +15,7 @@ const LaravelNotes = lazy(() => import("./pages/notes/laravelNotes"));
 const LinuxNotes = lazy(() => import("./pages/notes/linuxNotes"));
 const MaterialUiNotes = lazy(() => import("./pages/notes/materialUiNotes"));
 const MongoDbNotes = lazy(() => import("./pages/notes/mongodbNotes"));
+const MssqlServerNotes = lazy(() => import("./pages/notes/mssqlServerNotes"));
 const JavaScriptPracticalNotes = lazy(() => import("./pages/notes/javascriptPracticalNotes"));
 const HtmlNotes = lazy(() => import("./pages/notes/htmlNotes"));
 const FramerMotionNotes = lazy(() => import("./pages/notes/framerMotionNotes"));
@@ -95,6 +96,8 @@ function AppRoutes() {
                 <Route path="/notes/material-ui-notes/:chapterSlug" element={<MaterialUiNotes />} />
                 <Route path="/notes/mongodb-notes" element={<MongoDbNotes />} />
                 <Route path="/notes/mongodb-notes/:chapterSlug" element={<MongoDbNotes />} />
+                <Route path="/notes/mssql-server-notes" element={<MssqlServerNotes />} />
+                <Route path="/notes/mssql-server-notes/:chapterSlug" element={<MssqlServerNotes />} />
                 <Route path="/notes/javascript-practical-notes" element={<JavaScriptPracticalNotes />} />
                 <Route path="/notes/javascript-practical-notes/:section/:contentSlug" element={<JavaScriptPracticalNotes />} />
                 <Route path="/notes/html-notes" element={<HtmlNotes />} />
