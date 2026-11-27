@@ -234,5 +234,12 @@
     "category": "Backend development",
     "description": "18 practical Laravel 13 chapters with code samples and review questions, covering routing, Blade, Eloquent, authentication, APIs, testing, and deployment.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/laravelNotes"
+  },
+  {
+    "slug": "linux-notes",
+    "title": "Linux Study Notes",
+    "category": "Operating Systems",
+    "description": "18 practical Linux chapters with command examples and review questions, covering the terminal, filesystems, users, processes, Bash, networking, storage, security, and systemd.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/linuxNotes"
   }
 ]
