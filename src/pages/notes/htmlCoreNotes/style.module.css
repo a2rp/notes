@@ -1,0 +1,96 @@
+.routeShell {
+    --color-bg: #000;
+    --color-surface: #0d0d0d;
+    --color-surface-2: #151515;
+    --color-text-primary: #fff;
+    --color-text-secondary: #d0d0d0;
+    --color-text-muted: #888;
+    --color-border: #222;
+    --color-border-light: #2e2e2e;
+    --color-link: #fff;
+    --color-link-hover: #e5e5e5;
+    --color-success: #fff;
+    --color-error: #fff;
+    --color-warning: #fff;
+    --color-shadow: rgba(0, 0, 0, 0.5);
+    color-scheme: dark;
+    color: var(--color-text-primary);
+    background: var(--color-bg);
+    font-family: Verdana, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.55;
+}
+
+.routeShell :global(*) {
+    box-sizing: border-box;
+}
+
+.routeShell :global(img),
+.routeShell :global(svg),
+.routeShell :global(video),
+.routeShell :global(canvas),
+.routeShell :global(iframe) {
+    display: block;
+    max-width: 100%;
+}
+
+.routeShell :global(h1),
+.routeShell :global(h2),
+.routeShell :global(h3),
+.routeShell :global(h4),
+.routeShell :global(h5),
+.routeShell :global(h6) {
+    color: var(--color-text-primary);
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.routeShell :global(p) {
+    color: var(--color-text-secondary);
+}
+
+.routeShell :global(small) {
+    color: var(--color-text-muted);
+}
+
+.routeShell :global(a) {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.routeShell :global(a:hover) {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.routeShell :global(button),
+.routeShell :global(input),
+.routeShell :global(textarea),
+.routeShell :global(select) {
+    color: inherit;
+    font: inherit;
+}
+
+.routeShell :global(button) {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.routeShell[data-theme="light"] {
+    --color-bg: #fff;
+    --color-surface: #f2f2f2;
+    --color-surface-2: #e6e6e6;
+    --color-text-primary: #000;
+    --color-text-secondary: #333;
+    --color-text-muted: #777;
+    --color-border: #ddd;
+    --color-border-light: #ccc;
+    --color-link: #000;
+    --color-link-hover: #444;
+    --color-success: #000;
+    --color-error: #000;
+    --color-warning: #000;
+    --color-shadow: rgba(0, 0, 0, 0.15);
+    color-scheme: light;
+}

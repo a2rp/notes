@@ -139,6 +139,13 @@
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/htmlNotes"
   },
   {
+    "slug": "html-core-notes",
+    "title": "HTML Core Notes",
+    "category": "Frontend development",
+    "description": "An interactive HTML revision guide covering document structure, semantics, forms, accessibility, metadata, performance, SEO, and security.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/htmlCoreNotes"
+  },
+  {
     "slug": "framer-motion-notes",
     "title": "Framer Motion Notes",
     "category": "Frontend development",
