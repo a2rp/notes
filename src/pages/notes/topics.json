@@ -63,6 +63,13 @@
     "repository": "https://github.com/a2rp/c-cpp-notes"
   },
   {
+    "slug": "cpp-core-notes",
+    "title": "C++ Core Notes",
+    "category": "Programming Languages",
+    "description": "An interactive C++ revision guide covering fundamentals, data types, operators, control flow, pointers, object-oriented programming, templates, the STL, modern C++, concurrency, build systems, and common pitfalls.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/cppCoreNotes"
+  },
+  {
     "slug": "data-structures-core-notes",
     "title": "Data Structures Core Notes",
     "category": "Programming Foundations",

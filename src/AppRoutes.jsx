@@ -33,6 +33,7 @@ const BackendEngineeringCoreNotes = lazy(() => import("./pages/notes/backendEngi
 const ArchitectureAndCleanCodeCoreNotes = lazy(() => import("./pages/notes/architectureAndCleanCodeCoreNotes"));
 const CCoreNotes = lazy(() => import("./pages/notes/cCoreNotes"));
 const CCppNotes = lazy(() => import("./pages/notes/cCppNotes"));
+const CppCoreNotes = lazy(() => import("./pages/notes/cppCoreNotes"));
 const DataStructuresCoreNotes = lazy(() => import("./pages/notes/dataStructuresCoreNotes"));
 const DbmsCoreNotes = lazy(() => import("./pages/notes/dbmsCoreNotes"));
 const DatabasesDeepDiveCoreNotes = lazy(() => import("./pages/notes/databasesDeepDiveCoreNotes"));
@@ -132,6 +133,7 @@ function AppRoutes() {
                 <Route path="/notes/c-core-notes" element={<CCoreNotes />} />
                 <Route path="/notes/c-cpp-notes" element={<CCppNotes />} />
                 <Route path="/notes/c-cpp-notes/:chapterSlug" element={<CCppNotes />} />
+                <Route path="/notes/cpp-core-notes" element={<CppCoreNotes />} />
                 <Route path="/notes/data-structures-core-notes" element={<DataStructuresCoreNotes />} />
                 <Route path="/notes/dbms-core-notes/*" element={<DbmsCoreNotes />} />
                 <Route path="/notes/databases-deep-dive-core-notes" element={<DatabasesDeepDiveCoreNotes />} />
