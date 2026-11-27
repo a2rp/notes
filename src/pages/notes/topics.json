@@ -283,6 +283,12 @@
     "description": "Original interactive notes on operating-system fundamentals, processes, CPU scheduling, synchronization, deadlocks, memory management, file systems, I/O, and interview questions."
   },
   {
+    "slug": "oracle-notes",
+    "title": "Oracle Database Study Notes",
+    "category": "Databases",
+    "description": "Personal study notes for Oracle SQL, PL/SQL, relational design, query plans, security, recovery, and JavaScript access, with practical examples and review questions."
+  },
+  {
     "slug": "reactjs-notes",
     "title": "ReactJS Notes",
     "category": "Frontend development",

@@ -20,6 +20,7 @@ const NestJsNotes = lazy(() => import("./pages/notes/nestjsNotes"));
 const NodeJsNotes = lazy(() => import("./pages/notes/nodeJsNotes"));
 const ReactJsNotes = lazy(() => import("./pages/notes/reactJsNotes"));
 const OperatingSystemsCoreNotes = lazy(() => import("./pages/notes/operatingSystemsCoreNotes"));
+const OracleNotes = lazy(() => import("./pages/notes/oracleNotes"));
 const JavaScriptPracticalNotes = lazy(() => import("./pages/notes/javascriptPracticalNotes"));
 const HtmlNotes = lazy(() => import("./pages/notes/htmlNotes"));
 const FramerMotionNotes = lazy(() => import("./pages/notes/framerMotionNotes"));
@@ -108,6 +109,8 @@ function AppRoutes() {
                 <Route path="/notes/nodejs-notes/:chapterSlug" element={<NodeJsNotes />} />
                 <Route path="/notes/reactjs-notes/*" element={<ReactJsNotes />} />
                 <Route path="/notes/operating-systems-core-notes" element={<OperatingSystemsCoreNotes />} />
+                <Route path="/notes/oracle-notes" element={<OracleNotes />} />
+                <Route path="/notes/oracle-notes/:chapterSlug" element={<OracleNotes />} />
                 <Route path="/notes/javascript-practical-notes" element={<JavaScriptPracticalNotes />} />
                 <Route path="/notes/javascript-practical-notes/:section/:contentSlug" element={<JavaScriptPracticalNotes />} />
                 <Route path="/notes/html-notes" element={<HtmlNotes />} />

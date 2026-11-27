@@ -31,6 +31,7 @@ A route-based React library for practical developer references. It brings Algori
 - NestJS Study Notes with 18 original JavaScript chapters, application examples, and Q&A
 - Node.js Study Notes with 18 original chapters, runtime examples, code samples, and Q&A
 - Operating Systems Core Notes with 11 focused topics and interview Q&A
+- Oracle Database Study Notes with 16 chapters, code samples, and Q&A
 - ReactJS Notes with 222 focused topics across the React ecosystem
 - Local chapter content, linked navigation, and original repository links
 - Responsive layouts, route loading spinner, and smooth scroll-to-top
