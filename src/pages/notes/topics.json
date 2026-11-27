@@ -268,5 +268,12 @@
     "category": "Backend development",
     "description": "18 original JavaScript chapters covering NestJS modules, controllers, providers, dependency injection, HTTP request flow, validation, security, testing, and production readiness.",
     "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/nestjsNotes"
+  },
+  {
+    "slug": "nodejs-notes",
+    "title": "Node.js Study Notes",
+    "category": "Backend development",
+    "description": "18 original chapters on the Node.js runtime, npm, modules, asynchronous JavaScript, events, files, streams, HTTP, testing, security, and production practices.",
+    "repository": "https://github.com/a2rp/notes/tree/main/src/pages/notes/nodeJsNotes"
   }
 ]
